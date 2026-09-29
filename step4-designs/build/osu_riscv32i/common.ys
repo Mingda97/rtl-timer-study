@@ -1,0 +1,11 @@
+read_verilog -sv -DSYNTHESIS -I"sources/orfs/flow/designs/src/riscv32i" "sources/orfs/flow/designs/src/riscv32i/adder.v" "sources/orfs/flow/designs/src/riscv32i/alu.v" "sources/orfs/flow/designs/src/riscv32i/aludec.v" "sources/orfs/flow/designs/src/riscv32i/controller.v" "sources/orfs/flow/designs/src/riscv32i/datapath.v" "sources/orfs/flow/designs/src/riscv32i/flopenr.v" "sources/orfs/flow/designs/src/riscv32i/flopens.v" "sources/orfs/flow/designs/src/riscv32i/flopr.v" "sources/orfs/flow/designs/src/riscv32i/magcompare2b.v" "sources/orfs/flow/designs/src/riscv32i/magcompare2c.v" "sources/orfs/flow/designs/src/riscv32i/magcompare32.v" "sources/orfs/flow/designs/src/riscv32i/maindec.v" "sources/orfs/flow/designs/src/riscv32i/mux2.v" "sources/orfs/flow/designs/src/riscv32i/mux3.v" "sources/orfs/flow/designs/src/riscv32i/mux4.v" "sources/orfs/flow/designs/src/riscv32i/mux5.v" "sources/orfs/flow/designs/src/riscv32i/mux8.v" "sources/orfs/flow/designs/src/riscv32i/regfile.v" "sources/orfs/flow/designs/src/riscv32i/riscv.v" "sources/orfs/flow/designs/src/riscv32i/shifter.v" "sources/orfs/flow/designs/src/riscv32i/signext.v"
+hierarchy -check -top riscv
+rename -top riscv
+synth -top riscv -flatten -noabc
+# Remove hierarchy metadata, retaining all circuit cells and net names.
+delete t:$scopeinfo
+dffunmap
+clean
+check -assert
+write_rtlil build/osu_riscv32i/common.il
+write_json build/osu_riscv32i/common.json

@@ -1,0 +1,56 @@
+{
+  "data_key_mapping": {
+    "feat_design": "first 6 Step 5 features",
+    "feat_path": "remaining 19 Step 5 features",
+    "label_slack": "label_arrival_ns (ns; values copied without transformation)"
+  },
+  "effective_constructor": {
+    "max_depth": 50,
+    "n_estimators": 500,
+    "nthread": 25
+  },
+  "feature_order": [
+    "bog_rank_level",
+    "bog_fraction_strictly_slower",
+    "bog_sequential_cells",
+    "bog_combinational_cells",
+    "bog_total_cells",
+    "driving_register_count",
+    "bog_arrival_ns",
+    "logic_levels",
+    "and2_count",
+    "or2_count",
+    "inv_count",
+    "xor2_count",
+    "mux2_count",
+    "fanout_sum",
+    "fanout_mean",
+    "fanout_variance",
+    "cap_sum_ff",
+    "cap_mean_ff",
+    "cap_variance_ff2",
+    "slew_sum_ns",
+    "slew_mean_ns",
+    "slew_variance_ns2",
+    "fanout_std",
+    "cap_std_ff",
+    "slew_std_ns"
+  ],
+  "rows_by_design": {
+    "aes128": 562,
+    "axis_arb_mux4": 210,
+    "axis_fifo16": 593,
+    "axis_skid32": 67,
+    "boxcar16": 354,
+    "fastfir8": 505,
+    "femtorv_quark": 1215,
+    "picorv32": 1456,
+    "sha256": 1034,
+    "simple_spi": 132,
+    "uart_rx": 44,
+    "uart_tx": 35
+  },
+  "scope": "unmodified training() only; upstream leave-one-design-out driver is NOT executed",
+  "source_sha256": "5bfdb7ab4a4d4218b6efe6ba7654ee264a1a712faf7afe42a4738ffd47f19111",
+  "total_training_rows": 6207
+}

@@ -1,0 +1,86 @@
+{
+  "cpu_count": 2,
+  "created_utc": "2026-09-29T03:51:40Z",
+  "fingerprint": "a9d3a154cda1b94c751fb655f1fdc365327d59477645d9f39070915057e92163",
+  "input_run": "/workspaces/codespaces-blank/step5-features/runs/run2",
+  "signature": {
+    "code_sha256": {
+      "feature_columns.json": "dc9542e97fd55f7db337905002684d25d5226e08ffb06e14928b5bde5e687c68",
+      "protocol.json": "6c7a4882275f6e968d8f26cb2f7ddb0b078b6f5088eee78f559db901ba0127f6",
+      "requirements.txt": "77ff8a2803add0481121d5f8365568a123fcc6d0900d8e889f7c7842ddd49fec",
+      "scripts/common.py": "aeb6c12a9be97bf6495209d4f9447e67c396a95b79ff2daa5623876a72394c64",
+      "scripts/train.py": "ec22e735a7d0323617613e2a25e9147c2813c365aaa23d6d58e025f738002ff9",
+      "third_party/rtl_timer/LICENSE": "aaa7c2a4c7e08e768fac196db9d0b89323be80bcc55605d1dac2d3fde20bbd63",
+      "third_party/rtl_timer/PROVENANCE.json": "5322546d4b23b212206e9049cce84dd1f32cc3f4180ca436405b450fa7d1446a",
+      "third_party/rtl_timer/stat_.py": "7047df9710ac8fbd2f49916d93ffd21447745aba27d87120dd361370036baf10",
+      "third_party/rtl_timer/train_infer_BOG.slack.py": "2c562d79e7838d4341941e144a45553c530b822e40c7f1f945f4ac8b26dd40e1",
+      "third_party/rtl_timer/train_infer_k_fold_BOG.slack.py": "5bfdb7ab4a4d4218b6efe6ba7654ee264a1a712faf7afe42a4738ffd47f19111"
+    },
+    "data_index_sha256": "fe95c7dc58087672bc90f7681ae82f3b13d22b4cb96bd808c1914c8654b2977b",
+    "input_data_sha256": {
+      "AUDIT.md": "b6ff7e05808e4c142dcf24592f47981164b2eaac89a31e6865ee833688304760",
+      "audit_summary.json": "76800e6feff06ebcedd0f2e369d10319e57851870e9028277d1425652ee357d4",
+      "coverage_by_design.csv": "36d8f6aa28307a72f18c5533288ab12a037c3574871ef020aab85df8443ac1e8",
+      "dataset.csv": "3ed8f0f437a52543296133be08e6e75795f464420e18a7cdecea5b27da6e7fce",
+      "dataset_bog_reg_to_reg.csv": "28627dd4d415868cd0e00564dcbd1496d38537943a16702b9342e70add544496",
+      "exclusions.csv": "6494a97c3cd6a547fefaa34bfbdc3c580f042d2a4d53412b6ae5e93e4a30f927",
+      "feature_columns.json": "dc9542e97fd55f7db337905002684d25d5226e08ffb06e14928b5bde5e687c68",
+      "features.csv": "073dcfa2350370ad04bcff33b3ff06a055a19bd248c5d80df2a2c41f4ddde382",
+      "labels.csv": "78667844ac5071f6ca263a7349bf6b3cd0d9a069b7d5143e1475be165842d232",
+      "partition_manifest.json": "ebc8157f3d4c36ad55430b1647eac409c986e31f6a26ae5738a2fd3bc12e492d",
+      "test.csv": "3e98413c4c0ccb95a610655814d6cb9dfc5ddb549b740dcffe4164a455981396",
+      "train.csv": "de555065ff53bff2772a6a851b8c324a5e49da91abd8911127e72b39332619eb",
+      "training_statistics.csv": "8ac411eb9ba93ecd40537ece9d3542c1a37671b3675300d8116f737b88a7b4fe",
+      "validation.csv": "4dab3b0ca57d9de666767bdbc2922e3664652fd0d4e182abc233bf9b2811b293"
+    },
+    "platform": "Linux-6.8.0-1064-azure-x86_64-with-glibc2.35",
+    "previous_experiment": {
+      "completion_sha256": {
+        "baseline": "64f3a3c094026723ae320586610da5e047fce99e8d9e2c8247c558c319d8d886",
+        "weighted": "7882eec130a4021ca34f4175a875e343df093a9b188cfa04602c594f34bdb50d"
+      },
+      "fingerprint": "8061857a7b5806cc6b7d5cdf8ef04f06c55a84c6a8d84176c13cf8a7214f4ae4",
+      "manifest_sha256": "232a5255824242aec7ccf26f9dcf66e04a0d81d77b1c7c9bd6534c22b44c875e",
+      "selection_sha256": "17aff2395f8ece6e01b3782e663123e1bbdecf759df2eb7ffbb9174d8c262209",
+      "test_already_opened": false
+    },
+    "protocol": {
+      "baseline": {
+        "max_depth": 50,
+        "n_estimators": 500,
+        "nthread": 25
+      },
+      "early_stopping": {
+        "eval_metric": "mae",
+        "max_estimators": 2000,
+        "patience": 50
+      },
+      "fit_scope": "Round search and fresh refit both use the original 12 training designs only",
+      "previous_results": "Read-only import of completed baseline and weighting-only models; never refit or overwrite source run",
+      "refit": "best_iteration + 1 trees, fresh estimator, same training rows and weights, no early stopping",
+      "revision": "step6-weighted-early-stopping-v1",
+      "selection_metric": "validation.macro.mae_ns",
+      "target": "label_arrival_ns",
+      "test_policy": "4 test designs only in explicit final-test after model selection",
+      "tie_break_order": [
+        "baseline",
+        "weighted",
+        "weighted_es"
+      ],
+      "weights": "N / (D * n_d), computed independently within train and validation"
+    },
+    "python": "3.10.12",
+    "step5_fingerprint": "f4d0eaa63f81cbad8c9f0929e28a7ed11e40c1a428a1ea319d0578935e00a32c",
+    "step5_manifest_sha256": "37a86813bc40ec8dbf0f4541975bf51b58d0d9d4f5d0f7b2da2dcfcfcd4fb58a",
+    "threads": 25,
+    "versions": {
+      "matplotlib": "3.10.3",
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.7.2",
+      "scipy": "1.15.3",
+      "xgboost-cpu": "3.0.5"
+    }
+  },
+  "upstream_commit": "206ff4078368c251d2fafaffcc648282c68316f1"
+}

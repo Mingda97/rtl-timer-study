@@ -1,0 +1,11 @@
+read_liberty -lib "/OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib"
+read_rtlil build/picorv32/common.il
+dfflibmap -liberty "/OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib"
+abc -liberty "/OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib"
+clean
+hierarchy -check -top picorv32
+check -assert -mapped
+rename -enumerate
+stat -liberty "/OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib"
+write_verilog -noattr -noexpr build/picorv32/mapped.v
+write_json build/picorv32/mapped.json

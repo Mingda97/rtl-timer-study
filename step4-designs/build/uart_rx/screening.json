@@ -1,0 +1,15 @@
+{
+  "bog_cells": 488,
+  "bog_register_bits": 44,
+  "clock_check": "one declared rising-edge clock",
+  "design_id": "uart_rx",
+  "family": "forencich_uart",
+  "generic_cells": 508,
+  "generic_register_bits": 44,
+  "label_status": "not_generated",
+  "mapped_cells": 335,
+  "mapped_register_bits": 44,
+  "seconds": 0.82,
+  "split": "train",
+  "status": "PASS"
+}

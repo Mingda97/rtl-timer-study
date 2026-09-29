@@ -1,0 +1,39 @@
+{
+  "bog_feature_rows_before_label_join": 1456,
+  "bog_path_kinds": {
+    "input_to_reg": 97,
+    "reg_to_reg": 1359
+  },
+  "common_registers": 1466,
+  "coverage_all_common": 0.9931787175989086,
+  "coverage_public_rtl": 1.0,
+  "dataset_rows": 1456,
+  "design": "picorv32",
+  "elapsed_seconds": 13.01,
+  "excluded_control_pins": {
+    "bog": 0,
+    "mapped": 0
+  },
+  "excluded_registers": 10,
+  "exclusion_reasons": {
+    "no_public_rtl_q_alias": 10
+  },
+  "family": "pico_femto",
+  "mapped_path_kinds": {
+    "input_to_reg": 114,
+    "reg_to_reg": 1342
+  },
+  "matched_public_rtl_bits": 1456,
+  "one_polarity_mapped_rows": 0,
+  "period_invariance_polarities_checked": 2932,
+  "split": "train",
+  "status": "PASS_WITH_EXCLUSIONS",
+  "timing_query_status": {
+    "bog": {
+      "ok": 2932
+    },
+    "mapped": {
+      "ok": 2932
+    }
+  }
+}

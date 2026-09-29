@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/hkust-zhiyao/rtl-timer",
+  "commit": "206ff4078368c251d2fafaffcc648282c68316f1",
+  "sha256": {
+    "stat_.py": "7047df9710ac8fbd2f49916d93ffd21447745aba27d87120dd361370036baf10",
+    "LICENSE": "aaa7c2a4c7e08e768fac196db9d0b89323be80bcc55605d1dac2d3fde20bbd63",
+    "train_infer_BOG.slack.py": "2c562d79e7838d4341941e144a45553c530b822e40c7f1f945f4ac8b26dd40e1",
+    "train_infer_k_fold_BOG.slack.py": "5bfdb7ab4a4d4218b6efe6ba7654ee264a1a712faf7afe42a4738ffd47f19111"
+  },
+  "training_function": "train_infer_k_fold_BOG.slack.py::training",
+  "reuse": "Unmodified training function AST with data adapter; driver and evaluation replaced for frozen split."
+}

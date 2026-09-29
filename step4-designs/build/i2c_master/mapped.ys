@@ -1,0 +1,11 @@
+read_liberty -lib "/OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib"
+read_rtlil build/i2c_master/common.il
+dfflibmap -liberty "/OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib"
+abc -liberty "/OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib"
+clean
+hierarchy -check -top i2c_master
+check -assert -mapped
+rename -enumerate
+stat -liberty "/OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib"
+write_verilog -noattr -noexpr build/i2c_master/mapped.v
+write_json build/i2c_master/mapped.json

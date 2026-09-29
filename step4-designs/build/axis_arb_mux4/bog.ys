@@ -1,0 +1,11 @@
+read_liberty -lib "/workspaces/codespaces-blank/part3-pipeline/external/rtl-timer/vlg2bog/scr_ys/lib/nangate45_sog.lib"
+read_rtlil build/axis_arb_mux4/common.il
+dfflibmap -liberty "/workspaces/codespaces-blank/part3-pipeline/external/rtl-timer/vlg2bog/scr_ys/lib/nangate45_sog.lib"
+abc -liberty "/workspaces/codespaces-blank/part3-pipeline/external/rtl-timer/vlg2bog/scr_ys/lib/nangate45_sog.lib"
+clean
+hierarchy -check -top axis_arb_mux
+check -assert -mapped
+rename -enumerate
+stat -liberty "/workspaces/codespaces-blank/part3-pipeline/external/rtl-timer/vlg2bog/scr_ys/lib/nangate45_sog.lib"
+write_verilog -noattr -noexpr build/axis_arb_mux4/bog.v
+write_json build/axis_arb_mux4/bog.json

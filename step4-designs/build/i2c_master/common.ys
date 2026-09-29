@@ -1,0 +1,11 @@
+read_verilog -sv -DSYNTHESIS -I"sources/i2c/rtl" "sources/i2c/rtl/i2c_master.v"
+hierarchy -check -top i2c_master
+rename -top i2c_master
+synth -top i2c_master -flatten -noabc
+# Remove hierarchy metadata, retaining all circuit cells and net names.
+delete t:$scopeinfo
+dffunmap
+clean
+check -assert
+write_rtlil build/i2c_master/common.il
+write_json build/i2c_master/common.json

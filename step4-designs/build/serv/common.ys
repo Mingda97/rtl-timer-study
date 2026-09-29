@@ -1,0 +1,12 @@
+read_verilog -sv -DSYNTHESIS -I"sources/serv/rtl" "sources/serv/rtl/serv_aligner.v" "sources/serv/rtl/serv_alu.v" "sources/serv/rtl/serv_bufreg.v" "sources/serv/rtl/serv_bufreg2.v" "sources/serv/rtl/serv_compdec.v" "sources/serv/rtl/serv_csr.v" "sources/serv/rtl/serv_ctrl.v" "sources/serv/rtl/serv_debug.v" "sources/serv/rtl/serv_decode.v" "sources/serv/rtl/serv_immdec.v" "sources/serv/rtl/serv_mem_if.v" "sources/serv/rtl/serv_rf_if.v" "sources/serv/rtl/serv_rf_ram.v" "sources/serv/rtl/serv_rf_ram_if.v" "sources/serv/rtl/serv_rf_top.v" "sources/serv/rtl/serv_state.v" "sources/serv/rtl/serv_top.v"
+chparam -set WITH_CSR 0 -set COMPRESSED 0 -set W 1 -set MDU 0 serv_rf_top
+hierarchy -check -top serv_rf_top
+rename -top serv_rf_top
+synth -top serv_rf_top -flatten -noabc
+# Remove hierarchy metadata, retaining all circuit cells and net names.
+delete t:$scopeinfo
+dffunmap
+clean
+check -assert
+write_rtlil build/serv/common.il
+write_json build/serv/common.json

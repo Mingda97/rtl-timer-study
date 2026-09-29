@@ -1,0 +1,37 @@
+{
+  "bog_feature_rows_before_label_join": 1034,
+  "bog_path_kinds": {
+    "input_to_reg": 400,
+    "reg_to_reg": 634
+  },
+  "common_registers": 1034,
+  "coverage_all_common": 1.0,
+  "coverage_public_rtl": 1.0,
+  "dataset_rows": 1034,
+  "design": "sha256",
+  "elapsed_seconds": 9.96,
+  "excluded_control_pins": {
+    "bog": 2068,
+    "mapped": 1034
+  },
+  "excluded_registers": 0,
+  "exclusion_reasons": {},
+  "family": "secworks_sha2",
+  "mapped_path_kinds": {
+    "input_to_reg": 357,
+    "reg_to_reg": 677
+  },
+  "matched_public_rtl_bits": 1034,
+  "one_polarity_mapped_rows": 0,
+  "period_invariance_polarities_checked": 2068,
+  "split": "train",
+  "status": "PASS",
+  "timing_query_status": {
+    "bog": {
+      "ok": 2068
+    },
+    "mapped": {
+      "ok": 2068
+    }
+  }
+}

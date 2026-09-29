@@ -1,0 +1,32 @@
+{
+  "dataset_version": "designs-v1",
+  "assignment_method": "manual, category-aware, grouped; no random seed applies",
+  "splits": {
+    "train": [
+      "picorv32",
+      "femtorv_quark",
+      "fastfir8",
+      "boxcar16",
+      "aes128",
+      "sha256",
+      "uart_tx",
+      "uart_rx",
+      "simple_spi",
+      "axis_fifo16",
+      "axis_arb_mux4",
+      "axis_skid32"
+    ],
+    "validation": [
+      "osu_riscv32i",
+      "divider32",
+      "chacha",
+      "i2c_master"
+    ],
+    "test": [
+      "serv",
+      "seqcordic",
+      "crc32",
+      "sfifo16"
+    ]
+  }
+}

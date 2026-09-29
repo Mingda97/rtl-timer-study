@@ -1,0 +1,1472 @@
+{
+  "schema_version": 1,
+  "dataset_version": "designs-v1",
+  "freeze_date": "2026-09-28",
+  "protocol": {
+    "clock_period_ns": 10.0,
+    "clock_uncertainty_ns": 0.05,
+    "clock_transition_ns": 0.05,
+    "input_delay_max_ns": 1.0,
+    "input_delay_min_ns": 0.0,
+    "input_transition_ns": 0.05,
+    "output_delay_max_ns": 1.0,
+    "output_delay_min_ns": 0.0,
+    "output_load_ff": 5.0,
+    "library": "Nangate45 typical",
+    "wire_model": "no explicit wire RC; Liberty pin and output loads",
+    "memory_policy": "map all inferred memories to flip-flops; no SRAM/DSP macros",
+    "retiming": false,
+    "split_unit": "design family",
+    "endpoint_policy": "all eligible constrained FF D bits; reg-to-reg subset reported separately; exclusions audited",
+    "full_lib_sha256": "8d540a4d4cf6d09d27c87ad067857a9c0c2eeb023ab7a56e058cd3113db4e9b1",
+    "sog_lib_sha256": "a04c9abd0862d3ad5562f64c6fa2e43f38a86a4aeff41965244aa5275e151f7c"
+  },
+  "repositories": {
+    "orfs": {
+      "url": "https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts",
+      "commit": "49416916f08ca3640464c755aed883c25d25a153"
+    },
+    "picorv32": {
+      "url": "https://github.com/YosysHQ/picorv32",
+      "commit": "ef203c2b0a3fb793280f5114941416c425c5b461"
+    },
+    "serv": {
+      "url": "https://github.com/olofk/serv",
+      "commit": "f200eb2ed7b69ac1c6b8eddd47654522aeee5ce8"
+    },
+    "femtorv": {
+      "url": "https://github.com/BrunoLevy/learn-fpga",
+      "commit": "5c08c870315c09ccd9ec64ccde20ab3375b3f273"
+    },
+    "dspfilters": {
+      "url": "https://github.com/ZipCPU/dspfilters",
+      "commit": "16d7dc3b23af167759693da9caff7c7111805873"
+    },
+    "cordic": {
+      "url": "https://github.com/ZipCPU/cordic",
+      "commit": "8ede08a1865d87a357a3a2c188206e843dd9bde6"
+    },
+    "zipcpu": {
+      "url": "https://github.com/ZipCPU/zipcpu",
+      "commit": "42606d2d6ef55df313772232977621b2d72f0159"
+    },
+    "sha256": {
+      "url": "https://github.com/secworks/sha256",
+      "commit": "837c5cc396f001d18f2c765721c585716eb439ae"
+    },
+    "chacha": {
+      "url": "https://github.com/secworks/chacha",
+      "commit": "7eaba360df9fed9fc2db98d5f3df81cf01e5b604"
+    },
+    "lfsr": {
+      "url": "https://github.com/alexforencich/verilog-lfsr",
+      "commit": "c1f86d036745935f3812ec6ddc7821c70ef4c9de"
+    },
+    "uart": {
+      "url": "https://github.com/alexforencich/verilog-uart",
+      "commit": "1b867e53af738e4a8bc7c839ca2f1c07f40382dc"
+    },
+    "i2c": {
+      "url": "https://github.com/alexforencich/verilog-i2c",
+      "commit": "a65be4045e898a52e791c6ee71f8f79a7cd2e129"
+    },
+    "spi": {
+      "url": "https://github.com/olofk/simple_spi",
+      "commit": "eb393ee86299d9762b29d2043303826d0cd96fc4"
+    },
+    "axis": {
+      "url": "https://github.com/alexforencich/verilog-axis",
+      "commit": "48ff7a7e2ef782cf778d47910cf85835c64b1bce"
+    },
+    "sfifo": {
+      "url": "https://github.com/ZipCPU/wb2axip",
+      "commit": "2e8d3bc2d26ddc33d1881022a2a2b9d3f0c16b9b"
+    }
+  },
+  "designs": [
+    {
+      "design_id": "picorv32",
+      "name": "PicoRV32",
+      "category": "processor",
+      "split": "train",
+      "family": "pico_femto",
+      "repository": "picorv32",
+      "top": "picorv32",
+      "files": [
+        "picorv32.v"
+      ],
+      "include_dirs": [
+        "."
+      ],
+      "parameters": {
+        "ENABLE_COUNTERS": 0,
+        "ENABLE_MUL": 0,
+        "ENABLE_DIV": 0,
+        "ENABLE_IRQ": 0
+      },
+      "defines": [
+        "SYNTHESIS"
+      ],
+      "clock_port": "clk",
+      "clock_edge": "rising",
+      "resets": [
+        {
+          "port": "resetn",
+          "inactive": 1
+        }
+      ],
+      "license": "ISC",
+      "license_evidence": [
+        "COPYING"
+      ],
+      "notes": "RV32I core; external instruction/data memory interface. Conservatively grouped with FemtoRV due documented shifter inspiration.",
+      "qualification_status": "yosys_both_mappings_passed",
+      "label_status": "not_generated",
+      "observed_register_bits": 1465,
+      "observed_mapped_cells": 7893,
+      "observed_bog_cells": 8931,
+      "screening_tool": "Yosys 0.33 (git sha1 2584903a060)"
+    },
+    {
+      "design_id": "femtorv_quark",
+      "name": "FemtoRV32 Quark",
+      "category": "processor",
+      "split": "train",
+      "family": "pico_femto",
+      "repository": "femtorv",
+      "top": "FemtoRV32",
+      "files": [
+        "FemtoRV/RTL/PROCESSOR/femtorv32_quark.v"
+      ],
+      "include_dirs": [
+        "FemtoRV/RTL/PROCESSOR"
+      ],
+      "parameters": {
+        "ADDR_WIDTH": 24
+      },
+      "defines": [
+        "SYNTHESIS"
+      ],
+      "clock_port": "clk",
+      "clock_edge": "rising",
+      "resets": [
+        {
+          "port": "reset",
+          "inactive": 1
+        }
+      ],
+      "license": "BSD-3-Clause",
+      "license_evidence": [
+        "LICENSE",
+        "FemtoRV/README.md"
+      ],
+      "notes": "Already generated Verilog; default optional NRV_TWOLEVEL_SHIFTER macro remains undefined.",
+      "qualification_status": "yosys_both_mappings_passed",
+      "label_status": "not_generated",
+      "observed_register_bits": 1215,
+      "observed_mapped_cells": 6801,
+      "observed_bog_cells": 6517,
+      "screening_tool": "Yosys 0.33 (git sha1 2584903a060)"
+    },
+    {
+      "design_id": "osu_riscv32i",
+      "name": "OSU RV32I core",
+      "category": "processor",
+      "split": "validation",
+      "family": "osu_riscv32i",
+      "repository": "orfs",
+      "top": "riscv",
+      "files": [
+        "flow/designs/src/riscv32i/adder.v",
+        "flow/designs/src/riscv32i/alu.v",
+        "flow/designs/src/riscv32i/aludec.v",
+        "flow/designs/src/riscv32i/controller.v",
+        "flow/designs/src/riscv32i/datapath.v",
+        "flow/designs/src/riscv32i/flopenr.v",
+        "flow/designs/src/riscv32i/flopens.v",
+        "flow/designs/src/riscv32i/flopr.v",
+        "flow/designs/src/riscv32i/magcompare2b.v",
+        "flow/designs/src/riscv32i/magcompare2c.v",
+        "flow/designs/src/riscv32i/magcompare32.v",
+        "flow/designs/src/riscv32i/maindec.v",
+        "flow/designs/src/riscv32i/mux2.v",
+        "flow/designs/src/riscv32i/mux3.v",
+        "flow/designs/src/riscv32i/mux4.v",
+        "flow/designs/src/riscv32i/mux5.v",
+        "flow/designs/src/riscv32i/mux8.v",
+        "flow/designs/src/riscv32i/regfile.v",
+        "flow/designs/src/riscv32i/riscv.v",
+        "flow/designs/src/riscv32i/shifter.v",
+        "flow/designs/src/riscv32i/signext.v"
+      ],
+      "include_dirs": [
+        "flow/designs/src/riscv32i"
+      ],
+      "parameters": {},
+      "defines": [
+        "SYNTHESIS"
+      ],
+      "clock_port": "clk",
+      "clock_edge": "rising",
+      "resets": [
+        {
+          "port": "reset",
+          "inactive": 0
+        }
+      ],
+      "license": "Apache-2.0",
+      "license_evidence": [
+        "flow/designs/src/riscv32i/LICENSE",
+        "flow/designs/src/riscv32i/README.md"
+      ],
+      "notes": "Use core top riscv; exclude top-level ROM and external data memory wrappers.",
+      "qualification_status": "yosys_both_mappings_passed",
+      "label_status": "not_generated",
+      "observed_register_bits": 1056,
+      "observed_mapped_cells": 6551,
+      "observed_bog_cells": 6559,
+      "screening_tool": "Yosys 0.33 (git sha1 2584903a060)"
+    },
+    {
+      "design_id": "serv",
+      "name": "SERV with register file",
+      "category": "processor",
+      "split": "test",
+      "family": "serv",
+      "repository": "serv",
+      "top": "serv_rf_top",
+      "files": [
+        "rtl/serv_aligner.v",
+        "rtl/serv_alu.v",
+        "rtl/serv_bufreg.v",
+        "rtl/serv_bufreg2.v",
+        "rtl/serv_compdec.v",
+        "rtl/serv_csr.v",
+        "rtl/serv_ctrl.v",
+        "rtl/serv_debug.v",
+        "rtl/serv_decode.v",
+        "rtl/serv_immdec.v",
+        "rtl/serv_mem_if.v",
+        "rtl/serv_rf_if.v",
+        "rtl/serv_rf_ram.v",
+        "rtl/serv_rf_ram_if.v",
+        "rtl/serv_rf_top.v",
+        "rtl/serv_state.v",
+        "rtl/serv_top.v"
+      ],
+      "include_dirs": [
+        "rtl"
+      ],
+      "parameters": {
+        "WITH_CSR": 0,
+        "COMPRESSED": 0,
+        "W": 1,
+        "MDU": 0
+      },
+      "defines": [
+        "SYNTHESIS"
+      ],
+      "clock_port": "clk",
+      "clock_edge": "rising",
+      "resets": [
+        {
+          "port": "i_rst",
+          "inactive": 0
+        }
+      ],
+      "license": "ISC",
+      "license_evidence": [
+        "LICENSE"
+      ],
+      "notes": "One-bit serial core. Inferred register-file RAM is mapped to standard-cell flip-flops, not an SRAM macro.",
+      "qualification_status": "yosys_both_mappings_passed",
+      "label_status": "not_generated",
+      "observed_register_bits": 1190,
+      "observed_mapped_cells": 4563,
+      "observed_bog_cells": 4464,
+      "screening_tool": "Yosys 0.33 (git sha1 2584903a060)"
+    },
+    {
+      "design_id": "fastfir8",
+      "name": "8-tap FIR",
+      "category": "arithmetic_dsp",
+      "split": "train",
+      "family": "zipcpu_filters",
+      "repository": "dspfilters",
+      "top": "fastfir",
+      "files": [
+        "rtl/fastfir.v",
+        "rtl/firtap.v"
+      ],
+      "include_dirs": [
+        "rtl"
+      ],
+      "parameters": {
+        "NTAPS": 8,
+        "IW": 12,
+        "TW": 12,
+        "OW": 28,
+        "FIXED_TAPS": 0
+      },
+      "defines": [
+        "SYNTHESIS"
+      ],
+      "clock_port": "i_clk",
+      "clock_edge": "rising",
+      "resets": [
+        {
+          "port": "i_reset",
+          "inactive": 0
+        }
+      ],
+      "license": "LGPL-3.0-or-later",
+      "license_evidence": [
+        "rtl/fastfir.v",
+        "rtl/firtap.v",
+        "doc/lgpl-3.0.pdf"
+      ],
+      "notes": "Programmable tap coefficients; no coefficient-file dependency.",
+      "qualification_status": "yosys_both_mappings_passed",
+      "label_status": "not_generated",
+      "observed_register_bits": 508,
+      "observed_mapped_cells": 10173,
+      "observed_bog_cells": 10371,
+      "screening_tool": "Yosys 0.33 (git sha1 2584903a060)"
+    },
+    {
+      "design_id": "boxcar16",
+      "name": "16-entry moving-sum filter",
+      "category": "arithmetic_dsp",
+      "split": "train",
+      "family": "zipcpu_filters",
+      "repository": "dspfilters",
+      "top": "boxcar",
+      "files": [
+        "rtl/boxcar.v"
+      ],
+      "include_dirs": [
+        "rtl"
+      ],
+      "parameters": {
+        "IW": 16,
+        "LGMEM": 4,
+        "OW": 20,
+        "FIXED_NAVG": 1,
+        "INITIAL_NAVG": 15
+      },
+      "defines": [
+        "SYNTHESIS"
+      ],
+      "clock_port": "i_clk",
+      "clock_edge": "rising",
+      "resets": [
+        {
+          "port": "i_reset",
+          "inactive": 0
+        }
+      ],
+      "license": "LGPL-3.0-or-later",
+      "license_evidence": [
+        "rtl/boxcar.v",
+        "doc/lgpl-3.0.pdf"
+      ],
+      "notes": "15-sample moving sum with 16-entry storage; memory mapped to flip-flops.",
+      "qualification_status": "yosys_both_mappings_passed",
+      "label_status": "not_generated",
+      "observed_register_bits": 354,
+      "observed_mapped_cells": 1452,
+      "observed_bog_cells": 1301,
+      "screening_tool": "Yosys 0.33 (git sha1 2584903a060)"
+    },
+    {
+      "design_id": "divider32",
+      "name": "32-bit iterative divider",
+      "category": "arithmetic_dsp",
+      "split": "validation",
+      "family": "zipcpu_divider",
+      "repository": "zipcpu",
+      "top": "div",
+      "files": [
+        "rtl/core/div.v"
+      ],
+      "include_dirs": [
+        "rtl/core"
+      ],
+      "parameters": {
+        "BW": 32,
+        "LGBW": 5
+      },
+      "defines": [
+        "SYNTHESIS"
+      ],
+      "clock_port": "i_clk",
+      "clock_edge": "rising",
+      "resets": [
+        {
+          "port": "i_reset",
+          "inactive": 0
+        }
+      ],
+      "license": "GPL-3.0-or-later",
+      "license_evidence": [
+        "rtl/core/div.v"
+      ],
+      "notes": "Signed/unsigned arithmetic selected by a data/control input; standalone execution unit.",
+      "qualification_status": "yosys_both_mappings_passed",
+      "label_status": "not_generated",
+      "observed_register_bits": 142,
+      "observed_mapped_cells": 1096,
+      "observed_bog_cells": 1520,
+      "screening_tool": "Yosys 0.33 (git sha1 2584903a060)"
+    },
+    {
+      "design_id": "seqcordic",
+      "name": "Sequential CORDIC",
+      "category": "arithmetic_dsp",
+      "split": "test",
+      "family": "zipcpu_cordic",
+      "repository": "cordic",
+      "top": "seqcordic",
+      "files": [
+        "rtl/seqcordic.v"
+      ],
+      "include_dirs": [
+        "rtl"
+      ],
+      "parameters": {},
+      "defines": [
+        "SYNTHESIS"
+      ],
+      "clock_port": "i_clk",
+      "clock_edge": "rising",
+      "resets": [
+        {
+          "port": "i_reset",
+          "inactive": 0
+        }
+      ],
+      "license": "LGPL-3.0-or-later",
+      "license_evidence": [
+        "rtl/seqcordic.v",
+        "doc/lgpl-3.0.pdf"
+      ],
+      "notes": "Checked-in generated RTL; fixed 13-bit I/O, 16-bit working data, 20-bit phase. No generator needed.",
+      "qualification_status": "yosys_both_mappings_passed",
+      "label_status": "not_generated",
+      "observed_register_bits": 152,
+      "observed_mapped_cells": 1172,
+      "observed_bog_cells": 1685,
+      "screening_tool": "Yosys 0.33 (git sha1 2584903a060)"
+    },
+    {
+      "design_id": "aes128",
+      "name": "AES-128 encryption core",
+      "category": "crypto_checksum",
+      "split": "train",
+      "family": "opencores_aes",
+      "repository": "orfs",
+      "top": "aes_cipher_top",
+      "files": [
+        "flow/designs/src/aes/aes_cipher_top.v",
+        "flow/designs/src/aes/aes_key_expand_128.v",
+        "flow/designs/src/aes/aes_sbox.v",
+        "flow/designs/src/aes/aes_rcon.v"
+      ],
+      "include_dirs": [
+        "flow/designs/src/aes"
+      ],
+      "parameters": {},
+      "defines": [
+        "SYNTHESIS"
+      ],
+      "clock_port": "clk",
+      "clock_edge": "rising",
+      "resets": [
+        {
+          "port": "rst",
+          "inactive": 1
+        }
+      ],
+      "license": "BSD-style hardware license",
+      "license_evidence": [
+        "flow/designs/src/aes/LICENSE"
+      ],
+      "notes": "Important: rst is active LOW. timescale.v is an include dependency.",
+      "qualification_status": "yosys_both_mappings_passed",
+      "label_status": "not_generated",
+      "observed_register_bits": 562,
+      "observed_mapped_cells": 10648,
+      "observed_bog_cells": 12968,
+      "screening_tool": "Yosys 0.33 (git sha1 2584903a060)"
+    },
+    {
+      "design_id": "sha256",
+      "name": "SHA-256 core",
+      "category": "crypto_checksum",
+      "split": "train",
+      "family": "secworks_sha2",
+      "repository": "sha256",
+      "top": "sha256_core",
+      "files": [
+        "src/rtl/sha256_core.v",
+        "src/rtl/sha256_k_constants.v",
+        "src/rtl/sha256_w_mem.v"
+      ],
+      "include_dirs": [
+        "src/rtl"
+      ],
+      "parameters": {},
+      "defines": [
+        "SYNTHESIS"
+      ],
+      "clock_port": "clk",
+      "clock_edge": "rising",
+      "resets": [
+        {
+          "port": "reset_n",
+          "inactive": 1
+        }
+      ],
+      "license": "BSD-2-Clause",
+      "license_evidence": [
+        "LICENSE"
+      ],
+      "notes": "SHA-224/256 mode is an input; both remain in this one design/family.",
+      "qualification_status": "yosys_both_mappings_passed",
+      "label_status": "not_generated",
+      "observed_register_bits": 1034,
+      "observed_mapped_cells": 8670,
+      "observed_bog_cells": 11295,
+      "screening_tool": "Yosys 0.33 (git sha1 2584903a060)"
+    },
+    {
+      "design_id": "chacha",
+      "name": "ChaCha core",
+      "category": "crypto_checksum",
+      "split": "validation",
+      "family": "secworks_chacha",
+      "repository": "chacha",
+      "top": "chacha_core",
+      "files": [
+        "src/rtl/chacha_core.v",
+        "src/rtl/chacha_qr.v"
+      ],
+      "include_dirs": [
+        "src/rtl"
+      ],
+      "parameters": {},
+      "defines": [
+        "SYNTHESIS"
+      ],
+      "clock_port": "clk",
+      "clock_edge": "rising",
+      "resets": [
+        {
+          "port": "reset_n",
+          "inactive": 1
+        }
+      ],
+      "license": "BSD-2-Clause",
+      "license_evidence": [
+        "LICENSE"
+      ],
+      "notes": "Stateful add/rotate/XOR datapath; rounds/key mode remain functional inputs.",
+      "qualification_status": "yosys_both_mappings_passed",
+      "label_status": "not_generated",
+      "observed_register_bits": 1100,
+      "observed_mapped_cells": 11131,
+      "observed_bog_cells": 14775,
+      "screening_tool": "Yosys 0.33 (git sha1 2584903a060)"
+    },
+    {
+      "design_id": "crc32",
+      "name": "CRC-32 accumulator",
+      "category": "crypto_checksum",
+      "split": "test",
+      "family": "forencich_lfsr",
+      "repository": "lfsr",
+      "top": "lfsr_crc",
+      "files": [
+        "rtl/lfsr_crc.v",
+        "rtl/lfsr.v"
+      ],
+      "include_dirs": [
+        "rtl"
+      ],
+      "parameters": {
+        "LFSR_WIDTH": 32,
+        "DATA_WIDTH": 8
+      },
+      "defines": [
+        "SYNTHESIS"
+      ],
+      "clock_port": "clk",
+      "clock_edge": "rising",
+      "resets": [
+        {
+          "port": "rst",
+          "inactive": 0
+        }
+      ],
+      "license": "MIT",
+      "license_evidence": [
+        "COPYING"
+      ],
+      "notes": "Registered CRC wrapper, not the combinational-only lfsr top; polynomial 0x04c11db7.",
+      "qualification_status": "yosys_both_mappings_passed",
+      "label_status": "not_generated",
+      "observed_register_bits": 64,
+      "observed_mapped_cells": 386,
+      "observed_bog_cells": 701,
+      "screening_tool": "Yosys 0.33 (git sha1 2584903a060)"
+    },
+    {
+      "design_id": "uart_tx",
+      "name": "UART transmitter",
+      "category": "protocol_control",
+      "split": "train",
+      "family": "forencich_uart",
+      "repository": "uart",
+      "top": "uart_tx",
+      "files": [
+        "rtl/uart_tx.v"
+      ],
+      "include_dirs": [
+        "rtl"
+      ],
+      "parameters": {
+        "DATA_WIDTH": 8
+      },
+      "defines": [
+        "SYNTHESIS"
+      ],
+      "clock_port": "clk",
+      "clock_edge": "rising",
+      "resets": [
+        {
+          "port": "rst",
+          "inactive": 0
+        }
+      ],
+      "license": "MIT",
+      "license_evidence": [
+        "COPYING"
+      ],
+      "notes": "TX and RX remain together in training; serial input timing is an abstract synchronous environment.",
+      "qualification_status": "yosys_both_mappings_passed",
+      "label_status": "not_generated",
+      "observed_register_bits": 35,
+      "observed_mapped_cells": 272,
+      "observed_bog_cells": 338,
+      "screening_tool": "Yosys 0.33 (git sha1 2584903a060)"
+    },
+    {
+      "design_id": "uart_rx",
+      "name": "UART receiver",
+      "category": "protocol_control",
+      "split": "train",
+      "family": "forencich_uart",
+      "repository": "uart",
+      "top": "uart_rx",
+      "files": [
+        "rtl/uart_rx.v"
+      ],
+      "include_dirs": [
+        "rtl"
+      ],
+      "parameters": {
+        "DATA_WIDTH": 8
+      },
+      "defines": [
+        "SYNTHESIS"
+      ],
+      "clock_port": "clk",
+      "clock_edge": "rising",
+      "resets": [
+        {
+          "port": "rst",
+          "inactive": 0
+        }
+      ],
+      "license": "MIT",
+      "license_evidence": [
+        "COPYING"
+      ],
+      "notes": "TX and RX remain together in training; serial input timing is an abstract synchronous environment.",
+      "qualification_status": "yosys_both_mappings_passed",
+      "label_status": "not_generated",
+      "observed_register_bits": 44,
+      "observed_mapped_cells": 350,
+      "observed_bog_cells": 417,
+      "screening_tool": "Yosys 0.33 (git sha1 2584903a060)"
+    },
+    {
+      "design_id": "simple_spi",
+      "name": "Wishbone SPI master",
+      "category": "protocol_control",
+      "split": "train",
+      "family": "herveille_spi",
+      "repository": "spi",
+      "top": "simple_spi",
+      "files": [
+        "rtl/verilog/simple_spi_top.v",
+        "rtl/verilog/fifo4.v"
+      ],
+      "include_dirs": [
+        "rtl/verilog"
+      ],
+      "parameters": {
+        "SS_WIDTH": 1
+      },
+      "defines": [
+        "SYNTHESIS"
+      ],
+      "clock_port": "clk_i",
+      "clock_edge": "rising",
+      "resets": [
+        {
+          "port": "rst_i",
+          "inactive": 0
+        }
+      ],
+      "license": "Permissive notice in source",
+      "license_evidence": [
+        "rtl/verilog/simple_spi_top.v",
+        "rtl/verilog/fifo4.v"
+      ],
+      "notes": "Serial clock is a generated DATA output; internal sequential clock is clk_i.",
+      "qualification_status": "yosys_both_mappings_passed",
+      "label_status": "not_generated",
+      "observed_register_bits": 132,
+      "observed_mapped_cells": 580,
+      "observed_bog_cells": 665,
+      "screening_tool": "Yosys 0.33 (git sha1 2584903a060)"
+    },
+    {
+      "design_id": "i2c_master",
+      "name": "I2C master",
+      "category": "protocol_control",
+      "split": "validation",
+      "family": "forencich_i2c",
+      "repository": "i2c",
+      "top": "i2c_master",
+      "files": [
+        "rtl/i2c_master.v"
+      ],
+      "include_dirs": [
+        "rtl"
+      ],
+      "parameters": {},
+      "defines": [
+        "SYNTHESIS"
+      ],
+      "clock_port": "clk",
+      "clock_edge": "rising",
+      "resets": [
+        {
+          "port": "rst",
+          "inactive": 0
+        }
+      ],
+      "license": "MIT",
+      "license_evidence": [
+        "COPYING"
+      ],
+      "notes": "Core top avoids bus-wrapper dependencies. External SCL/SDA timing is abstracted for this dataset.",
+      "qualification_status": "yosys_both_mappings_passed",
+      "label_status": "not_generated",
+      "observed_register_bits": 72,
+      "observed_mapped_cells": 545,
+      "observed_bog_cells": 818,
+      "screening_tool": "Yosys 0.33 (git sha1 2584903a060)"
+    },
+    {
+      "design_id": "axis_fifo16",
+      "name": "AXI-stream FIFO, 16 x 32",
+      "category": "interconnect_buffer",
+      "split": "train",
+      "family": "forencich_axis",
+      "repository": "axis",
+      "top": "axis_fifo",
+      "files": [
+        "rtl/axis_fifo.v"
+      ],
+      "include_dirs": [
+        "rtl"
+      ],
+      "parameters": {
+        "DEPTH": 16,
+        "DATA_WIDTH": 32,
+        "KEEP_ENABLE": 0,
+        "LAST_ENABLE": 0,
+        "USER_ENABLE": 0,
+        "FRAME_FIFO": 0
+      },
+      "defines": [
+        "SYNTHESIS"
+      ],
+      "clock_port": "clk",
+      "clock_edge": "rising",
+      "resets": [
+        {
+          "port": "rst",
+          "inactive": 0
+        }
+      ],
+      "license": "MIT",
+      "license_evidence": [
+        "COPYING"
+      ],
+      "notes": "Single-clock word FIFO; inferred storage mapped to flip-flops.",
+      "qualification_status": "yosys_both_mappings_passed",
+      "label_status": "not_generated",
+      "observed_register_bits": 593,
+      "observed_mapped_cells": 2026,
+      "observed_bog_cells": 1762,
+      "screening_tool": "Yosys 0.33 (git sha1 2584903a060)"
+    },
+    {
+      "design_id": "axis_arb_mux4",
+      "name": "AXI-stream 4-to-1 arbiter",
+      "category": "interconnect_buffer",
+      "split": "train",
+      "family": "forencich_axis",
+      "repository": "axis",
+      "top": "axis_arb_mux",
+      "files": [
+        "rtl/axis_arb_mux.v",
+        "rtl/arbiter.v",
+        "rtl/priority_encoder.v"
+      ],
+      "include_dirs": [
+        "rtl"
+      ],
+      "parameters": {
+        "S_COUNT": 4,
+        "DATA_WIDTH": 32,
+        "KEEP_ENABLE": 0,
+        "LAST_ENABLE": 0,
+        "USER_ENABLE": 0,
+        "ARB_TYPE_ROUND_ROBIN": 1
+      },
+      "defines": [
+        "SYNTHESIS"
+      ],
+      "clock_port": "clk",
+      "clock_edge": "rising",
+      "resets": [
+        {
+          "port": "rst",
+          "inactive": 0
+        }
+      ],
+      "license": "MIT",
+      "license_evidence": [
+        "COPYING"
+      ],
+      "notes": "Round-robin arbitration; related AXI-stream components remain in training.",
+      "qualification_status": "yosys_both_mappings_passed",
+      "label_status": "not_generated",
+      "observed_register_bits": 210,
+      "observed_mapped_cells": 629,
+      "observed_bog_cells": 661,
+      "screening_tool": "Yosys 0.33 (git sha1 2584903a060)"
+    },
+    {
+      "design_id": "axis_skid32",
+      "name": "AXI-stream skid buffer",
+      "category": "interconnect_buffer",
+      "split": "train",
+      "family": "forencich_axis",
+      "repository": "axis",
+      "top": "axis_register",
+      "files": [
+        "rtl/axis_register.v"
+      ],
+      "include_dirs": [
+        "rtl"
+      ],
+      "parameters": {
+        "DATA_WIDTH": 32,
+        "KEEP_ENABLE": 0,
+        "LAST_ENABLE": 0,
+        "USER_ENABLE": 0,
+        "REG_TYPE": 2
+      },
+      "defines": [
+        "SYNTHESIS"
+      ],
+      "clock_port": "clk",
+      "clock_edge": "rising",
+      "resets": [
+        {
+          "port": "rst",
+          "inactive": 0
+        }
+      ],
+      "license": "MIT",
+      "license_evidence": [
+        "COPYING"
+      ],
+      "notes": "Two-entry skid buffer, not a bypass configuration.",
+      "qualification_status": "yosys_both_mappings_passed",
+      "label_status": "not_generated",
+      "observed_register_bits": 67,
+      "observed_mapped_cells": 181,
+      "observed_bog_cells": 187,
+      "screening_tool": "Yosys 0.33 (git sha1 2584903a060)"
+    },
+    {
+      "design_id": "sfifo16",
+      "name": "Synchronous FIFO, 16 x 32",
+      "category": "interconnect_buffer",
+      "split": "test",
+      "family": "zipcpu_sfifo",
+      "repository": "sfifo",
+      "top": "sfifo",
+      "files": [
+        "rtl/sfifo.v"
+      ],
+      "include_dirs": [
+        "rtl"
+      ],
+      "parameters": {
+        "BW": 32,
+        "LGFLEN": 4,
+        "OPT_ASYNC_READ": 0
+      },
+      "defines": [
+        "SYNTHESIS"
+      ],
+      "clock_port": "i_clk",
+      "clock_edge": "rising",
+      "resets": [
+        {
+          "port": "i_reset",
+          "inactive": 0
+        }
+      ],
+      "license": "Public-domain dedication in source",
+      "license_evidence": [
+        "rtl/sfifo.v"
+      ],
+      "notes": "Independent FIFO implementation; synchronous registered read, one clock.",
+      "qualification_status": "yosys_both_mappings_passed",
+      "label_status": "not_generated",
+      "observed_register_bits": 591,
+      "observed_mapped_cells": 1811,
+      "observed_bog_cells": 2185,
+      "screening_tool": "Yosys 0.33 (git sha1 2584903a060)"
+    }
+  ],
+  "source_files": [
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/aes/LICENSE",
+      "sha256": "628b5468499d9dbe5bfbc6271b854a1112461ca308acae42db173d3b10c09331",
+      "bytes": 1550
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/aes/aes_cipher_top.v",
+      "sha256": "ab39a4a094dc8cfde90fcaa4c1aaf7dc9bf75b57ed762e11a985b88f6b23996c",
+      "bytes": 10139
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/aes/aes_key_expand_128.v",
+      "sha256": "bf06921c6fe80a69674f8b38160e8d677e1c4cc1a96befee2ac136bed3fe48c6",
+      "bytes": 3819
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/aes/aes_rcon.v",
+      "sha256": "1e8a0d1f8c3da8d382adb94e98bacfab455683ca3bca282b982179c0f7607e8e",
+      "bytes": 3682
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/aes/aes_sbox.v",
+      "sha256": "7f4fe4173d58017eb2520fb130b3b779d63a373463cb0198bd66c4371184d7fb",
+      "bytes": 8155
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/aes/timescale.v",
+      "sha256": "0833b736793bc11f640ed66357614c0f5cf30a548a7e515333b1e46438b2cb6b",
+      "bytes": 22
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/README.md",
+      "sha256": "9b6a78385391520fde7de74e5a69f97fb6744e5eab9aec96af7a02e9086a43da",
+      "bytes": 99
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/adder.v",
+      "sha256": "20681ea424d82c9d11680418d2d58eabdb0b4aa18c01581ecbf352acc0888de3",
+      "bytes": 113
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/alu.v",
+      "sha256": "a08b4aa61ed7991e4dcf72275e2432767baf8cbfbb71f03c3f18b94c5024f78d",
+      "bytes": 848
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/aludec.v",
+      "sha256": "2bb6239a4122dd5d4c722901ad1685e8a6ead2ee8317d7619cf5f86dde899445",
+      "bytes": 7635
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/controller.v",
+      "sha256": "69a5508d860fd5105a90c51bf190fcd077ab1b37f2941316107fb4dde8e92a55",
+      "bytes": 2063
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/datapath.v",
+      "sha256": "7e7e6857f8c7c6020dd4fc825c043dd99353ba84e9ca24da356d3d8e4918f7f1",
+      "bytes": 4018
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/flopenr.v",
+      "sha256": "9040e09513926fec2b8d966d71591f26655f8406d9533ce98077a37e60a755af",
+      "bytes": 313
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/flopens.v",
+      "sha256": "35a0872ddce7ed9e8afdfd8889c252b354f7b7aa2a4fb16c2ddfdb3b067543ad",
+      "bytes": 292
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/flopr.v",
+      "sha256": "e2a7bf1da9fb92d7c1867d82b5238446ef844c2c54d84aff56c5745dbdfd30c0",
+      "bytes": 268
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/magcompare2b.v",
+      "sha256": "48e1ee5c1bb22c01a5523ef2712e9ef31b4419cf27334303785180e098b73107",
+      "bytes": 574
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/magcompare2c.v",
+      "sha256": "576a182747438ed8da609864d411aec1d7d903311e82f1c326206adde27d604a",
+      "bytes": 553
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/magcompare32.v",
+      "sha256": "0e65874c5e3b60c16489032468fabe0ad6e5f52aad817cfeaaf858fa65f849a4",
+      "bytes": 2429
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/maindec.v",
+      "sha256": "9dc78ed97cbb659a122e35681eb8a700b32871838e37e0b26ffe54d9779c1da5",
+      "bytes": 1362
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/mux2.v",
+      "sha256": "e2f555835360a572f139f6f77327ce4c5fb55146bf03065c150e32f5f1d3398f",
+      "bytes": 186
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/mux3.v",
+      "sha256": "24ef807cd5352f6812db60ad158222f96f220fa29f9ea49a07ae998aa29a0355",
+      "bytes": 206
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/mux4.v",
+      "sha256": "e51409e35a5742dc181a0edc1a1724cf0895fbf65b2c30ebe615c0f27e721652",
+      "bytes": 221
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/mux5.v",
+      "sha256": "a5b42325af48158a557c3f7844a7c9a1ff236b6e22148ec4c62ca6d18d4ac330",
+      "bytes": 350
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/mux8.v",
+      "sha256": "17e4e6a7c94a89c39b3631def77e5329bb4f90cee030d859a2c296f06a6b473c",
+      "bytes": 526
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/regfile.v",
+      "sha256": "19febdc9499d51d1760144cb3c13a4b27173567dcd4f7ea12771a90e05e246a2",
+      "bytes": 499
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/riscv.v",
+      "sha256": "da4bfcb3536eb268a518cfb5b2bc83f06879334fbe33ac38e779390cbb36456b",
+      "bytes": 2046
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/shifter.v",
+      "sha256": "9a07c9f89706e7601b3c49e30547f00970228a7869b95fbd4c5f1e39468eccaa",
+      "bytes": 420
+    },
+    {
+      "repository": "orfs",
+      "path": "flow/designs/src/riscv32i/signext.v",
+      "sha256": "b68730567bb8630e37f1f92058c512e0a9de73cc3719a8a8d17a906d0047f6bd",
+      "bytes": 558
+    },
+    {
+      "repository": "picorv32",
+      "path": "COPYING",
+      "sha256": "041ebc727233e5bf096dd41260cbb81014d3d29ca007a15f3b1807d4e9ff288e",
+      "bytes": 777
+    },
+    {
+      "repository": "picorv32",
+      "path": "picorv32.v",
+      "sha256": "0836050971b3c6cdd28ac3b1e5719a67fb645161912bef1e472e63995ceb0622",
+      "bytes": 94657
+    },
+    {
+      "repository": "serv",
+      "path": "LICENSE",
+      "sha256": "d9a1bd691f04280a8369a4aa69b6be20c0e2ee6d164a17ad8a8ef49da8ea0ea9",
+      "bytes": 740
+    },
+    {
+      "repository": "serv",
+      "path": "rtl/serv_aligner.v",
+      "sha256": "adeff8f442db6c93f48e551721146b40c398ab14dcb5b22339746329e7a24f3b",
+      "bytes": 2470
+    },
+    {
+      "repository": "serv",
+      "path": "rtl/serv_alu.v",
+      "sha256": "2e0c31b5b992618e514083aacf10cb38c2229b68b3b1e93d6663104f32143332",
+      "bytes": 2063
+    },
+    {
+      "repository": "serv",
+      "path": "rtl/serv_bufreg.v",
+      "sha256": "76404174ec92c6cf68e0042798dede84d77c5e454c7f428afc7b9f612a3c52d4",
+      "bytes": 2692
+    },
+    {
+      "repository": "serv",
+      "path": "rtl/serv_bufreg2.v",
+      "sha256": "6586c95a64a064ff6f4d001996d33f15e0f6d452e01ebb4da6120db06ddd0a51",
+      "bytes": 3491
+    },
+    {
+      "repository": "serv",
+      "path": "rtl/serv_compdec.v",
+      "sha256": "b1799ad9c5f10756fc336788d4bf871c5a6d4181c2f62568fad1b3bbe86504ae",
+      "bytes": 8547
+    },
+    {
+      "repository": "serv",
+      "path": "rtl/serv_csr.v",
+      "sha256": "2dd7167ed44817d921318a5d463281b43820c25e476039a604e95948be567e62",
+      "bytes": 4789
+    },
+    {
+      "repository": "serv",
+      "path": "rtl/serv_ctrl.v",
+      "sha256": "eb198ba7594f918da2784f9b6f8c82de1b95e3ffdd3383f2f533872999e9dab5",
+      "bytes": 3446
+    },
+    {
+      "repository": "serv",
+      "path": "rtl/serv_debug.v",
+      "sha256": "815a6b0da1a49d41faa72edd8f397f89ec79334b292b94991f60002b0776082f",
+      "bytes": 12293
+    },
+    {
+      "repository": "serv",
+      "path": "rtl/serv_decode.v",
+      "sha256": "eac5b2097ebd1f4587d2aa27aba130897d057dd8a28ba678edce0f2a3c9f640a",
+      "bytes": 12954
+    },
+    {
+      "repository": "serv",
+      "path": "rtl/serv_immdec.v",
+      "sha256": "80ec5a265194eb40f3413742fc9da0a23ed78f8bdf5add3e58b45fa1850b2bd5",
+      "bytes": 5990
+    },
+    {
+      "repository": "serv",
+      "path": "rtl/serv_mem_if.v",
+      "sha256": "a4fbd74579447710ed43e81dd80b4ea9415da0a3425a447f29446f9bd7a9aa6f",
+      "bytes": 1498
+    },
+    {
+      "repository": "serv",
+      "path": "rtl/serv_rf_if.v",
+      "sha256": "63fd0d2ec2f89201b20690c467ebbcae964a85b4570254a95154f832cf0dcb2e",
+      "bytes": 4258
+    },
+    {
+      "repository": "serv",
+      "path": "rtl/serv_rf_ram.v",
+      "sha256": "779ad3243dfa648f276240d260ff4ac1a1e83cc1364afb93d40c586905ce4338",
+      "bytes": 1365
+    },
+    {
+      "repository": "serv",
+      "path": "rtl/serv_rf_ram_if.v",
+      "sha256": "abb39b6bdf4d335bd2f90f75ddb1a410500a1a51a3e9f170453cb491d98d8697",
+      "bytes": 4568
+    },
+    {
+      "repository": "serv",
+      "path": "rtl/serv_rf_top.v",
+      "sha256": "89faedf7530c34305bfbffd261732d95016bf5627f10b7bbafaa8e1fd6cd49c9",
+      "bytes": 6820
+    },
+    {
+      "repository": "serv",
+      "path": "rtl/serv_state.v",
+      "sha256": "f7f981a28ed92243d812b3e6d723a77ec9278c7690eb4a530edc136aed5319b3",
+      "bytes": 8699
+    },
+    {
+      "repository": "serv",
+      "path": "rtl/serv_top.v",
+      "sha256": "c35b88bed5732309069203b2d04421622eaae108d5bf5daef3de273daf43388e",
+      "bytes": 18387
+    },
+    {
+      "repository": "femtorv",
+      "path": "FemtoRV/README.md",
+      "sha256": "ab7c20cddd175ba562f28889c3175373e517c4776918c09493b69725ce22dac1",
+      "bytes": 6020
+    },
+    {
+      "repository": "femtorv",
+      "path": "FemtoRV/RTL/PROCESSOR/femtorv32_quark.v",
+      "sha256": "182e6d13bf5ab165b6eefaa22ae8d6a24ea45db6dd2dbd57dcfc5e81932097b7",
+      "bytes": 16374
+    },
+    {
+      "repository": "femtorv",
+      "path": "LICENSE",
+      "sha256": "dae852f7354066fe13901a60a49ac4f7e45b9ae16fec901e12e24218da0ea999",
+      "bytes": 1518
+    },
+    {
+      "repository": "dspfilters",
+      "path": "doc/lgpl-3.0.pdf",
+      "sha256": "b16a47909b56edc18dea37accff7f96c2580d144463004199de60bc77ee20761",
+      "bytes": 34595
+    },
+    {
+      "repository": "dspfilters",
+      "path": "rtl/boxcar.v",
+      "sha256": "77a025b8f7132a14a560cae9dbb25d9b10e0057ee7cf06498040c9b3f7d06a71",
+      "bytes": 10652
+    },
+    {
+      "repository": "dspfilters",
+      "path": "rtl/fastfir.v",
+      "sha256": "8ffaccb7c6489886dfb4dd65ff64c624cddd427894b1bca61bc7515f057bbc04",
+      "bytes": 10300
+    },
+    {
+      "repository": "dspfilters",
+      "path": "rtl/firtap.v",
+      "sha256": "cfa936d154b6162a0d3122df50fdd60b7340ae1ff87314219463af278a527e35",
+      "bytes": 5126
+    },
+    {
+      "repository": "cordic",
+      "path": "doc/lgpl-3.0.pdf",
+      "sha256": "9a1a3e8eedecb78a05f51a7f6a248edd48e8e78bd4c5a832c720cff5745aa59c",
+      "bytes": 34595
+    },
+    {
+      "repository": "cordic",
+      "path": "rtl/seqcordic.v",
+      "sha256": "50aa9b3fddd8caedb922a61cc460ecf735e899399c1c6f270100284bb768b8b6",
+      "bytes": 9247
+    },
+    {
+      "repository": "zipcpu",
+      "path": "rtl/core/div.v",
+      "sha256": "ca220c1db020a4b3365d8c29fe9cdb24dfbc93a5db82827cb818b888d834abf5",
+      "bytes": 16517
+    },
+    {
+      "repository": "sha256",
+      "path": "LICENSE",
+      "sha256": "943866e8c0449b472dfebe4d10f0641240abb37778165eb4e68200ce1180890d",
+      "bytes": 1303
+    },
+    {
+      "repository": "sha256",
+      "path": "src/rtl/sha256_core.v",
+      "sha256": "81ea4b865b09ab42034ada6acfeaa2ea2880d39918878aaaa816852677840192",
+      "bytes": 15492
+    },
+    {
+      "repository": "sha256",
+      "path": "src/rtl/sha256_k_constants.v",
+      "sha256": "78a9600a6968eb0dc04a3a9fdc6329d3b503044b5a2561263b1cdab18f657007",
+      "bytes": 4885
+    },
+    {
+      "repository": "sha256",
+      "path": "src/rtl/sha256_w_mem.v",
+      "sha256": "0b4de636364625e34e771bb26363d24f4a4bcae6579d0f8cd3e86d7e5c14354a",
+      "bytes": 7815
+    },
+    {
+      "repository": "chacha",
+      "path": "LICENSE",
+      "sha256": "1d49794412fbcb73a87e6175a0a9c8c6f362dc0902b3e69b0f92fe8765c514ee",
+      "bytes": 1303
+    },
+    {
+      "repository": "chacha",
+      "path": "src/rtl/chacha_core.v",
+      "sha256": "498bde1d1e83793eb65d37378257e2df8ff9a46da0b783da0b7d2d4f59225844",
+      "bytes": 21132
+    },
+    {
+      "repository": "chacha",
+      "path": "src/rtl/chacha_qr.v",
+      "sha256": "d6bef8c91bba0f113fcf3c69cd38aa56b3b788956e6dbcbbb2f760641e2dff65",
+      "bytes": 3918
+    },
+    {
+      "repository": "lfsr",
+      "path": "COPYING",
+      "sha256": "38eab06c306519820a2ab0cf84fc4788ed7c43aa04829c8fcf3104a6307fb1cc",
+      "bytes": 1057
+    },
+    {
+      "repository": "lfsr",
+      "path": "rtl/lfsr.v",
+      "sha256": "5502c8203b0dfc7246c1a2de93e60c199ded3c1d7840b106350d714f72a9a079",
+      "bytes": 16327
+    },
+    {
+      "repository": "lfsr",
+      "path": "rtl/lfsr_crc.v",
+      "sha256": "ca48c6fc36df735aa6cfb7fb228a61f78736668ac95f426fdbfdf59c786a8497",
+      "bytes": 6390
+    },
+    {
+      "repository": "uart",
+      "path": "COPYING",
+      "sha256": "e976f1560229f2e4259c993745637435e2d8f969c91bf73651443aea4438d142",
+      "bytes": 1064
+    },
+    {
+      "repository": "uart",
+      "path": "rtl/uart_rx.v",
+      "sha256": "e686104e5ff2d25fa1504e8d08259cef508f2ec9c9e8cfa63364f3fcb39b9f5c",
+      "bytes": 3989
+    },
+    {
+      "repository": "uart",
+      "path": "rtl/uart_tx.v",
+      "sha256": "e9559ddebf124f8fbface06bf7091296baa78c7acab95a36b40a919663349d34",
+      "bytes": 3077
+    },
+    {
+      "repository": "i2c",
+      "path": "COPYING",
+      "sha256": "9a3d2d9df500459598f939d20f659191c73881eb8d88fd24d0f81a12438320ea",
+      "bytes": 1064
+    },
+    {
+      "repository": "i2c",
+      "path": "rtl/i2c_master.v",
+      "sha256": "9c4e05759f356e9ddd91af6981a1fcc10466cad0af6e5afb6553787fe9ea0328",
+      "bytes": 30518
+    },
+    {
+      "repository": "spi",
+      "path": "rtl/verilog/fifo4.v",
+      "sha256": "977f428f6c44368e87c67850f07aa6ce6be997dd97c4e3cae5308daac6aadb3a",
+      "bytes": 4300
+    },
+    {
+      "repository": "spi",
+      "path": "rtl/verilog/simple_spi_top.v",
+      "sha256": "dcdb9f36148e27665d1df1cb95ade024ccc42a1c769f1201d9a56c8f5a3a71a1",
+      "bytes": 10522
+    },
+    {
+      "repository": "axis",
+      "path": "COPYING",
+      "sha256": "8ea57f95365e9b16a5b516f422b71269183a1ae53bab5878ae6d69039e58fe77",
+      "bytes": 1062
+    },
+    {
+      "repository": "axis",
+      "path": "rtl/arbiter.v",
+      "sha256": "d54d337db4812f927b2e9b5788dfa39f9bd578ad01b7846c5fa7f2610b0923fa",
+      "bytes": 4993
+    },
+    {
+      "repository": "axis",
+      "path": "rtl/axis_arb_mux.v",
+      "sha256": "bee8d11f32f7fb1c5afdd6cdad872cd7de9dc94bcb4787f9aa119f2ebbc489a6",
+      "bytes": 11633
+    },
+    {
+      "repository": "axis",
+      "path": "rtl/axis_fifo.v",
+      "sha256": "aefddc67fc3552d919280424606fc6b048e61d7df9ee7ee0f8801c082c1cfc39",
+      "bytes": 21692
+    },
+    {
+      "repository": "axis",
+      "path": "rtl/axis_register.v",
+      "sha256": "599fde2d6c2d806643bbffb7c444297e69a71871f962d4b741ec1914342e0d39",
+      "bytes": 10298
+    },
+    {
+      "repository": "axis",
+      "path": "rtl/priority_encoder.v",
+      "sha256": "df28220d95b47df349a72803a9751aad331eb8e1435416e8686d00572a974dd5",
+      "bytes": 3253
+    },
+    {
+      "repository": "sfifo",
+      "path": "rtl/sfifo.v",
+      "sha256": "76a653781f1ecca1c1da92c4e5105ecd5d0f832b13cbfd31300ec88d9947e0c1",
+      "bytes": 11292
+    }
+  ],
+  "excluded_pilot": [
+    "tiny_adder"
+  ],
+  "selection_basis": "four designs in each of five categories; existing plain RTL; single rising-edge clock; fit a small Codespace; no model scores used",
+  "family_notes": {
+    "pico_femto": "PicoRV32 and FemtoRV kept together conservatively because FemtoRV documents PicoRV-inspired optional shifter logic.",
+    "forencich_uart": "TX/RX from same UART project.",
+    "zipcpu_filters": "Both filters from same parent project.",
+    "forencich_axis": "All selected AXI-stream blocks from same parent project."
+  }
+}

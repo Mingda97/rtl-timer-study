@@ -1,0 +1,15 @@
+{
+  "bog_cells": 5310,
+  "bog_register_bits": 1190,
+  "clock_check": "one declared rising-edge clock",
+  "design_id": "serv",
+  "family": "serv",
+  "generic_cells": 4949,
+  "generic_register_bits": 1190,
+  "label_status": "not_generated",
+  "mapped_cells": 4740,
+  "mapped_register_bits": 1190,
+  "seconds": 4.98,
+  "split": "test",
+  "status": "PASS"
+}

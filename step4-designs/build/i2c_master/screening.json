@@ -1,0 +1,15 @@
+{
+  "bog_cells": 820,
+  "bog_register_bits": 72,
+  "clock_check": "one declared rising-edge clock",
+  "design_id": "i2c_master",
+  "family": "forencich_i2c",
+  "generic_cells": 871,
+  "generic_register_bits": 72,
+  "label_status": "not_generated",
+  "mapped_cells": 546,
+  "mapped_register_bits": 72,
+  "seconds": 1.18,
+  "split": "validation",
+  "status": "PASS"
+}

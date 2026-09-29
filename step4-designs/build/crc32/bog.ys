@@ -1,0 +1,11 @@
+read_liberty -lib "/workspaces/codespaces-blank/part3-pipeline/external/rtl-timer/vlg2bog/scr_ys/lib/nangate45_sog.lib"
+read_rtlil build/crc32/common.il
+dfflibmap -liberty "/workspaces/codespaces-blank/part3-pipeline/external/rtl-timer/vlg2bog/scr_ys/lib/nangate45_sog.lib"
+abc -liberty "/workspaces/codespaces-blank/part3-pipeline/external/rtl-timer/vlg2bog/scr_ys/lib/nangate45_sog.lib"
+clean
+hierarchy -check -top lfsr_crc
+check -assert -mapped
+rename -enumerate
+stat -liberty "/workspaces/codespaces-blank/part3-pipeline/external/rtl-timer/vlg2bog/scr_ys/lib/nangate45_sog.lib"
+write_verilog -noattr -noexpr build/crc32/bog.v
+write_json build/crc32/bog.json

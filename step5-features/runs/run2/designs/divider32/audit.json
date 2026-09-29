@@ -1,0 +1,37 @@
+{
+  "bog_feature_rows_before_label_join": 142,
+  "bog_path_kinds": {
+    "input_to_reg": 59,
+    "reg_to_reg": 83
+  },
+  "common_registers": 142,
+  "coverage_all_common": 1.0,
+  "coverage_public_rtl": 1.0,
+  "dataset_rows": 142,
+  "design": "divider32",
+  "elapsed_seconds": 2.17,
+  "excluded_control_pins": {
+    "bog": 0,
+    "mapped": 0
+  },
+  "excluded_registers": 0,
+  "exclusion_reasons": {},
+  "family": "zipcpu_divider",
+  "mapped_path_kinds": {
+    "input_to_reg": 63,
+    "reg_to_reg": 79
+  },
+  "matched_public_rtl_bits": 142,
+  "one_polarity_mapped_rows": 0,
+  "period_invariance_polarities_checked": 284,
+  "split": "validation",
+  "status": "PASS",
+  "timing_query_status": {
+    "bog": {
+      "ok": 284
+    },
+    "mapped": {
+      "ok": 284
+    }
+  }
+}

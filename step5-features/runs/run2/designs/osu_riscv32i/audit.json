@@ -1,0 +1,37 @@
+{
+  "bog_feature_rows_before_label_join": 1056,
+  "bog_path_kinds": {
+    "input_to_reg": 1024,
+    "reg_to_reg": 32
+  },
+  "common_registers": 1056,
+  "coverage_all_common": 1.0,
+  "coverage_public_rtl": 1.0,
+  "dataset_rows": 1056,
+  "design": "osu_riscv32i",
+  "elapsed_seconds": 13.65,
+  "excluded_control_pins": {
+    "bog": 64,
+    "mapped": 32
+  },
+  "excluded_registers": 0,
+  "exclusion_reasons": {},
+  "family": "osu_riscv32i",
+  "mapped_path_kinds": {
+    "input_to_reg": 1024,
+    "reg_to_reg": 32
+  },
+  "matched_public_rtl_bits": 1056,
+  "one_polarity_mapped_rows": 0,
+  "period_invariance_polarities_checked": 2112,
+  "split": "validation",
+  "status": "PASS",
+  "timing_query_status": {
+    "bog": {
+      "ok": 2112
+    },
+    "mapped": {
+      "ok": 2112
+    }
+  }
+}

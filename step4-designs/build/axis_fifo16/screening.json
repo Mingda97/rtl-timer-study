@@ -1,0 +1,15 @@
+{
+  "bog_cells": 2317,
+  "bog_register_bits": 593,
+  "clock_check": "one declared rising-edge clock",
+  "design_id": "axis_fifo16",
+  "family": "forencich_axis",
+  "generic_cells": 1781,
+  "generic_register_bits": 593,
+  "label_status": "not_generated",
+  "mapped_cells": 1828,
+  "mapped_register_bits": 593,
+  "seconds": 1.38,
+  "split": "train",
+  "status": "PASS"
+}

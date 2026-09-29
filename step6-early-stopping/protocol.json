@@ -1,0 +1,25 @@
+{
+  "revision": "step6-weighted-early-stopping-v1",
+  "target": "label_arrival_ns",
+  "baseline": {
+    "n_estimators": 500,
+    "max_depth": 50,
+    "nthread": 25
+  },
+  "early_stopping": {
+    "max_estimators": 2000,
+    "patience": 50,
+    "eval_metric": "mae"
+  },
+  "selection_metric": "validation.macro.mae_ns",
+  "tie_break_order": [
+    "baseline",
+    "weighted",
+    "weighted_es"
+  ],
+  "weights": "N / (D * n_d), computed independently within train and validation",
+  "fit_scope": "Round search and fresh refit both use the original 12 training designs only",
+  "refit": "best_iteration + 1 trees, fresh estimator, same training rows and weights, no early stopping",
+  "previous_results": "Read-only import of completed baseline and weighting-only models; never refit or overwrite source run",
+  "test_policy": "4 test designs only in explicit final-test after model selection"
+}

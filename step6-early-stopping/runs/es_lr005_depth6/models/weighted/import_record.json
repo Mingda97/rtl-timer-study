@@ -1,0 +1,14 @@
+{
+  "model_retrained": false,
+  "source_directory": "/workspaces/codespaces-blank/step6-weighting-only/runs/weighting_only/models/weighted",
+  "source_identity": {
+    "completion_sha256": {
+      "baseline": "64f3a3c094026723ae320586610da5e047fce99e8d9e2c8247c558c319d8d886",
+      "weighted": "7882eec130a4021ca34f4175a875e343df093a9b188cfa04602c594f34bdb50d"
+    },
+    "fingerprint": "8061857a7b5806cc6b7d5cdf8ef04f06c55a84c6a8d84176c13cf8a7214f4ae4",
+    "manifest_sha256": "232a5255824242aec7ccf26f9dcf66e04a0d81d77b1c7c9bd6534c22b44c875e",
+    "selection_sha256": "17aff2395f8ece6e01b3782e663123e1bbdecf759df2eb7ffbb9174d8c262209",
+    "test_already_opened": false
+  }
+}

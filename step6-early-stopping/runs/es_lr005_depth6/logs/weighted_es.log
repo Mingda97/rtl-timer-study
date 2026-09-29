@@ -1,0 +1,2 @@
+PREFLIGHT PASS: 20 designs; 25 features; rows={'test': 1997, 'train': 6207, 'validation': 2370}; CPU threads=25
+REFIT PASS: 24 trees; macro MAE=1.212595 ns; maximum prefix difference=0 ns

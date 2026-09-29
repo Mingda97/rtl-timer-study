@@ -1,0 +1,150 @@
+{
+  "comparison": {
+    "baseline_macro_mae_ns": 1.8185557398546999,
+    "better_on_this_split": "weighted",
+    "relative_mae_reduction_percent": 4.871753219383646,
+    "selection_metric": "macro MAE in ns (equal average across designs)",
+    "weighted_macro_mae_ns": 1.7299601920520424,
+    "weighted_minus_baseline_ns": -0.08859554780265744
+  },
+  "models": {
+    "baseline": {
+      "defined_design_counts": {
+        "mae_ns": 4,
+        "pearson_r": 4,
+        "r2": 4,
+        "rmse_ns": 4,
+        "spearman_r": 4
+      },
+      "designs": 4,
+      "macro": {
+        "mae_ns": 1.8185557398546999,
+        "pearson_r": 0.8014125652019879,
+        "r2": -4.733555036471504,
+        "rmse_ns": 2.1025567215427636,
+        "spearman_r": 0.562966334326962
+      },
+      "negative_predictions": 0,
+      "per_design": [
+        {
+          "design": "osu_riscv32i",
+          "family": "osu_riscv32i",
+          "mae_ns": 5.269841495666583,
+          "pearson_r": 0.2945799521543507,
+          "r2": -21.516775216864474,
+          "rmse_ns": 5.869645993339404,
+          "rows": 1056,
+          "spearman_r": -0.17741595114254446
+        },
+        {
+          "design": "divider32",
+          "family": "zipcpu_divider",
+          "mae_ns": 0.09213137182940899,
+          "pearson_r": 0.9382544473786633,
+          "r2": 0.8424972525283977,
+          "rmse_ns": 0.13307806933662933,
+          "rows": 142,
+          "spearman_r": 0.8046370481887849
+        },
+        {
+          "design": "chacha",
+          "family": "secworks_chacha",
+          "mae_ns": 1.8160860497372229,
+          "pearson_r": 0.9908376270670507,
+          "r2": 0.7926413604817236,
+          "rmse_ns": 2.2903214573741035,
+          "rows": 1100,
+          "spearman_r": 0.7460245029687836
+        },
+        {
+          "design": "i2c_master",
+          "family": "forencich_i2c",
+          "mae_ns": 0.0961640421855847,
+          "pearson_r": 0.9819782342078868,
+          "r2": 0.9474164579683387,
+          "rmse_ns": 0.11718136612091808,
+          "rows": 72,
+          "spearman_r": 0.8786197372928235
+        }
+      ],
+      "pooled": {
+        "mae_ns": 3.1994319577940904,
+        "pearson_r": 0.8169121086129524,
+        "r2": -0.1667737600955057,
+        "rmse_ns": 4.217490746460056,
+        "spearman_r": 0.8634499813547741
+      },
+      "rows": 2370
+    },
+    "weighted": {
+      "defined_design_counts": {
+        "mae_ns": 4,
+        "pearson_r": 4,
+        "r2": 4,
+        "rmse_ns": 4,
+        "spearman_r": 4
+      },
+      "designs": 4,
+      "macro": {
+        "mae_ns": 1.7299601920520424,
+        "pearson_r": 0.8050058182176325,
+        "r2": -4.378825467394446,
+        "rmse_ns": 2.051235590356193,
+        "spearman_r": 0.5968050401175296
+      },
+      "negative_predictions": 1,
+      "per_design": [
+        {
+          "design": "osu_riscv32i",
+          "family": "osu_riscv32i",
+          "mae_ns": 4.88707883604062,
+          "pearson_r": 0.32003367286919604,
+          "r2": -19.54517260363322,
+          "rmse_ns": 5.606782511888474,
+          "rows": 1056,
+          "spearman_r": -0.04983573788745303
+        },
+        {
+          "design": "divider32",
+          "family": "zipcpu_divider",
+          "mae_ns": 0.1738265835948729,
+          "pearson_r": 0.9521848658964573,
+          "r2": 0.3093714664276319,
+          "rmse_ns": 0.2786664488856742,
+          "rows": 142,
+          "spearman_r": 0.8530978836250006
+        },
+        {
+          "design": "chacha",
+          "family": "secworks_chacha",
+          "mae_ns": 1.7345524865294786,
+          "pearson_r": 0.990966231277909,
+          "r2": 0.8151833437686136,
+          "rmse_ns": 2.1622501145014104,
+          "rows": 1100,
+          "spearman_r": 0.6748085931911005
+        },
+        {
+          "design": "i2c_master",
+          "family": "forencich_i2c",
+          "mae_ns": 0.12438286204319862,
+          "pearson_r": 0.9568385028269676,
+          "r2": 0.905315923859191,
+          "rmse_ns": 0.15724328614921385,
+          "rows": 72,
+          "spearman_r": 0.9091494215414697
+        }
+      ],
+      "pooled": {
+        "mae_ns": 2.996794062016415,
+        "pearson_r": 0.8325288529974922,
+        "r2": -0.061497779334341196,
+        "rmse_ns": 4.022725111650831,
+        "spearman_r": 0.8609318835729598
+      },
+      "rows": 2370
+    }
+  },
+  "selected_on_validation": "weighted",
+  "split": "validation"
+}

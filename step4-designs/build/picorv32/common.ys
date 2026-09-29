@@ -1,0 +1,12 @@
+read_verilog -sv -DSYNTHESIS -I"sources/picorv32" "sources/picorv32/picorv32.v"
+chparam -set ENABLE_COUNTERS 0 -set ENABLE_MUL 0 -set ENABLE_DIV 0 -set ENABLE_IRQ 0 picorv32
+hierarchy -check -top picorv32
+rename -top picorv32
+synth -top picorv32 -flatten -noabc
+# Remove hierarchy metadata, retaining all circuit cells and net names.
+delete t:$scopeinfo
+dffunmap
+clean
+check -assert
+write_rtlil build/picorv32/common.il
+write_json build/picorv32/common.json

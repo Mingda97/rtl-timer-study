@@ -1,0 +1,11 @@
+read_verilog -sv -DSYNTHESIS -I"sources/cordic/rtl" "sources/cordic/rtl/seqcordic.v"
+hierarchy -check -top seqcordic
+rename -top seqcordic
+synth -top seqcordic -flatten -noabc
+# Remove hierarchy metadata, retaining all circuit cells and net names.
+delete t:$scopeinfo
+dffunmap
+clean
+check -assert
+write_rtlil build/seqcordic/common.il
+write_json build/seqcordic/common.json

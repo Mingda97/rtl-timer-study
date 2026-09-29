@@ -1,0 +1,15 @@
+{
+  "bog_cells": 7465,
+  "bog_register_bits": 1215,
+  "clock_check": "one declared rising-edge clock",
+  "design_id": "femtorv_quark",
+  "family": "pico_femto",
+  "generic_cells": 6629,
+  "generic_register_bits": 1215,
+  "label_status": "not_generated",
+  "mapped_cells": 6746,
+  "mapped_register_bits": 1215,
+  "seconds": 4.4,
+  "split": "train",
+  "status": "PASS"
+}

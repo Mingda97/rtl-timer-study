@@ -1,0 +1,12 @@
+read_verilog -sv -DSYNTHESIS -I"sources/spi/rtl/verilog" "sources/spi/rtl/verilog/simple_spi_top.v" "sources/spi/rtl/verilog/fifo4.v"
+chparam -set SS_WIDTH 1 simple_spi
+hierarchy -check -top simple_spi
+rename -top simple_spi
+synth -top simple_spi -flatten -noabc
+# Remove hierarchy metadata, retaining all circuit cells and net names.
+delete t:$scopeinfo
+dffunmap
+clean
+check -assert
+write_rtlil build/simple_spi/common.il
+write_json build/simple_spi/common.json

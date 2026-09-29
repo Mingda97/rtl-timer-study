@@ -1,0 +1,3 @@
+PREFLIGHT PASS: 20 designs; 25 features; rows={'test': 1997, 'train': 6207, 'validation': 2370}; CPU threads=25
+(6207, 25) (6207, 1)
+FIT PASS baseline: 1.76s; validation macro MAE=1.818556 ns

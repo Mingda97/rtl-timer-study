@@ -1,0 +1,61 @@
+{
+  "bog_path_kinds": {
+    "input_to_reg": 5204,
+    "reg_to_reg": 5370
+  },
+  "checks": [
+    "all 20 designs",
+    "unique public Q alias matching",
+    "actual D pins only",
+    "both endpoint polarities queried",
+    "SI-to-ns/fF consistency",
+    "arrival/slack arithmetic",
+    "period invariance on all designs",
+    "finite features and labels",
+    "complete exclusion accounting",
+    "unchanged family split",
+    "explicit BOG-only feature allowlist",
+    "input/code/tool/output checksums"
+  ],
+  "common_registers": 10584,
+  "constant_features_on_training_only": [],
+  "dataset_rows": 10574,
+  "designs": 20,
+  "excluded_registers": 10,
+  "exclusion_reasons": {
+    "no_public_rtl_q_alias": 10
+  },
+  "families": 15,
+  "feature_count": 25,
+  "identical_feature_vectors_crossing_splits": 0,
+  "limits": [
+    "single SOG representation and one critical BOG path",
+    "no sampled-path max-loss or representation ensemble",
+    "no formal equivalence proof for the full 20-design set",
+    "post-synthesis labels with zero explicit wire RC",
+    "common-lowered register population, not a census of every pre-optimization RTL declaration",
+    "no model training or predictive evaluation in Step 5"
+  ],
+  "mapped_path_kinds": {
+    "input_to_reg": 5040,
+    "reg_to_reg": 5534
+  },
+  "matched_public_rtl_bits": 10574,
+  "period_invariance_polarities_checked": 21168,
+  "split_design_counts": {
+    "test": 4,
+    "train": 12,
+    "validation": 4
+  },
+  "split_row_counts": {
+    "test": 1997,
+    "train": 6207,
+    "validation": 2370
+  },
+  "status": "PASS_WITH_EXCLUSIONS",
+  "units": {
+    "capacitance": "fF",
+    "time": "ns",
+    "variance": "squared corresponding units"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "bog_feature_rows_before_label_join": 152,
+  "bog_path_kinds": {
+    "input_to_reg": 51,
+    "reg_to_reg": 101
+  },
+  "common_registers": 152,
+  "coverage_all_common": 1.0,
+  "coverage_public_rtl": 1.0,
+  "dataset_rows": 152,
+  "design": "seqcordic",
+  "elapsed_seconds": 2.9,
+  "excluded_control_pins": {
+    "bog": 0,
+    "mapped": 0
+  },
+  "excluded_registers": 0,
+  "exclusion_reasons": {},
+  "family": "zipcpu_cordic",
+  "mapped_path_kinds": {
+    "input_to_reg": 51,
+    "reg_to_reg": 101
+  },
+  "matched_public_rtl_bits": 152,
+  "one_polarity_mapped_rows": 0,
+  "period_invariance_polarities_checked": 304,
+  "split": "test",
+  "status": "PASS",
+  "timing_query_status": {
+    "bog": {
+      "ok": 304
+    },
+    "mapped": {
+      "ok": 304
+    }
+  }
+}

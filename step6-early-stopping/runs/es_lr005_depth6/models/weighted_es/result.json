@@ -1,0 +1,287 @@
+{
+  "best_iteration_zero_based": 23,
+  "early_stopping_used_during_refit": false,
+  "early_stopping_used_for_selection": true,
+  "effective_parameters": {
+    "base_score": null,
+    "booster": null,
+    "callbacks": null,
+    "colsample_bylevel": null,
+    "colsample_bynode": null,
+    "colsample_bytree": null,
+    "device": null,
+    "early_stopping_rounds": null,
+    "enable_categorical": false,
+    "eval_metric": null,
+    "feature_types": null,
+    "feature_weights": null,
+    "gamma": null,
+    "grow_policy": null,
+    "importance_type": null,
+    "interaction_constraints": null,
+    "learning_rate": 0.05,
+    "max_bin": null,
+    "max_cat_threshold": null,
+    "max_cat_to_onehot": null,
+    "max_delta_step": null,
+    "max_depth": 6,
+    "max_leaves": null,
+    "min_child_weight": null,
+    "missing": "NaN (missing-value sentinel)",
+    "monotone_constraints": null,
+    "multi_strategy": null,
+    "n_estimators": 24,
+    "n_jobs": null,
+    "nthread": 25,
+    "num_parallel_tree": null,
+    "objective": "reg:squarederror",
+    "random_state": null,
+    "reg_alpha": null,
+    "reg_lambda": null,
+    "sampling_method": null,
+    "scale_pos_weight": null,
+    "subsample": null,
+    "tree_method": null,
+    "validate_parameters": null,
+    "verbosity": null
+  },
+  "fit_seconds": 0.04999585999939882,
+  "metrics": {
+    "train": {
+      "defined_design_counts": {
+        "mae_ns": 12,
+        "pearson_r": 12,
+        "r2": 12,
+        "rmse_ns": 12,
+        "spearman_r": 12
+      },
+      "designs": 12,
+      "macro": {
+        "mae_ns": 0.4119161664503523,
+        "pearson_r": 0.8991727441067262,
+        "r2": -0.5704839435393714,
+        "rmse_ns": 0.4907381269328502,
+        "spearman_r": 0.8645449156547275
+      },
+      "negative_predictions": 0,
+      "per_design": [
+        {
+          "design": "picorv32",
+          "family": "pico_femto",
+          "mae_ns": 0.44075898068758934,
+          "pearson_r": 0.995504623660652,
+          "r2": 0.8817331367960907,
+          "rmse_ns": 0.6001545826541933,
+          "rows": 1456,
+          "spearman_r": 0.9591493434723435
+        },
+        {
+          "design": "femtorv_quark",
+          "family": "pico_femto",
+          "mae_ns": 0.1535074613235505,
+          "pearson_r": 0.9304985800260134,
+          "r2": 0.6505296253760002,
+          "rmse_ns": 0.18148638395134045,
+          "rows": 1215,
+          "spearman_r": 0.9551143481655531
+        },
+        {
+          "design": "fastfir8",
+          "family": "zipcpu_filters",
+          "mae_ns": 0.2746583263732759,
+          "pearson_r": 0.8812622532802121,
+          "r2": 0.35870368652544715,
+          "rmse_ns": 0.31258959101001654,
+          "rows": 505,
+          "spearman_r": 0.6360792732983694
+        },
+        {
+          "design": "boxcar16",
+          "family": "zipcpu_filters",
+          "mae_ns": 0.17774387464374608,
+          "pearson_r": 0.525184155273576,
+          "r2": -1.5024394827013694,
+          "rmse_ns": 0.19836360950593585,
+          "rows": 354,
+          "spearman_r": 0.5074982963574736
+        },
+        {
+          "design": "aes128",
+          "family": "opencores_aes",
+          "mae_ns": 0.29568817758932153,
+          "pearson_r": 0.9661139543322251,
+          "r2": 0.7242779509865291,
+          "rmse_ns": 0.341856743487187,
+          "rows": 562,
+          "spearman_r": 0.8959876197268353
+        },
+        {
+          "design": "sha256",
+          "family": "secworks_sha2",
+          "mae_ns": 2.2731786000040963,
+          "pearson_r": 0.995867153874336,
+          "r2": 0.7875702635957547,
+          "rmse_ns": 2.778550514709317,
+          "rows": 1034,
+          "spearman_r": 0.9436351502906922
+        },
+        {
+          "design": "uart_tx",
+          "family": "forencich_uart",
+          "mae_ns": 0.17358163117436004,
+          "pearson_r": 0.9330704887406459,
+          "r2": -1.1211628940018548,
+          "rmse_ns": 0.18521315344835204,
+          "rows": 35,
+          "spearman_r": 0.9070536086666561
+        },
+        {
+          "design": "uart_rx",
+          "family": "forencich_uart",
+          "mae_ns": 0.27421803725129895,
+          "pearson_r": 0.986870590710205,
+          "r2": 0.4155539433485186,
+          "rmse_ns": 0.3029029648109478,
+          "rows": 44,
+          "spearman_r": 0.9931109497229701
+        },
+        {
+          "design": "simple_spi",
+          "family": "herveille_spi",
+          "mae_ns": 0.33825313418480846,
+          "pearson_r": 0.9936028588775897,
+          "r2": 0.4154968918704134,
+          "rmse_ns": 0.3640838265262946,
+          "rows": 132,
+          "spearman_r": 0.900668550483322
+        },
+        {
+          "design": "axis_fifo16",
+          "family": "forencich_axis",
+          "mae_ns": 0.15000218574944638,
+          "pearson_r": 0.7515723332927312,
+          "r2": 0.3420295599664138,
+          "rmse_ns": 0.21950806693031047,
+          "rows": 593,
+          "spearman_r": 0.8696564243707064
+        },
+        {
+          "design": "axis_arb_mux4",
+          "family": "forencich_axis",
+          "mae_ns": 0.2100344330930438,
+          "pearson_r": 0.9663590540375878,
+          "r2": -0.7612012640272221,
+          "rmse_ns": 0.21966144329630688,
+          "rows": 210,
+          "spearman_r": 0.9094741291249775
+        },
+        {
+          "design": "axis_skid32",
+          "family": "forencich_axis",
+          "mae_ns": 0.18136915532969008,
+          "pearson_r": 0.86416688317494,
+          "r2": -8.036898740207178,
+          "rmse_ns": 0.18448664286400057,
+          "rows": 67,
+          "spearman_r": 0.8971112941768306
+        }
+      ],
+      "pooled": {
+        "mae_ns": 0.604885529400624,
+        "pearson_r": 0.9975219785966906,
+        "r2": 0.9053847901348142,
+        "rmse_ns": 1.1866258012756312,
+        "spearman_r": 0.9592265620186552
+      },
+      "rows": 6207
+    },
+    "validation": {
+      "defined_design_counts": {
+        "mae_ns": 4,
+        "pearson_r": 4,
+        "r2": 4,
+        "rmse_ns": 4,
+        "spearman_r": 4
+      },
+      "designs": 4,
+      "macro": {
+        "mae_ns": 1.212594658743072,
+        "pearson_r": 0.8087894445819621,
+        "r2": -1.5954317035431782,
+        "rmse_ns": 1.291212516806294,
+        "spearman_r": 0.6014294264606911
+      },
+      "negative_predictions": 0,
+      "per_design": [
+        {
+          "design": "osu_riscv32i",
+          "family": "osu_riscv32i",
+          "mae_ns": 3.6932610029972106,
+          "pearson_r": 0.30725889262571215,
+          "r2": -8.174814066477767,
+          "rmse_ns": 3.74677357704595,
+          "rows": 1056,
+          "spearman_r": 0.012517863515948087
+        },
+        {
+          "design": "divider32",
+          "family": "zipcpu_divider",
+          "mae_ns": 0.30590509404958804,
+          "pearson_r": 0.9787668057480509,
+          "r2": 0.12573570116340116,
+          "rmse_ns": 0.31353338887636883,
+          "rows": 142,
+          "spearman_r": 0.9007911799292607
+        },
+        {
+          "design": "chacha",
+          "family": "secworks_chacha",
+          "mae_ns": 0.6367285588751707,
+          "pearson_r": 0.9929553728761508,
+          "r2": 0.9732972983320944,
+          "rmse_ns": 0.8218886373343495,
+          "rows": 1100,
+          "spearman_r": 0.8383445428819427
+        },
+        {
+          "design": "i2c_master",
+          "family": "forencich_i2c",
+          "mae_ns": 0.2144839790503184,
+          "pearson_r": 0.9561767070779346,
+          "r2": 0.6940542528095576,
+          "rmse_ns": 0.2826544639685081,
+          "rows": 72,
+          "spearman_r": 0.6540641195156129
+        }
+      ],
+      "pooled": {
+        "mae_ns": 1.9659773855588214,
+        "pearson_r": 0.8235476061622083,
+        "r2": 0.5685815643235248,
+        "rmse_ns": 2.564544040051422,
+        "spearman_r": 0.8334236412603306
+      },
+      "rows": 2370
+    }
+  },
+  "model": "weighted_es",
+  "refit_max_prediction_difference_ns": 0.0,
+  "round_selection_sha256": "832822da1b2491d2dd5bfd76b083fcffe005d838c38c76254c77f0087218ab96",
+  "test_evaluated": false,
+  "training_designs": [
+    "picorv32",
+    "femtorv_quark",
+    "fastfir8",
+    "boxcar16",
+    "aes128",
+    "sha256",
+    "uart_tx",
+    "uart_rx",
+    "simple_spi",
+    "axis_fifo16",
+    "axis_arb_mux4",
+    "axis_skid32"
+  ],
+  "trees_in_saved_booster": 24,
+  "trees_used_for_prediction": 24
+}

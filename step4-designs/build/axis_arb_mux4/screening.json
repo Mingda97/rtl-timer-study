@@ -1,0 +1,15 @@
+{
+  "bog_cells": 819,
+  "bog_register_bits": 210,
+  "clock_check": "one declared rising-edge clock",
+  "design_id": "axis_arb_mux4",
+  "family": "forencich_axis",
+  "generic_cells": 673,
+  "generic_register_bits": 210,
+  "label_status": "not_generated",
+  "mapped_cells": 758,
+  "mapped_register_bits": 210,
+  "seconds": 0.88,
+  "split": "train",
+  "status": "PASS"
+}

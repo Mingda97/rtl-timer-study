@@ -1,0 +1,5 @@
+PREFLIGHT PASS: 20 designs; 25 features; rows={'test': 1997, 'train': 6207, 'validation': 2370}; CPU threads=25
+[0]	validation_0-mae:2.74577
+[50]	validation_0-mae:1.56436
+[73]	validation_0-mae:1.68376
+ROUND SELECTION: best=24 trees; trained=74; cap=2000; validation macro MAE=1.212595 ns

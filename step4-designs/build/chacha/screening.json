@@ -1,0 +1,15 @@
+{
+  "bog_cells": 15467,
+  "bog_register_bits": 1100,
+  "clock_check": "one declared rising-edge clock",
+  "design_id": "chacha",
+  "family": "secworks_chacha",
+  "generic_cells": 13822,
+  "generic_register_bits": 1100,
+  "label_status": "not_generated",
+  "mapped_cells": 10971,
+  "mapped_register_bits": 1100,
+  "seconds": 7.49,
+  "split": "validation",
+  "status": "PASS"
+}

@@ -1,0 +1,1978 @@
+[
+  {
+    "aliases": [
+      "xv[2]"
+    ],
+    "bog_d_pin": "_2344_/D",
+    "bog_ff": "_2344_",
+    "common_ff": "$auto$ff.cc:337:slice$1582",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1996_/D",
+    "mapped_ff": "_1996_",
+    "rtl_bit": "xv[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "xv[3]"
+    ],
+    "bog_d_pin": "_2343_/D",
+    "bog_ff": "_2343_",
+    "common_ff": "$auto$ff.cc:337:slice$1583",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1995_/D",
+    "mapped_ff": "_1995_",
+    "rtl_bit": "xv[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "xv[4]"
+    ],
+    "bog_d_pin": "_2281_/D",
+    "bog_ff": "_2281_",
+    "common_ff": "$auto$ff.cc:337:slice$1584",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1933_/D",
+    "mapped_ff": "_1933_",
+    "rtl_bit": "xv[4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "xv[5]"
+    ],
+    "bog_d_pin": "_2280_/D",
+    "bog_ff": "_2280_",
+    "common_ff": "$auto$ff.cc:337:slice$1585",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1932_/D",
+    "mapped_ff": "_1932_",
+    "rtl_bit": "xv[5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "xv[6]"
+    ],
+    "bog_d_pin": "_2279_/D",
+    "bog_ff": "_2279_",
+    "common_ff": "$auto$ff.cc:337:slice$1586",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1931_/D",
+    "mapped_ff": "_1931_",
+    "rtl_bit": "xv[6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "xv[7]"
+    ],
+    "bog_d_pin": "_2278_/D",
+    "bog_ff": "_2278_",
+    "common_ff": "$auto$ff.cc:337:slice$1587",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1930_/D",
+    "mapped_ff": "_1930_",
+    "rtl_bit": "xv[7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "xv[8]"
+    ],
+    "bog_d_pin": "_2277_/D",
+    "bog_ff": "_2277_",
+    "common_ff": "$auto$ff.cc:337:slice$1588",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1929_/D",
+    "mapped_ff": "_1929_",
+    "rtl_bit": "xv[8]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "xv[9]"
+    ],
+    "bog_d_pin": "_2428_/D",
+    "bog_ff": "_2428_",
+    "common_ff": "$auto$ff.cc:337:slice$1589",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2080_/D",
+    "mapped_ff": "_2080_",
+    "rtl_bit": "xv[9]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "xv[10]"
+    ],
+    "bog_d_pin": "_2427_/D",
+    "bog_ff": "_2427_",
+    "common_ff": "$auto$ff.cc:337:slice$1590",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2079_/D",
+    "mapped_ff": "_2079_",
+    "rtl_bit": "xv[10]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "xv[11]"
+    ],
+    "bog_d_pin": "_2426_/D",
+    "bog_ff": "_2426_",
+    "common_ff": "$auto$ff.cc:337:slice$1591",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2078_/D",
+    "mapped_ff": "_2078_",
+    "rtl_bit": "xv[11]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "xv[12]"
+    ],
+    "bog_d_pin": "_2425_/D",
+    "bog_ff": "_2425_",
+    "common_ff": "$auto$ff.cc:337:slice$1592",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2077_/D",
+    "mapped_ff": "_2077_",
+    "rtl_bit": "xv[12]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "xv[13]"
+    ],
+    "bog_d_pin": "_2424_/D",
+    "bog_ff": "_2424_",
+    "common_ff": "$auto$ff.cc:337:slice$1593",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2076_/D",
+    "mapped_ff": "_2076_",
+    "rtl_bit": "xv[13]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "xv[14]"
+    ],
+    "bog_d_pin": "_2423_/D",
+    "bog_ff": "_2423_",
+    "common_ff": "$auto$ff.cc:337:slice$1594",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2075_/D",
+    "mapped_ff": "_2075_",
+    "rtl_bit": "xv[14]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "xv[15]"
+    ],
+    "bog_d_pin": "_2421_/D",
+    "bog_ff": "_2421_",
+    "common_ff": "$auto$ff.cc:337:slice$1595",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2073_/D",
+    "mapped_ff": "_2073_",
+    "rtl_bit": "xv[15]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "yv[2]"
+    ],
+    "bog_d_pin": "_2420_/D",
+    "bog_ff": "_2420_",
+    "common_ff": "$auto$ff.cc:337:slice$1598",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2072_/D",
+    "mapped_ff": "_2072_",
+    "rtl_bit": "yv[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "yv[3]"
+    ],
+    "bog_d_pin": "_2419_/D",
+    "bog_ff": "_2419_",
+    "common_ff": "$auto$ff.cc:337:slice$1599",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2071_/D",
+    "mapped_ff": "_2071_",
+    "rtl_bit": "yv[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "yv[4]"
+    ],
+    "bog_d_pin": "_2416_/D",
+    "bog_ff": "_2416_",
+    "common_ff": "$auto$ff.cc:337:slice$1600",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2068_/D",
+    "mapped_ff": "_2068_",
+    "rtl_bit": "yv[4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "yv[5]"
+    ],
+    "bog_d_pin": "_2415_/D",
+    "bog_ff": "_2415_",
+    "common_ff": "$auto$ff.cc:337:slice$1601",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2067_/D",
+    "mapped_ff": "_2067_",
+    "rtl_bit": "yv[5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "yv[6]"
+    ],
+    "bog_d_pin": "_2414_/D",
+    "bog_ff": "_2414_",
+    "common_ff": "$auto$ff.cc:337:slice$1602",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2066_/D",
+    "mapped_ff": "_2066_",
+    "rtl_bit": "yv[6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "yv[7]"
+    ],
+    "bog_d_pin": "_2413_/D",
+    "bog_ff": "_2413_",
+    "common_ff": "$auto$ff.cc:337:slice$1603",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2065_/D",
+    "mapped_ff": "_2065_",
+    "rtl_bit": "yv[7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "yv[8]"
+    ],
+    "bog_d_pin": "_2412_/D",
+    "bog_ff": "_2412_",
+    "common_ff": "$auto$ff.cc:337:slice$1604",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2064_/D",
+    "mapped_ff": "_2064_",
+    "rtl_bit": "yv[8]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "yv[9]"
+    ],
+    "bog_d_pin": "_2411_/D",
+    "bog_ff": "_2411_",
+    "common_ff": "$auto$ff.cc:337:slice$1605",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2063_/D",
+    "mapped_ff": "_2063_",
+    "rtl_bit": "yv[9]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "yv[10]"
+    ],
+    "bog_d_pin": "_2410_/D",
+    "bog_ff": "_2410_",
+    "common_ff": "$auto$ff.cc:337:slice$1606",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2062_/D",
+    "mapped_ff": "_2062_",
+    "rtl_bit": "yv[10]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "yv[11]"
+    ],
+    "bog_d_pin": "_2409_/D",
+    "bog_ff": "_2409_",
+    "common_ff": "$auto$ff.cc:337:slice$1607",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2061_/D",
+    "mapped_ff": "_2061_",
+    "rtl_bit": "yv[11]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "yv[12]"
+    ],
+    "bog_d_pin": "_2408_/D",
+    "bog_ff": "_2408_",
+    "common_ff": "$auto$ff.cc:337:slice$1608",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2060_/D",
+    "mapped_ff": "_2060_",
+    "rtl_bit": "yv[12]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "yv[13]"
+    ],
+    "bog_d_pin": "_2407_/D",
+    "bog_ff": "_2407_",
+    "common_ff": "$auto$ff.cc:337:slice$1609",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2059_/D",
+    "mapped_ff": "_2059_",
+    "rtl_bit": "yv[13]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "yv[14]"
+    ],
+    "bog_d_pin": "_2406_/D",
+    "bog_ff": "_2406_",
+    "common_ff": "$auto$ff.cc:337:slice$1610",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2058_/D",
+    "mapped_ff": "_2058_",
+    "rtl_bit": "yv[14]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "yv[15]"
+    ],
+    "bog_d_pin": "_2390_/D",
+    "bog_ff": "_2390_",
+    "common_ff": "$auto$ff.cc:337:slice$1611",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2042_/D",
+    "mapped_ff": "_2042_",
+    "rtl_bit": "yv[15]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ph[0]"
+    ],
+    "bog_d_pin": "_2405_/D",
+    "bog_ff": "_2405_",
+    "common_ff": "$auto$ff.cc:337:slice$1612",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2057_/D",
+    "mapped_ff": "_2057_",
+    "rtl_bit": "ph[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ph[1]"
+    ],
+    "bog_d_pin": "_2404_/D",
+    "bog_ff": "_2404_",
+    "common_ff": "$auto$ff.cc:337:slice$1613",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2056_/D",
+    "mapped_ff": "_2056_",
+    "rtl_bit": "ph[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ph[2]"
+    ],
+    "bog_d_pin": "_2403_/D",
+    "bog_ff": "_2403_",
+    "common_ff": "$auto$ff.cc:337:slice$1614",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2055_/D",
+    "mapped_ff": "_2055_",
+    "rtl_bit": "ph[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ph[3]"
+    ],
+    "bog_d_pin": "_2402_/D",
+    "bog_ff": "_2402_",
+    "common_ff": "$auto$ff.cc:337:slice$1615",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2054_/D",
+    "mapped_ff": "_2054_",
+    "rtl_bit": "ph[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ph[4]"
+    ],
+    "bog_d_pin": "_2401_/D",
+    "bog_ff": "_2401_",
+    "common_ff": "$auto$ff.cc:337:slice$1616",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2053_/D",
+    "mapped_ff": "_2053_",
+    "rtl_bit": "ph[4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ph[5]"
+    ],
+    "bog_d_pin": "_2400_/D",
+    "bog_ff": "_2400_",
+    "common_ff": "$auto$ff.cc:337:slice$1617",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2052_/D",
+    "mapped_ff": "_2052_",
+    "rtl_bit": "ph[5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ph[6]"
+    ],
+    "bog_d_pin": "_2399_/D",
+    "bog_ff": "_2399_",
+    "common_ff": "$auto$ff.cc:337:slice$1618",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2051_/D",
+    "mapped_ff": "_2051_",
+    "rtl_bit": "ph[6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ph[7]"
+    ],
+    "bog_d_pin": "_2398_/D",
+    "bog_ff": "_2398_",
+    "common_ff": "$auto$ff.cc:337:slice$1619",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2050_/D",
+    "mapped_ff": "_2050_",
+    "rtl_bit": "ph[7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ph[8]"
+    ],
+    "bog_d_pin": "_2397_/D",
+    "bog_ff": "_2397_",
+    "common_ff": "$auto$ff.cc:337:slice$1620",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2049_/D",
+    "mapped_ff": "_2049_",
+    "rtl_bit": "ph[8]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ph[9]"
+    ],
+    "bog_d_pin": "_2396_/D",
+    "bog_ff": "_2396_",
+    "common_ff": "$auto$ff.cc:337:slice$1621",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2048_/D",
+    "mapped_ff": "_2048_",
+    "rtl_bit": "ph[9]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ph[10]"
+    ],
+    "bog_d_pin": "_2395_/D",
+    "bog_ff": "_2395_",
+    "common_ff": "$auto$ff.cc:337:slice$1622",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2047_/D",
+    "mapped_ff": "_2047_",
+    "rtl_bit": "ph[10]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ph[11]"
+    ],
+    "bog_d_pin": "_2394_/D",
+    "bog_ff": "_2394_",
+    "common_ff": "$auto$ff.cc:337:slice$1623",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2046_/D",
+    "mapped_ff": "_2046_",
+    "rtl_bit": "ph[11]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ph[12]"
+    ],
+    "bog_d_pin": "_2393_/D",
+    "bog_ff": "_2393_",
+    "common_ff": "$auto$ff.cc:337:slice$1624",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2045_/D",
+    "mapped_ff": "_2045_",
+    "rtl_bit": "ph[12]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ph[13]"
+    ],
+    "bog_d_pin": "_2392_/D",
+    "bog_ff": "_2392_",
+    "common_ff": "$auto$ff.cc:337:slice$1625",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2044_/D",
+    "mapped_ff": "_2044_",
+    "rtl_bit": "ph[13]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ph[14]"
+    ],
+    "bog_d_pin": "_2391_/D",
+    "bog_ff": "_2391_",
+    "common_ff": "$auto$ff.cc:337:slice$1626",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2043_/D",
+    "mapped_ff": "_2043_",
+    "rtl_bit": "ph[14]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ph[15]"
+    ],
+    "bog_d_pin": "_2389_/D",
+    "bog_ff": "_2389_",
+    "common_ff": "$auto$ff.cc:337:slice$1627",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2041_/D",
+    "mapped_ff": "_2041_",
+    "rtl_bit": "ph[15]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ph[16]"
+    ],
+    "bog_d_pin": "_2388_/D",
+    "bog_ff": "_2388_",
+    "common_ff": "$auto$ff.cc:337:slice$1628",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2040_/D",
+    "mapped_ff": "_2040_",
+    "rtl_bit": "ph[16]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ph[17]"
+    ],
+    "bog_d_pin": "_2387_/D",
+    "bog_ff": "_2387_",
+    "common_ff": "$auto$ff.cc:337:slice$1629",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2039_/D",
+    "mapped_ff": "_2039_",
+    "rtl_bit": "ph[17]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ph[18]"
+    ],
+    "bog_d_pin": "_2386_/D",
+    "bog_ff": "_2386_",
+    "common_ff": "$auto$ff.cc:337:slice$1630",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2038_/D",
+    "mapped_ff": "_2038_",
+    "rtl_bit": "ph[18]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ph[19]"
+    ],
+    "bog_d_pin": "_2381_/D",
+    "bog_ff": "_2381_",
+    "common_ff": "$auto$ff.cc:337:slice$1631",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2033_/D",
+    "mapped_ff": "_2033_",
+    "rtl_bit": "ph[19]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prex[2]"
+    ],
+    "bog_d_pin": "_2385_/D",
+    "bog_ff": "_2385_",
+    "common_ff": "$auto$ff.cc:337:slice$1634",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2037_/D",
+    "mapped_ff": "_2037_",
+    "rtl_bit": "prex[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prex[3]"
+    ],
+    "bog_d_pin": "_2384_/D",
+    "bog_ff": "_2384_",
+    "common_ff": "$auto$ff.cc:337:slice$1635",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2036_/D",
+    "mapped_ff": "_2036_",
+    "rtl_bit": "prex[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prex[4]"
+    ],
+    "bog_d_pin": "_2380_/D",
+    "bog_ff": "_2380_",
+    "common_ff": "$auto$ff.cc:337:slice$1636",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2032_/D",
+    "mapped_ff": "_2032_",
+    "rtl_bit": "prex[4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prex[5]"
+    ],
+    "bog_d_pin": "_2379_/D",
+    "bog_ff": "_2379_",
+    "common_ff": "$auto$ff.cc:337:slice$1637",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2031_/D",
+    "mapped_ff": "_2031_",
+    "rtl_bit": "prex[5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prex[6]"
+    ],
+    "bog_d_pin": "_2377_/D",
+    "bog_ff": "_2377_",
+    "common_ff": "$auto$ff.cc:337:slice$1638",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2029_/D",
+    "mapped_ff": "_2029_",
+    "rtl_bit": "prex[6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prex[7]"
+    ],
+    "bog_d_pin": "_2376_/D",
+    "bog_ff": "_2376_",
+    "common_ff": "$auto$ff.cc:337:slice$1639",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2028_/D",
+    "mapped_ff": "_2028_",
+    "rtl_bit": "prex[7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prex[8]"
+    ],
+    "bog_d_pin": "_2375_/D",
+    "bog_ff": "_2375_",
+    "common_ff": "$auto$ff.cc:337:slice$1640",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2027_/D",
+    "mapped_ff": "_2027_",
+    "rtl_bit": "prex[8]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prex[9]"
+    ],
+    "bog_d_pin": "_2373_/D",
+    "bog_ff": "_2373_",
+    "common_ff": "$auto$ff.cc:337:slice$1641",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2025_/D",
+    "mapped_ff": "_2025_",
+    "rtl_bit": "prex[9]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prex[10]"
+    ],
+    "bog_d_pin": "_2372_/D",
+    "bog_ff": "_2372_",
+    "common_ff": "$auto$ff.cc:337:slice$1642",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2024_/D",
+    "mapped_ff": "_2024_",
+    "rtl_bit": "prex[10]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prex[11]"
+    ],
+    "bog_d_pin": "_2371_/D",
+    "bog_ff": "_2371_",
+    "common_ff": "$auto$ff.cc:337:slice$1643",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2023_/D",
+    "mapped_ff": "_2023_",
+    "rtl_bit": "prex[11]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prex[12]"
+    ],
+    "bog_d_pin": "_2370_/D",
+    "bog_ff": "_2370_",
+    "common_ff": "$auto$ff.cc:337:slice$1644",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2022_/D",
+    "mapped_ff": "_2022_",
+    "rtl_bit": "prex[12]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prex[13]"
+    ],
+    "bog_d_pin": "_2369_/D",
+    "bog_ff": "_2369_",
+    "common_ff": "$auto$ff.cc:337:slice$1645",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2021_/D",
+    "mapped_ff": "_2021_",
+    "rtl_bit": "prex[13]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prex[14]"
+    ],
+    "bog_d_pin": "_2368_/D",
+    "bog_ff": "_2368_",
+    "common_ff": "$auto$ff.cc:337:slice$1646",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2020_/D",
+    "mapped_ff": "_2020_",
+    "rtl_bit": "prex[14]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prex[15]"
+    ],
+    "bog_d_pin": "_2315_/D",
+    "bog_ff": "_2315_",
+    "common_ff": "$auto$ff.cc:337:slice$1647",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1967_/D",
+    "mapped_ff": "_1967_",
+    "rtl_bit": "prex[15]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prey[2]"
+    ],
+    "bog_d_pin": "_2367_/D",
+    "bog_ff": "_2367_",
+    "common_ff": "$auto$ff.cc:337:slice$1650",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2019_/D",
+    "mapped_ff": "_2019_",
+    "rtl_bit": "prey[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prey[3]"
+    ],
+    "bog_d_pin": "_2366_/D",
+    "bog_ff": "_2366_",
+    "common_ff": "$auto$ff.cc:337:slice$1651",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2018_/D",
+    "mapped_ff": "_2018_",
+    "rtl_bit": "prey[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prey[4]"
+    ],
+    "bog_d_pin": "_2363_/D",
+    "bog_ff": "_2363_",
+    "common_ff": "$auto$ff.cc:337:slice$1652",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2015_/D",
+    "mapped_ff": "_2015_",
+    "rtl_bit": "prey[4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prey[5]"
+    ],
+    "bog_d_pin": "_2362_/D",
+    "bog_ff": "_2362_",
+    "common_ff": "$auto$ff.cc:337:slice$1653",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2014_/D",
+    "mapped_ff": "_2014_",
+    "rtl_bit": "prey[5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prey[6]"
+    ],
+    "bog_d_pin": "_2361_/D",
+    "bog_ff": "_2361_",
+    "common_ff": "$auto$ff.cc:337:slice$1654",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2013_/D",
+    "mapped_ff": "_2013_",
+    "rtl_bit": "prey[6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prey[7]"
+    ],
+    "bog_d_pin": "_2360_/D",
+    "bog_ff": "_2360_",
+    "common_ff": "$auto$ff.cc:337:slice$1655",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2012_/D",
+    "mapped_ff": "_2012_",
+    "rtl_bit": "prey[7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prey[8]"
+    ],
+    "bog_d_pin": "_2359_/D",
+    "bog_ff": "_2359_",
+    "common_ff": "$auto$ff.cc:337:slice$1656",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2011_/D",
+    "mapped_ff": "_2011_",
+    "rtl_bit": "prey[8]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prey[9]"
+    ],
+    "bog_d_pin": "_2358_/D",
+    "bog_ff": "_2358_",
+    "common_ff": "$auto$ff.cc:337:slice$1657",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2010_/D",
+    "mapped_ff": "_2010_",
+    "rtl_bit": "prey[9]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prey[10]"
+    ],
+    "bog_d_pin": "_2357_/D",
+    "bog_ff": "_2357_",
+    "common_ff": "$auto$ff.cc:337:slice$1658",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2009_/D",
+    "mapped_ff": "_2009_",
+    "rtl_bit": "prey[10]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prey[11]"
+    ],
+    "bog_d_pin": "_2356_/D",
+    "bog_ff": "_2356_",
+    "common_ff": "$auto$ff.cc:337:slice$1659",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2008_/D",
+    "mapped_ff": "_2008_",
+    "rtl_bit": "prey[11]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prey[12]"
+    ],
+    "bog_d_pin": "_2355_/D",
+    "bog_ff": "_2355_",
+    "common_ff": "$auto$ff.cc:337:slice$1660",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2007_/D",
+    "mapped_ff": "_2007_",
+    "rtl_bit": "prey[12]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prey[13]"
+    ],
+    "bog_d_pin": "_2354_/D",
+    "bog_ff": "_2354_",
+    "common_ff": "$auto$ff.cc:337:slice$1661",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2006_/D",
+    "mapped_ff": "_2006_",
+    "rtl_bit": "prey[13]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prey[14]"
+    ],
+    "bog_d_pin": "_2353_/D",
+    "bog_ff": "_2353_",
+    "common_ff": "$auto$ff.cc:337:slice$1662",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2005_/D",
+    "mapped_ff": "_2005_",
+    "rtl_bit": "prey[14]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prey[15]"
+    ],
+    "bog_d_pin": "_2318_/D",
+    "bog_ff": "_2318_",
+    "common_ff": "$auto$ff.cc:337:slice$1663",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1970_/D",
+    "mapped_ff": "_1970_",
+    "rtl_bit": "prey[15]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "preph[0]"
+    ],
+    "bog_d_pin": "_2352_/D",
+    "bog_ff": "_2352_",
+    "common_ff": "$auto$ff.cc:337:slice$1664",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2004_/D",
+    "mapped_ff": "_2004_",
+    "rtl_bit": "preph[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "preph[1]"
+    ],
+    "bog_d_pin": "_2342_/D",
+    "bog_ff": "_2342_",
+    "common_ff": "$auto$ff.cc:337:slice$1665",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1994_/D",
+    "mapped_ff": "_1994_",
+    "rtl_bit": "preph[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "preph[2]"
+    ],
+    "bog_d_pin": "_2341_/D",
+    "bog_ff": "_2341_",
+    "common_ff": "$auto$ff.cc:337:slice$1666",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1993_/D",
+    "mapped_ff": "_1993_",
+    "rtl_bit": "preph[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "preph[3]"
+    ],
+    "bog_d_pin": "_2340_/D",
+    "bog_ff": "_2340_",
+    "common_ff": "$auto$ff.cc:337:slice$1667",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1992_/D",
+    "mapped_ff": "_1992_",
+    "rtl_bit": "preph[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "preph[4]"
+    ],
+    "bog_d_pin": "_2339_/D",
+    "bog_ff": "_2339_",
+    "common_ff": "$auto$ff.cc:337:slice$1668",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1991_/D",
+    "mapped_ff": "_1991_",
+    "rtl_bit": "preph[4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "preph[5]"
+    ],
+    "bog_d_pin": "_2338_/D",
+    "bog_ff": "_2338_",
+    "common_ff": "$auto$ff.cc:337:slice$1669",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1990_/D",
+    "mapped_ff": "_1990_",
+    "rtl_bit": "preph[5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "preph[6]"
+    ],
+    "bog_d_pin": "_2337_/D",
+    "bog_ff": "_2337_",
+    "common_ff": "$auto$ff.cc:337:slice$1670",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1989_/D",
+    "mapped_ff": "_1989_",
+    "rtl_bit": "preph[6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "preph[7]"
+    ],
+    "bog_d_pin": "_2336_/D",
+    "bog_ff": "_2336_",
+    "common_ff": "$auto$ff.cc:337:slice$1671",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1988_/D",
+    "mapped_ff": "_1988_",
+    "rtl_bit": "preph[7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "preph[8]"
+    ],
+    "bog_d_pin": "_2335_/D",
+    "bog_ff": "_2335_",
+    "common_ff": "$auto$ff.cc:337:slice$1672",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1987_/D",
+    "mapped_ff": "_1987_",
+    "rtl_bit": "preph[8]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "preph[9]"
+    ],
+    "bog_d_pin": "_2334_/D",
+    "bog_ff": "_2334_",
+    "common_ff": "$auto$ff.cc:337:slice$1673",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1986_/D",
+    "mapped_ff": "_1986_",
+    "rtl_bit": "preph[9]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "preph[10]"
+    ],
+    "bog_d_pin": "_2333_/D",
+    "bog_ff": "_2333_",
+    "common_ff": "$auto$ff.cc:337:slice$1674",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1985_/D",
+    "mapped_ff": "_1985_",
+    "rtl_bit": "preph[10]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "preph[11]"
+    ],
+    "bog_d_pin": "_2332_/D",
+    "bog_ff": "_2332_",
+    "common_ff": "$auto$ff.cc:337:slice$1675",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1984_/D",
+    "mapped_ff": "_1984_",
+    "rtl_bit": "preph[11]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "preph[12]"
+    ],
+    "bog_d_pin": "_2331_/D",
+    "bog_ff": "_2331_",
+    "common_ff": "$auto$ff.cc:337:slice$1676",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1983_/D",
+    "mapped_ff": "_1983_",
+    "rtl_bit": "preph[12]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "preph[13]"
+    ],
+    "bog_d_pin": "_2330_/D",
+    "bog_ff": "_2330_",
+    "common_ff": "$auto$ff.cc:337:slice$1677",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1982_/D",
+    "mapped_ff": "_1982_",
+    "rtl_bit": "preph[13]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "preph[14]"
+    ],
+    "bog_d_pin": "_2329_/D",
+    "bog_ff": "_2329_",
+    "common_ff": "$auto$ff.cc:337:slice$1678",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1981_/D",
+    "mapped_ff": "_1981_",
+    "rtl_bit": "preph[14]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "preph[15]"
+    ],
+    "bog_d_pin": "_2328_/D",
+    "bog_ff": "_2328_",
+    "common_ff": "$auto$ff.cc:337:slice$1679",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1980_/D",
+    "mapped_ff": "_1980_",
+    "rtl_bit": "preph[15]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "preph[16]"
+    ],
+    "bog_d_pin": "_2327_/D",
+    "bog_ff": "_2327_",
+    "common_ff": "$auto$ff.cc:337:slice$1680",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1979_/D",
+    "mapped_ff": "_1979_",
+    "rtl_bit": "preph[16]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "preph[17]"
+    ],
+    "bog_d_pin": "_2326_/D",
+    "bog_ff": "_2326_",
+    "common_ff": "$auto$ff.cc:337:slice$1681",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1978_/D",
+    "mapped_ff": "_1978_",
+    "rtl_bit": "preph[17]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "preph[18]"
+    ],
+    "bog_d_pin": "_2325_/D",
+    "bog_ff": "_2325_",
+    "common_ff": "$auto$ff.cc:337:slice$1682",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1977_/D",
+    "mapped_ff": "_1977_",
+    "rtl_bit": "preph[18]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "preph[19]"
+    ],
+    "bog_d_pin": "_2422_/D",
+    "bog_ff": "_2422_",
+    "common_ff": "$auto$ff.cc:337:slice$1683",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2074_/D",
+    "mapped_ff": "_2074_",
+    "rtl_bit": "preph[19]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "xv[0]"
+    ],
+    "bog_d_pin": "_2313_/D",
+    "bog_ff": "_2313_",
+    "common_ff": "$auto$ff.cc:337:slice$4173",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1965_/D",
+    "mapped_ff": "_1965_",
+    "rtl_bit": "xv[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "xv[1]"
+    ],
+    "bog_d_pin": "_2314_/D",
+    "bog_ff": "_2314_",
+    "common_ff": "$auto$ff.cc:337:slice$4174",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1966_/D",
+    "mapped_ff": "_1966_",
+    "rtl_bit": "xv[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "yv[0]"
+    ],
+    "bog_d_pin": "_2323_/D",
+    "bog_ff": "_2323_",
+    "common_ff": "$auto$ff.cc:337:slice$4175",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1975_/D",
+    "mapped_ff": "_1975_",
+    "rtl_bit": "yv[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "yv[1]"
+    ],
+    "bog_d_pin": "_2324_/D",
+    "bog_ff": "_2324_",
+    "common_ff": "$auto$ff.cc:337:slice$4176",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1976_/D",
+    "mapped_ff": "_1976_",
+    "rtl_bit": "yv[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "cangle[0]"
+    ],
+    "bog_d_pin": "_2374_/D",
+    "bog_ff": "_2374_",
+    "common_ff": "$auto$ff.cc:337:slice$586",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2026_/D",
+    "mapped_ff": "_2026_",
+    "rtl_bit": "cangle[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "cangle[1]"
+    ],
+    "bog_d_pin": "_2351_/D",
+    "bog_ff": "_2351_",
+    "common_ff": "$auto$ff.cc:337:slice$587",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2003_/D",
+    "mapped_ff": "_2003_",
+    "rtl_bit": "cangle[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "cangle[2]"
+    ],
+    "bog_d_pin": "_2350_/D",
+    "bog_ff": "_2350_",
+    "common_ff": "$auto$ff.cc:337:slice$588",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2002_/D",
+    "mapped_ff": "_2002_",
+    "rtl_bit": "cangle[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "cangle[3]"
+    ],
+    "bog_d_pin": "_2349_/D",
+    "bog_ff": "_2349_",
+    "common_ff": "$auto$ff.cc:337:slice$589",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2001_/D",
+    "mapped_ff": "_2001_",
+    "rtl_bit": "cangle[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "cangle[4]"
+    ],
+    "bog_d_pin": "_2348_/D",
+    "bog_ff": "_2348_",
+    "common_ff": "$auto$ff.cc:337:slice$590",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2000_/D",
+    "mapped_ff": "_2000_",
+    "rtl_bit": "cangle[4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "cangle[5]"
+    ],
+    "bog_d_pin": "_2347_/D",
+    "bog_ff": "_2347_",
+    "common_ff": "$auto$ff.cc:337:slice$591",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1999_/D",
+    "mapped_ff": "_1999_",
+    "rtl_bit": "cangle[5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "cangle[6]"
+    ],
+    "bog_d_pin": "_2346_/D",
+    "bog_ff": "_2346_",
+    "common_ff": "$auto$ff.cc:337:slice$592",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1998_/D",
+    "mapped_ff": "_1998_",
+    "rtl_bit": "cangle[6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "cangle[7]"
+    ],
+    "bog_d_pin": "_2345_/D",
+    "bog_ff": "_2345_",
+    "common_ff": "$auto$ff.cc:337:slice$593",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1997_/D",
+    "mapped_ff": "_1997_",
+    "rtl_bit": "cangle[7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "cangle[8]"
+    ],
+    "bog_d_pin": "_2378_/D",
+    "bog_ff": "_2378_",
+    "common_ff": "$auto$ff.cc:337:slice$594",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2030_/D",
+    "mapped_ff": "_2030_",
+    "rtl_bit": "cangle[8]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "cangle[9]"
+    ],
+    "bog_d_pin": "_2418_/D",
+    "bog_ff": "_2418_",
+    "common_ff": "$auto$ff.cc:337:slice$595",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2070_/D",
+    "mapped_ff": "_2070_",
+    "rtl_bit": "cangle[9]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "cangle[10]"
+    ],
+    "bog_d_pin": "_2282_/D",
+    "bog_ff": "_2282_",
+    "common_ff": "$auto$ff.cc:337:slice$596",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1934_/D",
+    "mapped_ff": "_1934_",
+    "rtl_bit": "cangle[10]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "cangle[11]"
+    ],
+    "bog_d_pin": "_2283_/D",
+    "bog_ff": "_2283_",
+    "common_ff": "$auto$ff.cc:337:slice$597",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1935_/D",
+    "mapped_ff": "_1935_",
+    "rtl_bit": "cangle[11]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "cangle[12]"
+    ],
+    "bog_d_pin": "_2382_/D",
+    "bog_ff": "_2382_",
+    "common_ff": "$auto$ff.cc:337:slice$598",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2034_/D",
+    "mapped_ff": "_2034_",
+    "rtl_bit": "cangle[12]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "cangle[13]"
+    ],
+    "bog_d_pin": "_2284_/D",
+    "bog_ff": "_2284_",
+    "common_ff": "$auto$ff.cc:337:slice$601",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1936_/D",
+    "mapped_ff": "_1936_",
+    "rtl_bit": "cangle[13]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "cangle[15]"
+    ],
+    "bog_d_pin": "_2285_/D",
+    "bog_ff": "_2285_",
+    "common_ff": "$auto$ff.cc:337:slice$602",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1937_/D",
+    "mapped_ff": "_1937_",
+    "rtl_bit": "cangle[15]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "cangle[16]"
+    ],
+    "bog_d_pin": "_2417_/D",
+    "bog_ff": "_2417_",
+    "common_ff": "$auto$ff.cc:337:slice$603",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2069_/D",
+    "mapped_ff": "_2069_",
+    "rtl_bit": "cangle[16]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "cangle[14]"
+    ],
+    "bog_d_pin": "_2383_/D",
+    "bog_ff": "_2383_",
+    "common_ff": "$auto$ff.cc:337:slice$609",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2035_/D",
+    "mapped_ff": "_2035_",
+    "rtl_bit": "cangle[14]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_done"
+    ],
+    "bog_d_pin": "_2365_/D",
+    "bog_ff": "_2365_",
+    "common_ff": "$auto$ff.cc:337:slice$717",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2017_/D",
+    "mapped_ff": "_2017_",
+    "rtl_bit": "o_done",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_aux"
+    ],
+    "bog_d_pin": "_2321_/D",
+    "bog_ff": "_2321_",
+    "common_ff": "$auto$ff.cc:337:slice$718",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1973_/D",
+    "mapped_ff": "_1973_",
+    "rtl_bit": "o_aux",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_yval[0]"
+    ],
+    "bog_d_pin": "_2286_/D",
+    "bog_ff": "_2286_",
+    "common_ff": "$auto$ff.cc:337:slice$719",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1938_/D",
+    "mapped_ff": "_1938_",
+    "rtl_bit": "o_yval[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_yval[1]"
+    ],
+    "bog_d_pin": "_2287_/D",
+    "bog_ff": "_2287_",
+    "common_ff": "$auto$ff.cc:337:slice$720",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1939_/D",
+    "mapped_ff": "_1939_",
+    "rtl_bit": "o_yval[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_yval[2]"
+    ],
+    "bog_d_pin": "_2288_/D",
+    "bog_ff": "_2288_",
+    "common_ff": "$auto$ff.cc:337:slice$721",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1940_/D",
+    "mapped_ff": "_1940_",
+    "rtl_bit": "o_yval[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_yval[3]"
+    ],
+    "bog_d_pin": "_2289_/D",
+    "bog_ff": "_2289_",
+    "common_ff": "$auto$ff.cc:337:slice$722",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1941_/D",
+    "mapped_ff": "_1941_",
+    "rtl_bit": "o_yval[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_yval[4]"
+    ],
+    "bog_d_pin": "_2290_/D",
+    "bog_ff": "_2290_",
+    "common_ff": "$auto$ff.cc:337:slice$723",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1942_/D",
+    "mapped_ff": "_1942_",
+    "rtl_bit": "o_yval[4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_yval[5]"
+    ],
+    "bog_d_pin": "_2291_/D",
+    "bog_ff": "_2291_",
+    "common_ff": "$auto$ff.cc:337:slice$724",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1943_/D",
+    "mapped_ff": "_1943_",
+    "rtl_bit": "o_yval[5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_yval[6]"
+    ],
+    "bog_d_pin": "_2292_/D",
+    "bog_ff": "_2292_",
+    "common_ff": "$auto$ff.cc:337:slice$725",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1944_/D",
+    "mapped_ff": "_1944_",
+    "rtl_bit": "o_yval[6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_yval[7]"
+    ],
+    "bog_d_pin": "_2293_/D",
+    "bog_ff": "_2293_",
+    "common_ff": "$auto$ff.cc:337:slice$726",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1945_/D",
+    "mapped_ff": "_1945_",
+    "rtl_bit": "o_yval[7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_yval[8]"
+    ],
+    "bog_d_pin": "_2294_/D",
+    "bog_ff": "_2294_",
+    "common_ff": "$auto$ff.cc:337:slice$727",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1946_/D",
+    "mapped_ff": "_1946_",
+    "rtl_bit": "o_yval[8]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_yval[9]"
+    ],
+    "bog_d_pin": "_2295_/D",
+    "bog_ff": "_2295_",
+    "common_ff": "$auto$ff.cc:337:slice$728",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1947_/D",
+    "mapped_ff": "_1947_",
+    "rtl_bit": "o_yval[9]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_yval[10]"
+    ],
+    "bog_d_pin": "_2296_/D",
+    "bog_ff": "_2296_",
+    "common_ff": "$auto$ff.cc:337:slice$729",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1948_/D",
+    "mapped_ff": "_1948_",
+    "rtl_bit": "o_yval[10]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_yval[11]"
+    ],
+    "bog_d_pin": "_2297_/D",
+    "bog_ff": "_2297_",
+    "common_ff": "$auto$ff.cc:337:slice$730",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1949_/D",
+    "mapped_ff": "_1949_",
+    "rtl_bit": "o_yval[11]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_yval[12]"
+    ],
+    "bog_d_pin": "_2322_/D",
+    "bog_ff": "_2322_",
+    "common_ff": "$auto$ff.cc:337:slice$731",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1974_/D",
+    "mapped_ff": "_1974_",
+    "rtl_bit": "o_yval[12]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_xval[0]"
+    ],
+    "bog_d_pin": "_2298_/D",
+    "bog_ff": "_2298_",
+    "common_ff": "$auto$ff.cc:337:slice$732",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1950_/D",
+    "mapped_ff": "_1950_",
+    "rtl_bit": "o_xval[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_xval[1]"
+    ],
+    "bog_d_pin": "_2299_/D",
+    "bog_ff": "_2299_",
+    "common_ff": "$auto$ff.cc:337:slice$733",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1951_/D",
+    "mapped_ff": "_1951_",
+    "rtl_bit": "o_xval[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_xval[2]"
+    ],
+    "bog_d_pin": "_2300_/D",
+    "bog_ff": "_2300_",
+    "common_ff": "$auto$ff.cc:337:slice$734",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1952_/D",
+    "mapped_ff": "_1952_",
+    "rtl_bit": "o_xval[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_xval[3]"
+    ],
+    "bog_d_pin": "_2301_/D",
+    "bog_ff": "_2301_",
+    "common_ff": "$auto$ff.cc:337:slice$735",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1953_/D",
+    "mapped_ff": "_1953_",
+    "rtl_bit": "o_xval[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_xval[4]"
+    ],
+    "bog_d_pin": "_2302_/D",
+    "bog_ff": "_2302_",
+    "common_ff": "$auto$ff.cc:337:slice$736",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1954_/D",
+    "mapped_ff": "_1954_",
+    "rtl_bit": "o_xval[4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_xval[5]"
+    ],
+    "bog_d_pin": "_2303_/D",
+    "bog_ff": "_2303_",
+    "common_ff": "$auto$ff.cc:337:slice$737",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1955_/D",
+    "mapped_ff": "_1955_",
+    "rtl_bit": "o_xval[5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_xval[6]"
+    ],
+    "bog_d_pin": "_2304_/D",
+    "bog_ff": "_2304_",
+    "common_ff": "$auto$ff.cc:337:slice$738",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1956_/D",
+    "mapped_ff": "_1956_",
+    "rtl_bit": "o_xval[6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_xval[7]"
+    ],
+    "bog_d_pin": "_2305_/D",
+    "bog_ff": "_2305_",
+    "common_ff": "$auto$ff.cc:337:slice$739",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1957_/D",
+    "mapped_ff": "_1957_",
+    "rtl_bit": "o_xval[7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_xval[8]"
+    ],
+    "bog_d_pin": "_2306_/D",
+    "bog_ff": "_2306_",
+    "common_ff": "$auto$ff.cc:337:slice$740",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1958_/D",
+    "mapped_ff": "_1958_",
+    "rtl_bit": "o_xval[8]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_xval[9]"
+    ],
+    "bog_d_pin": "_2307_/D",
+    "bog_ff": "_2307_",
+    "common_ff": "$auto$ff.cc:337:slice$741",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1959_/D",
+    "mapped_ff": "_1959_",
+    "rtl_bit": "o_xval[9]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_xval[10]"
+    ],
+    "bog_d_pin": "_2308_/D",
+    "bog_ff": "_2308_",
+    "common_ff": "$auto$ff.cc:337:slice$742",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1960_/D",
+    "mapped_ff": "_1960_",
+    "rtl_bit": "o_xval[10]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_xval[11]"
+    ],
+    "bog_d_pin": "_2309_/D",
+    "bog_ff": "_2309_",
+    "common_ff": "$auto$ff.cc:337:slice$743",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1961_/D",
+    "mapped_ff": "_1961_",
+    "rtl_bit": "o_xval[11]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "o_xval[12]"
+    ],
+    "bog_d_pin": "_2364_/D",
+    "bog_ff": "_2364_",
+    "common_ff": "$auto$ff.cc:337:slice$744",
+    "design": "seqcordic",
+    "mapped_d_pin": "_2016_/D",
+    "mapped_ff": "_2016_",
+    "rtl_bit": "o_xval[12]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "idle"
+    ],
+    "bog_d_pin": "_2320_/D",
+    "bog_ff": "_2320_",
+    "common_ff": "$auto$ff.cc:337:slice$747",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1972_/D",
+    "mapped_ff": "_1972_",
+    "rtl_bit": "idle",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "pre_valid"
+    ],
+    "bog_d_pin": "_2319_/D",
+    "bog_ff": "_2319_",
+    "common_ff": "$auto$ff.cc:337:slice$748",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1971_/D",
+    "mapped_ff": "_1971_",
+    "rtl_bit": "pre_valid",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "state[0]"
+    ],
+    "bog_d_pin": "_2310_/D",
+    "bog_ff": "_2310_",
+    "common_ff": "$auto$ff.cc:337:slice$753",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1962_/D",
+    "mapped_ff": "_1962_",
+    "rtl_bit": "state[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "state[1]"
+    ],
+    "bog_d_pin": "_2311_/D",
+    "bog_ff": "_2311_",
+    "common_ff": "$auto$ff.cc:337:slice$754",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1963_/D",
+    "mapped_ff": "_1963_",
+    "rtl_bit": "state[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "state[2]"
+    ],
+    "bog_d_pin": "_2312_/D",
+    "bog_ff": "_2312_",
+    "common_ff": "$auto$ff.cc:337:slice$755",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1964_/D",
+    "mapped_ff": "_1964_",
+    "rtl_bit": "state[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "state[3]"
+    ],
+    "bog_d_pin": "_2317_/D",
+    "bog_ff": "_2317_",
+    "common_ff": "$auto$ff.cc:337:slice$756",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1969_/D",
+    "mapped_ff": "_1969_",
+    "rtl_bit": "state[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "aux"
+    ],
+    "bog_d_pin": "_2316_/D",
+    "bog_ff": "_2316_",
+    "common_ff": "$auto$ff.cc:337:slice$757",
+    "design": "seqcordic",
+    "mapped_d_pin": "_1968_/D",
+    "mapped_ff": "_1968_",
+    "rtl_bit": "aux",
+    "status": "unique_public_q_alias"
+  }
+]

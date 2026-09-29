@@ -1,0 +1,11 @@
+{
+  "fingerprint": "a9d3a154cda1b94c751fb655f1fdc365327d59477645d9f39070915057e92163",
+  "outputs_sha256": {
+    "booster_config.json": "26eb97e0b139bad9a490475f1fe367dcf685b9b16f0cf688d0d6743df05e645f",
+    "design_weights.csv": "08a181d62d2379a43eb960a30ef126dc820809d58e7381eecc325b1665daf68b",
+    "learning_curve.csv": "971f197996896b3244de7e43555b991df67d379653cf209322d460cbee5ce78e",
+    "learning_curve.json": "aa8f718123c393bb88121fee85c38b5bb15ba2673dd46a723871879bc83d3b03",
+    "model.ubj": "166966cb0ddb1053ab756e184963cd070c57b16b4f309ba9946debcb348f26ef",
+    "round_selection.json": "832822da1b2491d2dd5bfd76b083fcffe005d838c38c76254c77f0087218ab96"
+  }
+}

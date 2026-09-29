@@ -1,0 +1,15 @@
+{
+  "bog_cells": 8429,
+  "bog_register_bits": 1056,
+  "clock_check": "one declared rising-edge clock",
+  "design_id": "osu_riscv32i",
+  "family": "osu_riscv32i",
+  "generic_cells": 6853,
+  "generic_register_bits": 1056,
+  "label_status": "not_generated",
+  "mapped_cells": 6395,
+  "mapped_register_bits": 1056,
+  "seconds": 7.52,
+  "split": "validation",
+  "status": "PASS"
+}

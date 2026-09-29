@@ -1,0 +1,11 @@
+read_verilog -sv -DSYNTHESIS -I"sources/sha256/src/rtl" "sources/sha256/src/rtl/sha256_core.v" "sources/sha256/src/rtl/sha256_k_constants.v" "sources/sha256/src/rtl/sha256_w_mem.v"
+hierarchy -check -top sha256_core
+rename -top sha256_core
+synth -top sha256_core -flatten -noabc
+# Remove hierarchy metadata, retaining all circuit cells and net names.
+delete t:$scopeinfo
+dffunmap
+clean
+check -assert
+write_rtlil build/sha256/common.il
+write_json build/sha256/common.json

@@ -1,0 +1,12 @@
+read_verilog -sv -DSYNTHESIS -I"sources/uart/rtl" "sources/uart/rtl/uart_tx.v"
+chparam -set DATA_WIDTH 8 uart_tx
+hierarchy -check -top uart_tx
+rename -top uart_tx
+synth -top uart_tx -flatten -noabc
+# Remove hierarchy metadata, retaining all circuit cells and net names.
+delete t:$scopeinfo
+dffunmap
+clean
+check -assert
+write_rtlil build/uart_tx/common.il
+write_json build/uart_tx/common.json

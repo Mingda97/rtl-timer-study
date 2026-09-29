@@ -1,0 +1,17 @@
+{
+  "revision": "step6-weighting-only-v2",
+  "target": "label_arrival_ns",
+  "selection_metric": "validation.macro.mae_ns",
+  "tie_break": "baseline",
+  "baseline": {
+    "n_estimators": 500,
+    "max_depth": 50,
+    "nthread": 25
+  },
+  "weight_formula": "N / (D * n_d); computed from usable training rows only",
+  "fit_scope": "12 frozen training designs only; no train+validation refit",
+  "evaluation_scope": "4 validation designs during development; 4 test designs only after final-test",
+  "experiments": "one upstream baseline and one weighting-only candidate; no search or early stopping",
+  "interpretation": "isolates equal-design training weights for this fixed dataset, split, software and estimator configuration",
+  "weighted_parameters": "reuse baseline constructor exactly; only fit(sample_weight=...) differs"
+}

@@ -1,0 +1,37 @@
+{
+  "bog_feature_rows_before_label_join": 132,
+  "bog_path_kinds": {
+    "input_to_reg": 66,
+    "reg_to_reg": 66
+  },
+  "common_registers": 132,
+  "coverage_all_common": 1.0,
+  "coverage_public_rtl": 1.0,
+  "dataset_rows": 132,
+  "design": "simple_spi",
+  "elapsed_seconds": 1.85,
+  "excluded_control_pins": {
+    "bog": 16,
+    "mapped": 8
+  },
+  "excluded_registers": 0,
+  "exclusion_reasons": {},
+  "family": "herveille_spi",
+  "mapped_path_kinds": {
+    "input_to_reg": 66,
+    "reg_to_reg": 66
+  },
+  "matched_public_rtl_bits": 132,
+  "one_polarity_mapped_rows": 0,
+  "period_invariance_polarities_checked": 264,
+  "split": "train",
+  "status": "PASS",
+  "timing_query_status": {
+    "bog": {
+      "ok": 264
+    },
+    "mapped": {
+      "ok": 264
+    }
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "early_stopping_used": false,
+  "effective_parameters": {
+    "base_score": null,
+    "booster": null,
+    "callbacks": null,
+    "colsample_bylevel": null,
+    "colsample_bynode": null,
+    "colsample_bytree": null,
+    "device": null,
+    "early_stopping_rounds": null,
+    "enable_categorical": false,
+    "eval_metric": null,
+    "feature_types": null,
+    "feature_weights": null,
+    "gamma": null,
+    "grow_policy": null,
+    "importance_type": null,
+    "interaction_constraints": null,
+    "learning_rate": null,
+    "max_bin": null,
+    "max_cat_threshold": null,
+    "max_cat_to_onehot": null,
+    "max_delta_step": null,
+    "max_depth": 50,
+    "max_leaves": null,
+    "min_child_weight": null,
+    "missing": "NaN (missing-value sentinel)",
+    "monotone_constraints": null,
+    "multi_strategy": null,
+    "n_estimators": 500,
+    "n_jobs": null,
+    "nthread": 25,
+    "num_parallel_tree": null,
+    "objective": "reg:squarederror",
+    "random_state": null,
+    "reg_alpha": null,
+    "reg_lambda": null,
+    "sampling_method": null,
+    "scale_pos_weight": null,
+    "subsample": null,
+    "tree_method": null,
+    "validate_parameters": null,
+    "verbosity": null
+  },
+  "fit_seconds": 1.5470866320001733,
+  "last_iteration_zero_based": 499,
+  "metrics": {
+    "train": {
+      "defined_design_counts": {
+        "mae_ns": 12,
+        "pearson_r": 12,
+        "r2": 12,
+        "rmse_ns": 12,
+        "spearman_r": 12
+      },
+      "designs": 12,
+      "macro": {
+        "mae_ns": 0.025553404734973556,
+        "pearson_r": 0.9938733326017033,
+        "r2": 0.9879170838514995,
+        "rmse_ns": 0.05451923427500597,
+        "spearman_r": 0.9682047477115262
+      },
+      "negative_predictions": 0,
+      "per_design": [
+        {
+          "design": "picorv32",
+          "family": "pico_femto",
+          "mae_ns": 0.0019110718292017525,
+          "pearson_r": 0.9999823119284712,
+          "r2": 0.9999646239095115,
+          "rmse_ns": 0.010379740729326587,
+          "rows": 1456,
+          "spearman_r": 0.9885340279279374
+        },
+        {
+          "design": "femtorv_quark",
+          "family": "pico_femto",
+          "mae_ns": 0.001985909049976811,
+          "pearson_r": 0.9993098608779565,
+          "r2": 0.9986201955675201,
+          "rmse_ns": 0.011403748550573418,
+          "rows": 1215,
+          "spearman_r": 0.999600390691955
+        },
+        {
+          "design": "fastfir8",
+          "family": "zipcpu_filters",
+          "mae_ns": 0.03322502391994966,
+          "pearson_r": 0.9744161988295658,
+          "r2": 0.949486926218716,
+          "rmse_ns": 0.08772977972232394,
+          "rows": 505,
+          "spearman_r": 0.8815184337325512
+        },
+        {
+          "design": "boxcar16",
+          "family": "zipcpu_filters",
+          "mae_ns": 0.005886533201551691,
+          "pearson_r": 0.963195388383809,
+          "r2": 0.9277452081087039,
+          "rmse_ns": 0.03370649060580934,
+          "rows": 354,
+          "spearman_r": 0.9462181477331988
+        },
+        {
+          "design": "aes128",
+          "family": "opencores_aes",
+          "mae_ns": 0.01844767735967093,
+          "pearson_r": 0.9957238244707209,
+          "r2": 0.9914659336180061,
+          "rmse_ns": 0.06014318329107967,
+          "rows": 562,
+          "spearman_r": 0.9809800883610158
+        },
+        {
+          "design": "sha256",
+          "family": "secworks_sha2",
+          "mae_ns": 0.237684465352189,
+          "pearson_r": 0.9974889344643709,
+          "r2": 0.9949841738262891,
+          "rmse_ns": 0.42695478025152916,
+          "rows": 1034,
+          "spearman_r": 0.9606959428808397
+        },
+        {
+          "design": "uart_tx",
+          "family": "forencich_uart",
+          "mae_ns": 0.0046041679129464564,
+          "pearson_r": 0.9966750194470122,
+          "r2": 0.9933610856576842,
+          "rmse_ns": 0.010361755686339654,
+          "rows": 35,
+          "spearman_r": 0.9747571463205349
+        },
+        {
+          "design": "uart_rx",
+          "family": "forencich_uart",
+          "mae_ns": 0.0006779705041105273,
+          "pearson_r": 0.9999729137551469,
+          "r2": 0.9999458281215517,
+          "rmse_ns": 0.0029162063783431196,
+          "rows": 44,
+          "spearman_r": 0.9999643411129024
+        },
+        {
+          "design": "simple_spi",
+          "family": "herveille_spi",
+          "mae_ns": 0.0010152921895691825,
+          "pearson_r": 0.9999622225650234,
+          "r2": 0.9999244453240212,
+          "rmse_ns": 0.004139411941774273,
+          "rows": 132,
+          "spearman_r": 0.9924810875204152
+        },
+        {
+          "design": "axis_fifo16",
+          "family": "forencich_axis",
+          "mae_ns": 0.000736505522264782,
+          "pearson_r": 0.9999196227451187,
+          "r2": 0.9998392496504168,
+          "rmse_ns": 0.003431020056291473,
+          "rows": 593,
+          "spearman_r": 0.9707470991896344
+        },
+        {
+          "design": "axis_arb_mux4",
+          "family": "forencich_axis",
+          "mae_ns": 0.00044387656969336833,
+          "pearson_r": 0.999833969976689,
+          "r2": 0.9996679638671461,
+          "rmse_ns": 0.00301607413402639,
+          "rows": 210,
+          "spearman_r": 0.9714329910295476
+        },
+        {
+          "design": "axis_skid32",
+          "family": "forencich_axis",
+          "mae_ns": 2.236340855842958e-05,
+          "pearson_r": 0.9999997237765547,
+          "r2": 0.9999993723484247,
+          "rmse_ns": 4.861995265466077e-05,
+          "rows": 67,
+          "spearman_r": 0.9515272760377811
+        }
+      ],
+      "pooled": {
+        "mae_ns": 0.04527914566024346,
+        "pearson_r": 0.9989431875164169,
+        "r2": 0.9978874917651462,
+        "rmse_ns": 0.17730970772465218,
+        "spearman_r": 0.9955491919815896
+      },
+      "rows": 6207
+    },
+    "validation": {
+      "defined_design_counts": {
+        "mae_ns": 4,
+        "pearson_r": 4,
+        "r2": 4,
+        "rmse_ns": 4,
+        "spearman_r": 4
+      },
+      "designs": 4,
+      "macro": {
+        "mae_ns": 1.7299601920520424,
+        "pearson_r": 0.8050058182176325,
+        "r2": -4.378825467394446,
+        "rmse_ns": 2.051235590356193,
+        "spearman_r": 0.5968050401175296
+      },
+      "negative_predictions": 1,
+      "per_design": [
+        {
+          "design": "osu_riscv32i",
+          "family": "osu_riscv32i",
+          "mae_ns": 4.88707883604062,
+          "pearson_r": 0.32003367286919604,
+          "r2": -19.54517260363322,
+          "rmse_ns": 5.606782511888474,
+          "rows": 1056,
+          "spearman_r": -0.04983573788745303
+        },
+        {
+          "design": "divider32",
+          "family": "zipcpu_divider",
+          "mae_ns": 0.1738265835948729,
+          "pearson_r": 0.9521848658964573,
+          "r2": 0.3093714664276319,
+          "rmse_ns": 0.2786664488856742,
+          "rows": 142,
+          "spearman_r": 0.8530978836250006
+        },
+        {
+          "design": "chacha",
+          "family": "secworks_chacha",
+          "mae_ns": 1.7345524865294786,
+          "pearson_r": 0.990966231277909,
+          "r2": 0.8151833437686136,
+          "rmse_ns": 2.1622501145014104,
+          "rows": 1100,
+          "spearman_r": 0.6748085931911005
+        },
+        {
+          "design": "i2c_master",
+          "family": "forencich_i2c",
+          "mae_ns": 0.12438286204319862,
+          "pearson_r": 0.9568385028269676,
+          "r2": 0.905315923859191,
+          "rmse_ns": 0.15724328614921385,
+          "rows": 72,
+          "spearman_r": 0.9091494215414697
+        }
+      ],
+      "pooled": {
+        "mae_ns": 2.996794062016415,
+        "pearson_r": 0.8325288529974922,
+        "r2": -0.061497779334341196,
+        "rmse_ns": 4.022725111650831,
+        "spearman_r": 0.8609318835729598
+      },
+      "rows": 2370
+    }
+  },
+  "model": "weighted",
+  "test_evaluated": false,
+  "training_designs": [
+    "picorv32",
+    "femtorv_quark",
+    "fastfir8",
+    "boxcar16",
+    "aes128",
+    "sha256",
+    "uart_tx",
+    "uart_rx",
+    "simple_spi",
+    "axis_fifo16",
+    "axis_arb_mux4",
+    "axis_skid32"
+  ],
+  "trees_in_saved_booster": 500,
+  "trees_used_for_prediction": 500
+}

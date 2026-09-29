@@ -1,0 +1,15 @@
+{
+  "bog_cells": 650,
+  "bog_register_bits": 64,
+  "clock_check": "one declared rising-edge clock",
+  "design_id": "crc32",
+  "family": "forencich_lfsr",
+  "generic_cells": 368,
+  "generic_register_bits": 64,
+  "label_status": "not_generated",
+  "mapped_cells": 373,
+  "mapped_register_bits": 64,
+  "seconds": 400.93,
+  "split": "test",
+  "status": "PASS"
+}

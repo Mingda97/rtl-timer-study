@@ -1,0 +1,3 @@
+# NumPy is the sole dependency of the authors' feature extractor.
+# The exact installed version is recorded in each run manifest.
+numpy>=1.24,<3

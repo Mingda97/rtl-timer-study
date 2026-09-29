@@ -1,0 +1,10 @@
+{
+  "common_registers": 210,
+  "matched_public_rtl_bits": 210,
+  "method": "Bijection by common-checkpoint public Q-wire aliases, not instance numbering or row order",
+  "no_public_rtl_q_alias": 0,
+  "unclaimed_branch_ffs": {
+    "bog": [],
+    "mapped": []
+  }
+}

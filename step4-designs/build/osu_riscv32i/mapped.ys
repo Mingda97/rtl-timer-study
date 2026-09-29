@@ -1,0 +1,11 @@
+read_liberty -lib "/OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib"
+read_rtlil build/osu_riscv32i/common.il
+dfflibmap -liberty "/OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib"
+abc -liberty "/OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib"
+clean
+hierarchy -check -top riscv
+check -assert -mapped
+rename -enumerate
+stat -liberty "/OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib"
+write_verilog -noattr -noexpr build/osu_riscv32i/mapped.v
+write_json build/osu_riscv32i/mapped.json

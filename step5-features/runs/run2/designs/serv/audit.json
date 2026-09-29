@@ -1,0 +1,37 @@
+{
+  "bog_feature_rows_before_label_join": 1190,
+  "bog_path_kinds": {
+    "input_to_reg": 75,
+    "reg_to_reg": 1115
+  },
+  "common_registers": 1190,
+  "coverage_all_common": 1.0,
+  "coverage_public_rtl": 1.0,
+  "dataset_rows": 1190,
+  "design": "serv",
+  "elapsed_seconds": 8.95,
+  "excluded_control_pins": {
+    "bog": 0,
+    "mapped": 0
+  },
+  "excluded_registers": 0,
+  "exclusion_reasons": {},
+  "family": "serv",
+  "mapped_path_kinds": {
+    "input_to_reg": 74,
+    "reg_to_reg": 1116
+  },
+  "matched_public_rtl_bits": 1190,
+  "one_polarity_mapped_rows": 0,
+  "period_invariance_polarities_checked": 2380,
+  "split": "test",
+  "status": "PASS",
+  "timing_query_status": {
+    "bog": {
+      "ok": 2380
+    },
+    "mapped": {
+      "ok": 2380
+    }
+  }
+}

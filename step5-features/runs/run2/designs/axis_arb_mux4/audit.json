@@ -1,0 +1,35 @@
+{
+  "bog_feature_rows_before_label_join": 210,
+  "bog_path_kinds": {
+    "input_to_reg": 210
+  },
+  "common_registers": 210,
+  "coverage_all_common": 1.0,
+  "coverage_public_rtl": 1.0,
+  "dataset_rows": 210,
+  "design": "axis_arb_mux4",
+  "elapsed_seconds": 1.96,
+  "excluded_control_pins": {
+    "bog": 0,
+    "mapped": 0
+  },
+  "excluded_registers": 0,
+  "exclusion_reasons": {},
+  "family": "forencich_axis",
+  "mapped_path_kinds": {
+    "input_to_reg": 210
+  },
+  "matched_public_rtl_bits": 210,
+  "one_polarity_mapped_rows": 0,
+  "period_invariance_polarities_checked": 420,
+  "split": "train",
+  "status": "PASS",
+  "timing_query_status": {
+    "bog": {
+      "ok": 420
+    },
+    "mapped": {
+      "ok": 420
+    }
+  }
+}

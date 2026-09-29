@@ -1,0 +1,30 @@
+def training(train_lst):
+    feat_label_dir = "../preprocess/feat_label_timing"
+    feat_vec, label_vec = [], []
+    for design_name in train_lst:
+        # feat_vec, label_vec = [], []
+        with open (f"{feat_label_dir}/{design_name}_{cmd}{label_cmd}.pkl", "rb") as f:
+            feat_label_design = pickle.load(f)
+        for reg_dct in feat_label_design:
+            feat = []
+            feat.extend(reg_dct[f'feat_design'])
+            feat.extend(reg_dct[f'feat_path'])
+            # print(len(feat))
+            
+            feat_vec.append(feat)
+            label_vec.append(reg_dct[f"label_slack"])
+
+    feat_arr = np.array(feat_vec)
+    label_arr = np.array(label_vec)
+
+    feat_arr = np.array(feat_vec)
+    label_arr = np.array(label_vec)
+    
+    df_feat = pd.DataFrame(feat_arr)
+    df_label = pd.DataFrame(label_arr)
+    print(df_feat.shape, df_label.shape)
+
+    xgbr = xgb.XGBRegressor(n_estimators=500, max_depth=50, nthread=25)
+    xgbr.fit(df_feat, df_label)
+
+    return xgbr

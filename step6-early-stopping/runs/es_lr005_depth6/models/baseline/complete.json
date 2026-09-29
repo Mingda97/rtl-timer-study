@@ -1,0 +1,27 @@
+{
+  "fingerprint": "a9d3a154cda1b94c751fb655f1fdc365327d59477645d9f39070915057e92163",
+  "outputs_sha256": {
+    "adapter_record.json": "4a9922c4f6ac3716294c1fefa6f383ddd926854d4acd2f1b2cd180bbabc02f9f",
+    "booster_config.json": "d35d04fea5748910045d74f311ebf46a5c6d1216817950a3f1bd6a10bac1aebc",
+    "design_weights.csv": "97748201b3029c3ac036d70f763194f0addade7350dfedffe489955cb8e6226a",
+    "import_record.json": "7efbfe456d45729a7b4a2bd0dce192e5a0898b9f47f077fc78284150abe36733",
+    "model.ubj": "a54f7fad76a255f7addbef5fe954325bdb13f5be303c130cf49f2718c15a9397",
+    "result.json": "cdc5162824c413c0488a165b06943a20f2bb6af7be1cf31be1b1813c26ffb423",
+    "source_complete.json": "64f3a3c094026723ae320586610da5e047fce99e8d9e2c8247c558c319d8d886",
+    "train_predictions.csv": "00ae548a41cfec08ea696e25f6aea40cd230aeaca32496087b1eb1c57d171dd6",
+    "upstream_adapter/preprocess/feat_label_timing/aes128_sog_init.pkl": "49e8410cc401918fa22902b0d3fb0c53f4646964bf4591ab1ec04d3528b27ad8",
+    "upstream_adapter/preprocess/feat_label_timing/axis_arb_mux4_sog_init.pkl": "4a0f58b3550e90b5613699c0d6c1b013d5be9422d4f15882313dee45a89595ee",
+    "upstream_adapter/preprocess/feat_label_timing/axis_fifo16_sog_init.pkl": "6be66d40b40f6190daf42f572e3db0cf6f80fcdb27241911fdfb71541cea597f",
+    "upstream_adapter/preprocess/feat_label_timing/axis_skid32_sog_init.pkl": "8ef2bb225b159113d1302630778e77aa96c4992441a214644f1690ab3c636b17",
+    "upstream_adapter/preprocess/feat_label_timing/boxcar16_sog_init.pkl": "d10987e7e7d2ffeac8cc83c3c207b1f39c9589d6b931f1a3f87d404c4b1f8b74",
+    "upstream_adapter/preprocess/feat_label_timing/fastfir8_sog_init.pkl": "82d7c7bfa372c1ee707c4cb4876d87105e496798a19addf5e9b2e149aaf7dfd6",
+    "upstream_adapter/preprocess/feat_label_timing/femtorv_quark_sog_init.pkl": "508469f8f97e5a493718bc669ddeb5f2475d6819055077ff13027a009c013e4f",
+    "upstream_adapter/preprocess/feat_label_timing/picorv32_sog_init.pkl": "6965e0abb1871e21597eb6df208b580b49d5f8227383df0933b42de8b7997172",
+    "upstream_adapter/preprocess/feat_label_timing/sha256_sog_init.pkl": "01820df7e86da79696fd64c41b20a8021923e72420444b247ae81ab74cd21e4e",
+    "upstream_adapter/preprocess/feat_label_timing/simple_spi_sog_init.pkl": "12150c39b75e1e673920944fd16a36a7a03c2154a149f9625608d4a023e81eed",
+    "upstream_adapter/preprocess/feat_label_timing/uart_rx_sog_init.pkl": "2bebb321d280cd0eaa5d676827cef0b2e0d271538000f3623a92480dd3d39cef",
+    "upstream_adapter/preprocess/feat_label_timing/uart_tx_sog_init.pkl": "52cffc0a1881375dc3b5aa70f35b446cce4e5ed5add7fff335f0be1c6fe48eba",
+    "upstream_training_function.py.txt": "611dc3502db2e43f92846dd0577b96917b460d8f322711cbdcb6025dde450913",
+    "validation_predictions.csv": "6ff695ebb8f4691f02d56e26cabd0df6c3fcffe5f02ad240e532d409197ba672"
+  }
+}

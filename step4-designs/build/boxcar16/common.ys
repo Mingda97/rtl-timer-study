@@ -1,0 +1,12 @@
+read_verilog -sv -DSYNTHESIS -I"sources/dspfilters/rtl" "sources/dspfilters/rtl/boxcar.v"
+chparam -set IW 16 -set LGMEM 4 -set OW 20 -set FIXED_NAVG 1 -set INITIAL_NAVG 15 boxcar
+hierarchy -check -top boxcar
+rename -top boxcar
+synth -top boxcar -flatten -noabc
+# Remove hierarchy metadata, retaining all circuit cells and net names.
+delete t:$scopeinfo
+dffunmap
+clean
+check -assert
+write_rtlil build/boxcar16/common.il
+write_json build/boxcar16/common.json

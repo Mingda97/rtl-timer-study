@@ -1,0 +1,210 @@
+{
+  "models": {
+    "baseline": {
+      "defined_design_counts": {
+        "mae_ns": 4,
+        "pearson_r": 4,
+        "r2": 4,
+        "rmse_ns": 4,
+        "spearman_r": 4
+      },
+      "designs": 4,
+      "macro": {
+        "mae_ns": 0.5325025479683833,
+        "pearson_r": 0.6428823065282436,
+        "r2": -2.0906980262553794,
+        "rmse_ns": 0.5984565072003459,
+        "spearman_r": 0.4547804904081302
+      },
+      "negative_predictions": 0,
+      "per_design": [
+        {
+          "design": "serv",
+          "family": "serv",
+          "mae_ns": 1.8224872051337486,
+          "pearson_r": 0.9231689101428388,
+          "r2": -5.619395141335815,
+          "rmse_ns": 1.9390346953348914,
+          "rows": 1190,
+          "spearman_r": 0.6697993990114988
+        },
+        {
+          "design": "seqcordic",
+          "family": "zipcpu_cordic",
+          "mae_ns": 0.20426698981896202,
+          "pearson_r": 0.7835520984027751,
+          "r2": 0.4759146637990327,
+          "rmse_ns": 0.26154366414249014,
+          "rows": 152,
+          "spearman_r": 0.768623170675235
+        },
+        {
+          "design": "crc32",
+          "family": "forencich_lfsr",
+          "mae_ns": 0.0644258722691536,
+          "pearson_r": 0.001998101679466684,
+          "r2": -3.8832983776382815,
+          "rmse_ns": 0.07754399627678368,
+          "rows": 64,
+          "spearman_r": -0.046752743475391434
+        },
+        {
+          "design": "sfifo16",
+          "family": "zipcpu_sfifo",
+          "mae_ns": 0.03883012465166843,
+          "pearson_r": 0.8628101158878937,
+          "r2": 0.6639867501535466,
+          "rmse_ns": 0.11570367304721872,
+          "rows": 591,
+          "spearman_r": 0.4274521354211781
+        }
+      ],
+      "pooled": {
+        "mae_ns": 1.1151127771937932,
+        "pearson_r": 0.9492783537869763,
+        "r2": -1.9760092462798786,
+        "rmse_ns": 1.4999453223307122,
+        "spearman_r": 0.8900324147129511
+      },
+      "rows": 1997
+    },
+    "weighted": {
+      "defined_design_counts": {
+        "mae_ns": 4,
+        "pearson_r": 4,
+        "r2": 4,
+        "rmse_ns": 4,
+        "spearman_r": 4
+      },
+      "designs": 4,
+      "macro": {
+        "mae_ns": 0.4828175144795706,
+        "pearson_r": 0.6117242268889469,
+        "r2": -1.6162497597087406,
+        "rmse_ns": 0.5453371280675098,
+        "spearman_r": 0.2391099268410689
+      },
+      "negative_predictions": 3,
+      "per_design": [
+        {
+          "design": "serv",
+          "family": "serv",
+          "mae_ns": 1.5931602638864637,
+          "pearson_r": 0.9161007153620524,
+          "r2": -4.19290023082396,
+          "rmse_ns": 1.7174393766210863,
+          "rows": 1190,
+          "spearman_r": 0.3995289799696683
+        },
+        {
+          "design": "seqcordic",
+          "family": "zipcpu_cordic",
+          "mae_ns": 0.21790473474091132,
+          "pearson_r": 0.7854988086886667,
+          "r2": 0.42479040264564005,
+          "rmse_ns": 0.27400359529278595,
+          "rows": 152,
+          "spearman_r": 0.7378563247390414
+        },
+        {
+          "design": "crc32",
+          "family": "forencich_lfsr",
+          "mae_ns": 0.05442737303328515,
+          "pearson_r": -0.06628280987872483,
+          "r2": -3.3552146920362516,
+          "rmse_ns": 0.07323123065938138,
+          "rows": 64,
+          "spearman_r": -0.05903243547385842
+        },
+        {
+          "design": "sfifo16",
+          "family": "zipcpu_sfifo",
+          "mae_ns": 0.06577768625762219,
+          "pearson_r": 0.8115801933837932,
+          "r2": 0.6583254813796082,
+          "rmse_ns": 0.11667430969678556,
+          "rows": 591,
+          "spearman_r": -0.12191316187057553
+        }
+      ],
+      "pooled": {
+        "mae_ns": 0.987150825316923,
+        "pearson_r": 0.9490446118321356,
+        "r2": -1.3380734591060497,
+        "rmse_ns": 1.3294970127516528,
+        "spearman_r": 0.8345558548500739
+      },
+      "rows": 1997
+    },
+    "weighted_es": {
+      "defined_design_counts": {
+        "mae_ns": 4,
+        "pearson_r": 4,
+        "r2": 4,
+        "rmse_ns": 4,
+        "spearman_r": 4
+      },
+      "designs": 4,
+      "macro": {
+        "mae_ns": 0.3607023110878385,
+        "pearson_r": 0.7243340487442516,
+        "r2": -5.554309008170894,
+        "rmse_ns": 0.3959766110804309,
+        "spearman_r": 0.23925417233955176
+      },
+      "negative_predictions": 0,
+      "per_design": [
+        {
+          "design": "serv",
+          "family": "serv",
+          "mae_ns": 0.7776824293357786,
+          "pearson_r": 0.9256286231727073,
+          "r2": -0.20328680799123955,
+          "rmse_ns": 0.8267248734189848,
+          "rows": 1190,
+          "spearman_r": 0.49474641157987864
+        },
+        {
+          "design": "seqcordic",
+          "family": "zipcpu_cordic",
+          "mae_ns": 0.309452040410895,
+          "pearson_r": 0.7693982672796144,
+          "r2": -0.10033584635120718,
+          "rmse_ns": 0.3789708713668573,
+          "rows": 152,
+          "spearman_r": 0.6858398912671182
+        },
+        {
+          "design": "crc32",
+          "family": "forencich_lfsr",
+          "mae_ns": 0.1639276903671026,
+          "pearson_r": 0.3573832980104806,
+          "r2": -21.79980900220748,
+          "rmse_ns": 0.1675549076288054,
+          "rows": 64,
+          "spearman_r": -0.13079380243210303
+        },
+        {
+          "design": "sfifo16",
+          "family": "zipcpu_sfifo",
+          "mae_ns": 0.19174708423757797,
+          "pearson_r": 0.8449260065142038,
+          "r2": -0.11380437613364935,
+          "rmse_ns": 0.21065579190707606,
+          "rows": 591,
+          "spearman_r": -0.09277581105668657
+        }
+      ],
+      "pooled": {
+        "mae_ns": 0.5489698047170434,
+        "pearson_r": 0.9518128712670505,
+        "r2": 0.4282445927648918,
+        "rmse_ns": 0.6574510603131212,
+        "spearman_r": 0.8648806586703925
+      },
+      "rows": 1997
+    }
+  },
+  "selected_on_validation": "weighted_es",
+  "split": "test"
+}

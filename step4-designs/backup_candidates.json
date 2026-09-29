@@ -1,0 +1,45 @@
+{
+  "policy": "Candidates only, excluded from v1; any actual replacement requires a documented v2, new source hashes and rescreening before model comparison. Never replace based on prediction errors.",
+  "candidates": [
+    {
+      "candidate": "PicoRV32 with ENABLE_REGS_DUALPORT=0",
+      "replaces": "picorv32",
+      "family": "pico_femto",
+      "split": "train",
+      "source": "same pinned picorv32.v",
+      "status": "not_screened"
+    },
+    {
+      "candidate": "genericfir (8 taps)",
+      "replaces": "fastfir8",
+      "family": "zipcpu_filters",
+      "split": "train",
+      "source": "same pinned dspfilters repo, rtl/genericfir.v and rtl/firtap.v",
+      "status": "not_screened"
+    },
+    {
+      "candidate": "AES inverse cipher",
+      "replaces": "aes128",
+      "family": "opencores_aes",
+      "split": "train",
+      "source": "same pinned ORFS repo, flow/designs/src/aes/aes_inv_cipher_top.v and dependencies",
+      "status": "not_screened"
+    },
+    {
+      "candidate": "I2C slave",
+      "replaces": "i2c_master",
+      "family": "forencich_i2c",
+      "split": "validation",
+      "source": "same pinned verilog-i2c repo, rtl/i2c_slave.v",
+      "status": "not_screened"
+    },
+    {
+      "candidate": "AXI-stream demultiplexer",
+      "replaces": "axis_skid32",
+      "family": "forencich_axis",
+      "split": "train",
+      "source": "same pinned verilog-axis repo, rtl/axis_demux.v",
+      "status": "not_screened"
+    }
+  ]
+}

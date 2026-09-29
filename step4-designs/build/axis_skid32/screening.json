@@ -1,0 +1,15 @@
+{
+  "bog_cells": 276,
+  "bog_register_bits": 67,
+  "clock_check": "one declared rising-edge clock",
+  "design_id": "axis_skid32",
+  "family": "forencich_axis",
+  "generic_cells": 188,
+  "generic_register_bits": 67,
+  "label_status": "not_generated",
+  "mapped_cells": 247,
+  "mapped_register_bits": 67,
+  "seconds": 0.55,
+  "split": "train",
+  "status": "PASS"
+}

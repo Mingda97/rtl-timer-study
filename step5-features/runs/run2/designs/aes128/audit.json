@@ -1,0 +1,37 @@
+{
+  "bog_feature_rows_before_label_join": 562,
+  "bog_path_kinds": {
+    "input_to_reg": 306,
+    "reg_to_reg": 256
+  },
+  "common_registers": 562,
+  "coverage_all_common": 1.0,
+  "coverage_public_rtl": 1.0,
+  "dataset_rows": 562,
+  "design": "aes128",
+  "elapsed_seconds": 7.62,
+  "excluded_control_pins": {
+    "bog": 0,
+    "mapped": 0
+  },
+  "excluded_registers": 0,
+  "exclusion_reasons": {},
+  "family": "opencores_aes",
+  "mapped_path_kinds": {
+    "input_to_reg": 306,
+    "reg_to_reg": 256
+  },
+  "matched_public_rtl_bits": 562,
+  "one_polarity_mapped_rows": 0,
+  "period_invariance_polarities_checked": 1124,
+  "split": "train",
+  "status": "PASS",
+  "timing_query_status": {
+    "bog": {
+      "ok": 1124
+    },
+    "mapped": {
+      "ok": 1124
+    }
+  }
+}

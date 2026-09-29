@@ -1,0 +1,12 @@
+read_verilog -sv -DSYNTHESIS -I"sources/axis/rtl" "sources/axis/rtl/axis_register.v"
+chparam -set DATA_WIDTH 32 -set KEEP_ENABLE 0 -set LAST_ENABLE 0 -set USER_ENABLE 0 -set REG_TYPE 2 axis_register
+hierarchy -check -top axis_register
+rename -top axis_register
+synth -top axis_register -flatten -noabc
+# Remove hierarchy metadata, retaining all circuit cells and net names.
+delete t:$scopeinfo
+dffunmap
+clean
+check -assert
+write_rtlil build/axis_skid32/common.il
+write_json build/axis_skid32/common.json

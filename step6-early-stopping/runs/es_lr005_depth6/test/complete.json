@@ -1,0 +1,12 @@
+{
+  "fingerprint": "a9d3a154cda1b94c751fb655f1fdc365327d59477645d9f39070915057e92163",
+  "outputs_sha256": {
+    "REPORT.md": "7d112c10b71512abe933223467656d4cfeacd6b4174a408f03576694a8d818ff",
+    "baseline_predictions.csv": "837adae3f7b20b42e13f1897f1ecb3a11fd4c1135a743ae668e2fbbd574c3161",
+    "comparison.json": "df20279e1078331f48834bdf8fbe9567edabfc97959568a1518ea3e037919469",
+    "per_design.csv": "e2a256d1482ad097f07c8e4778ae3957a2c16849e4ac3ab77de1b9de63be9f9c",
+    "summary.csv": "6529d2993c65706e3ebdc22b9061b5e00690d0d1a5f6a88a6b9dd50271be91e0",
+    "weighted_es_predictions.csv": "03c47bdbdbd54c1c20f33e0cfc3116e501e55b7e53f6359c295e1a0cb8fd1430",
+    "weighted_predictions.csv": "3df65570405ac043261b525da4d518407ace18f93be2fb4dda9c03fa1d10be48"
+  }
+}

@@ -1,0 +1,12 @@
+read_verilog -sv -DSYNTHESIS -I"sources/axis/rtl" "sources/axis/rtl/axis_arb_mux.v" "sources/axis/rtl/arbiter.v" "sources/axis/rtl/priority_encoder.v"
+chparam -set S_COUNT 4 -set DATA_WIDTH 32 -set KEEP_ENABLE 0 -set LAST_ENABLE 0 -set USER_ENABLE 0 -set ARB_TYPE_ROUND_ROBIN 1 axis_arb_mux
+hierarchy -check -top axis_arb_mux
+rename -top axis_arb_mux
+synth -top axis_arb_mux -flatten -noabc
+# Remove hierarchy metadata, retaining all circuit cells and net names.
+delete t:$scopeinfo
+dffunmap
+clean
+check -assert
+write_rtlil build/axis_arb_mux4/common.il
+write_json build/axis_arb_mux4/common.json

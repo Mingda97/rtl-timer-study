@@ -1,0 +1,15 @@
+{
+  "bog_cells": 1263,
+  "bog_register_bits": 152,
+  "clock_check": "one declared rising-edge clock",
+  "design_id": "seqcordic",
+  "family": "zipcpu_cordic",
+  "generic_cells": 1365,
+  "generic_register_bits": 152,
+  "label_status": "not_generated",
+  "mapped_cells": 1089,
+  "mapped_register_bits": 152,
+  "seconds": 1.17,
+  "split": "test",
+  "status": "PASS"
+}

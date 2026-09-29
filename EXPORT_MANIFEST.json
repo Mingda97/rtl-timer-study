@@ -1,0 +1,98 @@
+{
+  "assets": {
+    "CELL_LEF": "assets/cell_lef/NangateOpenCellLibrary.macro.mod.lef",
+    "FULL_LIB": "assets/full_lib/NangateOpenCellLibrary_typical.lib",
+    "SOG_LIB": "assets/sog_lib/nangate45_sog.lib",
+    "TECH_LEF": "assets/tech_lef/NangateOpenCellLibrary.tech.lef"
+  },
+  "created_utc": "2026-09-29T14:57:03.688554+00:00",
+  "experiments": {
+    "baseline": {
+      "learning_rate": null,
+      "max_depth": 50,
+      "model_sha256": "a54f7fad76a255f7addbef5fe954325bdb13f5be303c130cf49f2718c15a9397",
+      "trees": 500,
+      "validation_macro": {
+        "mae_ns": 1.8185557398546999,
+        "pearson_r": 0.8014125652019879,
+        "r2": -4.733555036471504,
+        "rmse_ns": 2.1025567215427636,
+        "spearman_r": 0.562966334326962
+      }
+    },
+    "weighted": {
+      "learning_rate": null,
+      "max_depth": 50,
+      "model_sha256": "9ecd7698e2fd8b94f3323de9b55a72faef44cd47d84c369c8790adbe74506eae",
+      "trees": 500,
+      "validation_macro": {
+        "mae_ns": 1.7299601920520424,
+        "pearson_r": 0.8050058182176325,
+        "r2": -4.378825467394446,
+        "rmse_ns": 2.051235590356193,
+        "spearman_r": 0.5968050401175296
+      }
+    },
+    "weighted_es": {
+      "learning_rate": 0.05,
+      "max_depth": 6,
+      "model_sha256": "0e2026ab223af2dffbdf3d98d9de0b1e397459ae06c0147c23ebe61a92c38234",
+      "trees": 24,
+      "validation_macro": {
+        "mae_ns": 1.212594658743072,
+        "pearson_r": 0.8087894445819621,
+        "r2": -1.5954317035431782,
+        "rmse_ns": 1.291212516806294,
+        "spearman_r": 0.6014294264606911
+      }
+    }
+  },
+  "final_test_included": true,
+  "large_files_lfs": [],
+  "omitted": [
+    "other experiment runs",
+    "reference example results",
+    "legacy_combined_experiment",
+    "virtual environments",
+    "Git history and credentials",
+    "EDA binaries",
+    "large generated netlists and raw STA path archives"
+  ],
+  "original_signatures": {
+    "data": "f4d0eaa63f81cbad8c9f0929e28a7ed11e40c1a428a1ea319d0578935e00a32c",
+    "final": "a9d3a154cda1b94c751fb655f1fdc365327d59477645d9f39070915057e92163",
+    "previous": "8061857a7b5806cc6b7d5cdf8ef04f06c55a84c6a8d84176c13cf8a7214f4ae4"
+  },
+  "runs": {
+    "data": "step5-features/runs/run2",
+    "final": "step6-early-stopping/runs/es_lr005_depth6",
+    "previous": "step6-weighting-only/runs/weighting_only"
+  },
+  "scope": "SOG-only, one slowest BOG path per endpoint; full-library post-synthesis arrival labels; no WNS/TNS predictor",
+  "source_workspace": "/workspaces/codespaces-blank",
+  "tool_provenance": {
+    "backend": "openroad",
+    "numpy": "1.26.4",
+    "sta_binary_sha256": "2b9199e1c58fb026984db5b67418f7c25208a41876ebe7a9ee941cb3f1e5a145",
+    "sta_version": "unknown",
+    "yosys": "Yosys 0.68+post (git sha1 UNKNOWN, Release, GNU /usr/local/bin/wrapped-cc/g++ 11.4.0)",
+    "yosys_binary_sha256": "5cd52bc790d39b1e59a88112e9132ef8de338c2a26e4b0df8222d937e65bab92"
+  },
+  "training_environment": {
+    "platform": "Linux-6.8.0-1064-azure-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "threads": 25,
+    "versions": {
+      "matplotlib": "3.10.3",
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.7.2",
+      "scipy": "1.15.3",
+      "xgboost-cpu": "3.0.5"
+    }
+  },
+  "upstream_commits": {
+    "orfs_checkout": null,
+    "rtl_timer_checkout": "206ff4078368c251d2fafaffcc648282c68316f1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "bog_cells": 16187,
+  "bog_register_bits": 562,
+  "clock_check": "one declared rising-edge clock",
+  "design_id": "aes128",
+  "family": "opencores_aes",
+  "generic_cells": 10546,
+  "generic_register_bits": 562,
+  "label_status": "not_generated",
+  "mapped_cells": 10130,
+  "mapped_register_bits": 562,
+  "seconds": 9.01,
+  "split": "train",
+  "status": "PASS"
+}

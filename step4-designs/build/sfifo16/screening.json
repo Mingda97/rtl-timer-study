@@ -1,0 +1,15 @@
+{
+  "bog_cells": 2395,
+  "bog_register_bits": 591,
+  "clock_check": "one declared rising-edge clock",
+  "design_id": "sfifo16",
+  "family": "zipcpu_sfifo",
+  "generic_cells": 1815,
+  "generic_register_bits": 591,
+  "label_status": "not_generated",
+  "mapped_cells": 1863,
+  "mapped_register_bits": 591,
+  "seconds": 1.29,
+  "split": "test",
+  "status": "PASS"
+}

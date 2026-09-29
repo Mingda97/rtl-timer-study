@@ -1,0 +1,11 @@
+read_verilog -sv -DSYNTHESIS -I"sources/chacha/src/rtl" "sources/chacha/src/rtl/chacha_core.v" "sources/chacha/src/rtl/chacha_qr.v"
+hierarchy -check -top chacha_core
+rename -top chacha_core
+synth -top chacha_core -flatten -noabc
+# Remove hierarchy metadata, retaining all circuit cells and net names.
+delete t:$scopeinfo
+dffunmap
+clean
+check -assert
+write_rtlil build/chacha/common.il
+write_json build/chacha/common.json

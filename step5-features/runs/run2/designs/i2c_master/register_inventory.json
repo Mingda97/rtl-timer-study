@@ -1,0 +1,958 @@
+[
+  {
+    "aliases": [
+      "bit_count_reg[0]"
+    ],
+    "bog_d_pin": "_1551_/D",
+    "bog_ff": "_1551_",
+    "common_ff": "$auto$ff.cc:337:slice$3946",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1003_/D",
+    "mapped_ff": "_1003_",
+    "rtl_bit": "bit_count_reg[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "bit_count_reg[1]"
+    ],
+    "bog_d_pin": "_1555_/D",
+    "bog_ff": "_1555_",
+    "common_ff": "$auto$ff.cc:337:slice$3947",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1007_/D",
+    "mapped_ff": "_1007_",
+    "rtl_bit": "bit_count_reg[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "bit_count_reg[2]"
+    ],
+    "bog_d_pin": "_1558_/D",
+    "bog_ff": "_1558_",
+    "common_ff": "$auto$ff.cc:337:slice$3948",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1010_/D",
+    "mapped_ff": "_1010_",
+    "rtl_bit": "bit_count_reg[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "bit_count_reg[3]"
+    ],
+    "bog_d_pin": "_1605_/D",
+    "bog_ff": "_1605_",
+    "common_ff": "$auto$ff.cc:337:slice$3949",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1057_/D",
+    "mapped_ff": "_1057_",
+    "rtl_bit": "bit_count_reg[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "phy_state_reg[0]"
+    ],
+    "bog_d_pin": "_1560_/D",
+    "bog_ff": "_1560_",
+    "common_ff": "$auto$ff.cc:337:slice$3987",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1012_/D",
+    "mapped_ff": "_1012_",
+    "rtl_bit": "phy_state_reg[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "phy_state_reg[1]"
+    ],
+    "bog_d_pin": "_1562_/D",
+    "bog_ff": "_1562_",
+    "common_ff": "$auto$ff.cc:337:slice$3988",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1014_/D",
+    "mapped_ff": "_1014_",
+    "rtl_bit": "phy_state_reg[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "phy_state_reg[2]"
+    ],
+    "bog_d_pin": "_1564_/D",
+    "bog_ff": "_1564_",
+    "common_ff": "$auto$ff.cc:337:slice$3989",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1016_/D",
+    "mapped_ff": "_1016_",
+    "rtl_bit": "phy_state_reg[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "phy_state_reg[3]"
+    ],
+    "bog_d_pin": "_1565_/D",
+    "bog_ff": "_1565_",
+    "common_ff": "$auto$ff.cc:337:slice$3990",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1017_/D",
+    "mapped_ff": "_1017_",
+    "rtl_bit": "phy_state_reg[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "state_reg[0]"
+    ],
+    "bog_d_pin": "_1566_/D",
+    "bog_ff": "_1566_",
+    "common_ff": "$auto$ff.cc:337:slice$3991",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1018_/D",
+    "mapped_ff": "_1018_",
+    "rtl_bit": "state_reg[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "state_reg[1]"
+    ],
+    "bog_d_pin": "_1568_/D",
+    "bog_ff": "_1568_",
+    "common_ff": "$auto$ff.cc:337:slice$3992",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1020_/D",
+    "mapped_ff": "_1020_",
+    "rtl_bit": "state_reg[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "state_reg[2]"
+    ],
+    "bog_d_pin": "_1569_/D",
+    "bog_ff": "_1569_",
+    "common_ff": "$auto$ff.cc:337:slice$3993",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1021_/D",
+    "mapped_ff": "_1021_",
+    "rtl_bit": "state_reg[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "state_reg[3]"
+    ],
+    "bog_d_pin": "_1563_/D",
+    "bog_ff": "_1563_",
+    "common_ff": "$auto$ff.cc:337:slice$3994",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1015_/D",
+    "mapped_ff": "_1015_",
+    "rtl_bit": "state_reg[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "addr_reg[0]"
+    ],
+    "bog_d_pin": "_1570_/D",
+    "bog_ff": "_1570_",
+    "common_ff": "$auto$ff.cc:337:slice$4061",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1022_/D",
+    "mapped_ff": "_1022_",
+    "rtl_bit": "addr_reg[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "addr_reg[1]"
+    ],
+    "bog_d_pin": "_1572_/D",
+    "bog_ff": "_1572_",
+    "common_ff": "$auto$ff.cc:337:slice$4062",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1024_/D",
+    "mapped_ff": "_1024_",
+    "rtl_bit": "addr_reg[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "addr_reg[2]"
+    ],
+    "bog_d_pin": "_1573_/D",
+    "bog_ff": "_1573_",
+    "common_ff": "$auto$ff.cc:337:slice$4063",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1025_/D",
+    "mapped_ff": "_1025_",
+    "rtl_bit": "addr_reg[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "addr_reg[3]"
+    ],
+    "bog_d_pin": "_1574_/D",
+    "bog_ff": "_1574_",
+    "common_ff": "$auto$ff.cc:337:slice$4064",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1026_/D",
+    "mapped_ff": "_1026_",
+    "rtl_bit": "addr_reg[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "addr_reg[4]"
+    ],
+    "bog_d_pin": "_1576_/D",
+    "bog_ff": "_1576_",
+    "common_ff": "$auto$ff.cc:337:slice$4065",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1028_/D",
+    "mapped_ff": "_1028_",
+    "rtl_bit": "addr_reg[4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "addr_reg[5]"
+    ],
+    "bog_d_pin": "_1577_/D",
+    "bog_ff": "_1577_",
+    "common_ff": "$auto$ff.cc:337:slice$4066",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1029_/D",
+    "mapped_ff": "_1029_",
+    "rtl_bit": "addr_reg[5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "addr_reg[6]"
+    ],
+    "bog_d_pin": "_1595_/D",
+    "bog_ff": "_1595_",
+    "common_ff": "$auto$ff.cc:337:slice$4067",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1047_/D",
+    "mapped_ff": "_1047_",
+    "rtl_bit": "addr_reg[6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "bus_control",
+      "bus_control_reg"
+    ],
+    "bog_d_pin": "_1617_/D",
+    "bog_ff": "_1617_",
+    "common_ff": "$auto$ff.cc:337:slice$4094",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1069_/D",
+    "mapped_ff": "_1069_",
+    "rtl_bit": "bus_control",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "delay_sda_reg"
+    ],
+    "bog_d_pin": "_1599_/D",
+    "bog_ff": "_1599_",
+    "common_ff": "$auto$ff.cc:337:slice$4095",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1051_/D",
+    "mapped_ff": "_1051_",
+    "rtl_bit": "delay_sda_reg",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "m_axis_data_tvalid",
+      "m_axis_data_tvalid_reg"
+    ],
+    "bog_d_pin": "_1619_/D",
+    "bog_ff": "_1619_",
+    "common_ff": "$auto$ff.cc:337:slice$4096",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1071_/D",
+    "mapped_ff": "_1071_",
+    "rtl_bit": "m_axis_data_tvalid",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "m_axis_data_tlast",
+      "m_axis_data_tlast_reg"
+    ],
+    "bog_d_pin": "_1615_/D",
+    "bog_ff": "_1615_",
+    "common_ff": "$auto$ff.cc:337:slice$4097",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1067_/D",
+    "mapped_ff": "_1067_",
+    "rtl_bit": "m_axis_data_tlast",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "m_axis_data_tdata[0]",
+      "m_axis_data_tdata_reg[0]"
+    ],
+    "bog_d_pin": "_1578_/D",
+    "bog_ff": "_1578_",
+    "common_ff": "$auto$ff.cc:337:slice$4106",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1030_/D",
+    "mapped_ff": "_1030_",
+    "rtl_bit": "m_axis_data_tdata[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "m_axis_data_tdata[1]",
+      "m_axis_data_tdata_reg[1]"
+    ],
+    "bog_d_pin": "_1579_/D",
+    "bog_ff": "_1579_",
+    "common_ff": "$auto$ff.cc:337:slice$4107",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1031_/D",
+    "mapped_ff": "_1031_",
+    "rtl_bit": "m_axis_data_tdata[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "m_axis_data_tdata[2]",
+      "m_axis_data_tdata_reg[2]"
+    ],
+    "bog_d_pin": "_1580_/D",
+    "bog_ff": "_1580_",
+    "common_ff": "$auto$ff.cc:337:slice$4108",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1032_/D",
+    "mapped_ff": "_1032_",
+    "rtl_bit": "m_axis_data_tdata[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "m_axis_data_tdata[3]",
+      "m_axis_data_tdata_reg[3]"
+    ],
+    "bog_d_pin": "_1581_/D",
+    "bog_ff": "_1581_",
+    "common_ff": "$auto$ff.cc:337:slice$4109",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1033_/D",
+    "mapped_ff": "_1033_",
+    "rtl_bit": "m_axis_data_tdata[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "m_axis_data_tdata[4]",
+      "m_axis_data_tdata_reg[4]"
+    ],
+    "bog_d_pin": "_1582_/D",
+    "bog_ff": "_1582_",
+    "common_ff": "$auto$ff.cc:337:slice$4110",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1034_/D",
+    "mapped_ff": "_1034_",
+    "rtl_bit": "m_axis_data_tdata[4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "m_axis_data_tdata[5]",
+      "m_axis_data_tdata_reg[5]"
+    ],
+    "bog_d_pin": "_1583_/D",
+    "bog_ff": "_1583_",
+    "common_ff": "$auto$ff.cc:337:slice$4111",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1035_/D",
+    "mapped_ff": "_1035_",
+    "rtl_bit": "m_axis_data_tdata[5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "m_axis_data_tdata[6]",
+      "m_axis_data_tdata_reg[6]"
+    ],
+    "bog_d_pin": "_1585_/D",
+    "bog_ff": "_1585_",
+    "common_ff": "$auto$ff.cc:337:slice$4112",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1037_/D",
+    "mapped_ff": "_1037_",
+    "rtl_bit": "m_axis_data_tdata[6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "m_axis_data_tdata[7]",
+      "m_axis_data_tdata_reg[7]"
+    ],
+    "bog_d_pin": "_1613_/D",
+    "bog_ff": "_1613_",
+    "common_ff": "$auto$ff.cc:337:slice$4113",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1065_/D",
+    "mapped_ff": "_1065_",
+    "rtl_bit": "m_axis_data_tdata[7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "scl_o",
+      "scl_o_reg",
+      "scl_t"
+    ],
+    "bog_d_pin": "_1611_/D",
+    "bog_ff": "_1611_",
+    "common_ff": "$auto$ff.cc:337:slice$4140",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1063_/D",
+    "mapped_ff": "_1063_",
+    "rtl_bit": "scl_o",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "bus_active",
+      "bus_active_reg"
+    ],
+    "bog_d_pin": "_1609_/D",
+    "bog_ff": "_1609_",
+    "common_ff": "$auto$ff.cc:337:slice$4143",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1061_/D",
+    "mapped_ff": "_1061_",
+    "rtl_bit": "bus_active",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "mode_write_multiple_reg"
+    ],
+    "bog_d_pin": "_1601_/D",
+    "bog_ff": "_1601_",
+    "common_ff": "$auto$ff.cc:337:slice$4196",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1053_/D",
+    "mapped_ff": "_1053_",
+    "rtl_bit": "mode_write_multiple_reg",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "last_reg"
+    ],
+    "bog_d_pin": "_1590_/D",
+    "bog_ff": "_1590_",
+    "common_ff": "$auto$ff.cc:337:slice$4251",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1042_/D",
+    "mapped_ff": "_1042_",
+    "rtl_bit": "last_reg",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "mode_stop_reg"
+    ],
+    "bog_d_pin": "_1588_/D",
+    "bog_ff": "_1588_",
+    "common_ff": "$auto$ff.cc:337:slice$4252",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1040_/D",
+    "mapped_ff": "_1040_",
+    "rtl_bit": "mode_stop_reg",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "sda_o",
+      "sda_o_reg",
+      "sda_t"
+    ],
+    "bog_d_pin": "_1586_/D",
+    "bog_ff": "_1586_",
+    "common_ff": "$auto$ff.cc:337:slice$4298",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1038_/D",
+    "mapped_ff": "_1038_",
+    "rtl_bit": "sda_o",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "delay_reg[0]"
+    ],
+    "bog_d_pin": "_1602_/D",
+    "bog_ff": "_1602_",
+    "common_ff": "$auto$ff.cc:337:slice$4364",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1054_/D",
+    "mapped_ff": "_1054_",
+    "rtl_bit": "delay_reg[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "delay_reg[1]"
+    ],
+    "bog_d_pin": "_1604_/D",
+    "bog_ff": "_1604_",
+    "common_ff": "$auto$ff.cc:337:slice$4365",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1056_/D",
+    "mapped_ff": "_1056_",
+    "rtl_bit": "delay_reg[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "delay_reg[2]"
+    ],
+    "bog_d_pin": "_1606_/D",
+    "bog_ff": "_1606_",
+    "common_ff": "$auto$ff.cc:337:slice$4366",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1058_/D",
+    "mapped_ff": "_1058_",
+    "rtl_bit": "delay_reg[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "delay_reg[3]"
+    ],
+    "bog_d_pin": "_1608_/D",
+    "bog_ff": "_1608_",
+    "common_ff": "$auto$ff.cc:337:slice$4367",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1060_/D",
+    "mapped_ff": "_1060_",
+    "rtl_bit": "delay_reg[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "delay_reg[4]"
+    ],
+    "bog_d_pin": "_1610_/D",
+    "bog_ff": "_1610_",
+    "common_ff": "$auto$ff.cc:337:slice$4368",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1062_/D",
+    "mapped_ff": "_1062_",
+    "rtl_bit": "delay_reg[4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "delay_reg[5]"
+    ],
+    "bog_d_pin": "_1612_/D",
+    "bog_ff": "_1612_",
+    "common_ff": "$auto$ff.cc:337:slice$4369",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1064_/D",
+    "mapped_ff": "_1064_",
+    "rtl_bit": "delay_reg[5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "delay_reg[6]"
+    ],
+    "bog_d_pin": "_1614_/D",
+    "bog_ff": "_1614_",
+    "common_ff": "$auto$ff.cc:337:slice$4370",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1066_/D",
+    "mapped_ff": "_1066_",
+    "rtl_bit": "delay_reg[6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "delay_reg[7]"
+    ],
+    "bog_d_pin": "_1616_/D",
+    "bog_ff": "_1616_",
+    "common_ff": "$auto$ff.cc:337:slice$4371",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1068_/D",
+    "mapped_ff": "_1068_",
+    "rtl_bit": "delay_reg[7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "delay_reg[8]"
+    ],
+    "bog_d_pin": "_1618_/D",
+    "bog_ff": "_1618_",
+    "common_ff": "$auto$ff.cc:337:slice$4372",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1070_/D",
+    "mapped_ff": "_1070_",
+    "rtl_bit": "delay_reg[8]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "delay_reg[9]"
+    ],
+    "bog_d_pin": "_1620_/D",
+    "bog_ff": "_1620_",
+    "common_ff": "$auto$ff.cc:337:slice$4373",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1072_/D",
+    "mapped_ff": "_1072_",
+    "rtl_bit": "delay_reg[9]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "delay_reg[10]"
+    ],
+    "bog_d_pin": "_1622_/D",
+    "bog_ff": "_1622_",
+    "common_ff": "$auto$ff.cc:337:slice$4374",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1074_/D",
+    "mapped_ff": "_1074_",
+    "rtl_bit": "delay_reg[10]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "delay_reg[11]"
+    ],
+    "bog_d_pin": "_1552_/D",
+    "bog_ff": "_1552_",
+    "common_ff": "$auto$ff.cc:337:slice$4375",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1004_/D",
+    "mapped_ff": "_1004_",
+    "rtl_bit": "delay_reg[11]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "delay_reg[12]"
+    ],
+    "bog_d_pin": "_1554_/D",
+    "bog_ff": "_1554_",
+    "common_ff": "$auto$ff.cc:337:slice$4376",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1006_/D",
+    "mapped_ff": "_1006_",
+    "rtl_bit": "delay_reg[12]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "delay_reg[13]"
+    ],
+    "bog_d_pin": "_1556_/D",
+    "bog_ff": "_1556_",
+    "common_ff": "$auto$ff.cc:337:slice$4377",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1008_/D",
+    "mapped_ff": "_1008_",
+    "rtl_bit": "delay_reg[13]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "delay_reg[14]"
+    ],
+    "bog_d_pin": "_1571_/D",
+    "bog_ff": "_1571_",
+    "common_ff": "$auto$ff.cc:337:slice$4378",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1023_/D",
+    "mapped_ff": "_1023_",
+    "rtl_bit": "delay_reg[14]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "delay_reg[15]"
+    ],
+    "bog_d_pin": "_1593_/D",
+    "bog_ff": "_1593_",
+    "common_ff": "$auto$ff.cc:337:slice$4379",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1045_/D",
+    "mapped_ff": "_1045_",
+    "rtl_bit": "delay_reg[15]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "delay_reg[16]"
+    ],
+    "bog_d_pin": "_1559_/D",
+    "bog_ff": "_1559_",
+    "common_ff": "$auto$ff.cc:337:slice$4380",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1011_/D",
+    "mapped_ff": "_1011_",
+    "rtl_bit": "delay_reg[16]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "busy",
+      "busy_reg"
+    ],
+    "bog_d_pin": "_1607_/D",
+    "bog_ff": "_1607_",
+    "common_ff": "$auto$ff.cc:337:slice$4384",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1059_/D",
+    "mapped_ff": "_1059_",
+    "rtl_bit": "busy",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "missed_ack",
+      "missed_ack_reg"
+    ],
+    "bog_d_pin": "_1592_/D",
+    "bog_ff": "_1592_",
+    "common_ff": "$auto$ff.cc:337:slice$4390",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1044_/D",
+    "mapped_ff": "_1044_",
+    "rtl_bit": "missed_ack",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "mode_read_reg"
+    ],
+    "bog_d_pin": "_1561_/D",
+    "bog_ff": "_1561_",
+    "common_ff": "$auto$ff.cc:337:slice$4397",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1013_/D",
+    "mapped_ff": "_1013_",
+    "rtl_bit": "mode_read_reg",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "phy_rx_data_reg"
+    ],
+    "bog_d_pin": "_1557_/D",
+    "bog_ff": "_1557_",
+    "common_ff": "$auto$ff.cc:337:slice$4424",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1009_/D",
+    "mapped_ff": "_1009_",
+    "rtl_bit": "phy_rx_data_reg",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "delay_scl_reg"
+    ],
+    "bog_d_pin": "_1621_/D",
+    "bog_ff": "_1621_",
+    "common_ff": "$auto$ff.cc:337:slice$4425",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1073_/D",
+    "mapped_ff": "_1073_",
+    "rtl_bit": "delay_scl_reg",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "scl_i_reg"
+    ],
+    "bog_d_pin": "_1575_/D",
+    "bog_ff": "_1575_",
+    "common_ff": "$auto$ff.cc:337:slice$5770",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1027_/D",
+    "mapped_ff": "_1027_",
+    "rtl_bit": "scl_i_reg",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "sda_i_reg"
+    ],
+    "bog_d_pin": "_1567_/D",
+    "bog_ff": "_1567_",
+    "common_ff": "$auto$ff.cc:337:slice$5771",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1019_/D",
+    "mapped_ff": "_1019_",
+    "rtl_bit": "sda_i_reg",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "last_sda_i_reg"
+    ],
+    "bog_d_pin": "_1603_/D",
+    "bog_ff": "_1603_",
+    "common_ff": "$auto$ff.cc:337:slice$5772",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1055_/D",
+    "mapped_ff": "_1055_",
+    "rtl_bit": "last_sda_i_reg",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "s_axis_data_tready",
+      "s_axis_data_tready_reg"
+    ],
+    "bog_d_pin": "_1553_/D",
+    "bog_ff": "_1553_",
+    "common_ff": "$auto$ff.cc:337:slice$6636",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1005_/D",
+    "mapped_ff": "_1005_",
+    "rtl_bit": "s_axis_data_tready",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "s_axis_cmd_ready",
+      "s_axis_cmd_ready_reg"
+    ],
+    "bog_d_pin": "_1584_/D",
+    "bog_ff": "_1584_",
+    "common_ff": "$auto$ff.cc:337:slice$6643",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1036_/D",
+    "mapped_ff": "_1036_",
+    "rtl_bit": "s_axis_cmd_ready",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "data_reg[7]"
+    ],
+    "bog_d_pin": "_1597_/D",
+    "bog_ff": "_1597_",
+    "common_ff": "$auto$ff.cc:337:slice$6650",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1049_/D",
+    "mapped_ff": "_1049_",
+    "rtl_bit": "data_reg[7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "data_reg[0]"
+    ],
+    "bog_d_pin": "_1587_/D",
+    "bog_ff": "_1587_",
+    "common_ff": "$auto$ff.cc:337:slice$6651",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1039_/D",
+    "mapped_ff": "_1039_",
+    "rtl_bit": "data_reg[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "data_reg[1]"
+    ],
+    "bog_d_pin": "_1589_/D",
+    "bog_ff": "_1589_",
+    "common_ff": "$auto$ff.cc:337:slice$6652",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1041_/D",
+    "mapped_ff": "_1041_",
+    "rtl_bit": "data_reg[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "data_reg[2]"
+    ],
+    "bog_d_pin": "_1591_/D",
+    "bog_ff": "_1591_",
+    "common_ff": "$auto$ff.cc:337:slice$6653",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1043_/D",
+    "mapped_ff": "_1043_",
+    "rtl_bit": "data_reg[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "data_reg[3]"
+    ],
+    "bog_d_pin": "_1594_/D",
+    "bog_ff": "_1594_",
+    "common_ff": "$auto$ff.cc:337:slice$6654",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1046_/D",
+    "mapped_ff": "_1046_",
+    "rtl_bit": "data_reg[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "data_reg[4]"
+    ],
+    "bog_d_pin": "_1596_/D",
+    "bog_ff": "_1596_",
+    "common_ff": "$auto$ff.cc:337:slice$6655",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1048_/D",
+    "mapped_ff": "_1048_",
+    "rtl_bit": "data_reg[4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "data_reg[5]"
+    ],
+    "bog_d_pin": "_1598_/D",
+    "bog_ff": "_1598_",
+    "common_ff": "$auto$ff.cc:337:slice$6656",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1050_/D",
+    "mapped_ff": "_1050_",
+    "rtl_bit": "data_reg[5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "data_reg[6]"
+    ],
+    "bog_d_pin": "_1600_/D",
+    "bog_ff": "_1600_",
+    "common_ff": "$auto$ff.cc:337:slice$6657",
+    "design": "i2c_master",
+    "mapped_d_pin": "_1052_/D",
+    "mapped_ff": "_1052_",
+    "rtl_bit": "data_reg[6]",
+    "status": "unique_public_q_alias"
+  }
+]

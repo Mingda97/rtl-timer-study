@@ -1,0 +1,37 @@
+{
+  "bog_feature_rows_before_label_join": 1215,
+  "bog_path_kinds": {
+    "input_to_reg": 354,
+    "reg_to_reg": 861
+  },
+  "common_registers": 1215,
+  "coverage_all_common": 1.0,
+  "coverage_public_rtl": 1.0,
+  "dataset_rows": 1215,
+  "design": "femtorv_quark",
+  "elapsed_seconds": 12.53,
+  "excluded_control_pins": {
+    "bog": 0,
+    "mapped": 0
+  },
+  "excluded_registers": 0,
+  "exclusion_reasons": {},
+  "family": "pico_femto",
+  "mapped_path_kinds": {
+    "input_to_reg": 610,
+    "reg_to_reg": 605
+  },
+  "matched_public_rtl_bits": 1215,
+  "one_polarity_mapped_rows": 0,
+  "period_invariance_polarities_checked": 2430,
+  "split": "train",
+  "status": "PASS",
+  "timing_query_status": {
+    "bog": {
+      "ok": 2430
+    },
+    "mapped": {
+      "ok": 2430
+    }
+  }
+}

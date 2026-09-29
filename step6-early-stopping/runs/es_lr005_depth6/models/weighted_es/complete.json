@@ -1,0 +1,10 @@
+{
+  "fingerprint": "a9d3a154cda1b94c751fb655f1fdc365327d59477645d9f39070915057e92163",
+  "outputs_sha256": {
+    "booster_config.json": "209b029cd7da69285c80683e32cc426c7a7e6fe981337c4a2e721fbfbe844c03",
+    "model.ubj": "0e2026ab223af2dffbdf3d98d9de0b1e397459ae06c0147c23ebe61a92c38234",
+    "result.json": "cd9ba33b258e4d56c0a378a4fb4a26a89722bee3e565a49cd6345ff3d9078115",
+    "train_predictions.csv": "0dfb1cc8466927ce8b560a34d5b7b457dc416a6abcf2f8dd22a68dc890d2a1ea",
+    "validation_predictions.csv": "3fa66256dae88adf1b7d8ccc4f26adb460a7c34511cf9056582644f87ff120aa"
+  }
+}

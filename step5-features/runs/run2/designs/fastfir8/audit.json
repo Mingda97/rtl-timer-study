@@ -1,0 +1,37 @@
+{
+  "bog_feature_rows_before_label_join": 505,
+  "bog_path_kinds": {
+    "input_to_reg": 459,
+    "reg_to_reg": 46
+  },
+  "common_registers": 505,
+  "coverage_all_common": 1.0,
+  "coverage_public_rtl": 1.0,
+  "dataset_rows": 505,
+  "design": "fastfir8",
+  "elapsed_seconds": 13.35,
+  "excluded_control_pins": {
+    "bog": 0,
+    "mapped": 0
+  },
+  "excluded_registers": 0,
+  "exclusion_reasons": {},
+  "family": "zipcpu_filters",
+  "mapped_path_kinds": {
+    "input_to_reg": 500,
+    "reg_to_reg": 5
+  },
+  "matched_public_rtl_bits": 505,
+  "one_polarity_mapped_rows": 0,
+  "period_invariance_polarities_checked": 1010,
+  "split": "train",
+  "status": "PASS",
+  "timing_query_status": {
+    "bog": {
+      "ok": 1010
+    },
+    "mapped": {
+      "ok": 1010
+    }
+  }
+}

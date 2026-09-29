@@ -1,0 +1,11 @@
+read_liberty -lib "/OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib"
+read_rtlil build/axis_arb_mux4/common.il
+dfflibmap -liberty "/OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib"
+abc -liberty "/OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib"
+clean
+hierarchy -check -top axis_arb_mux
+check -assert -mapped
+rename -enumerate
+stat -liberty "/OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib"
+write_verilog -noattr -noexpr build/axis_arb_mux4/mapped.v
+write_json build/axis_arb_mux4/mapped.json

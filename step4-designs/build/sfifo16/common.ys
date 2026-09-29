@@ -1,0 +1,12 @@
+read_verilog -sv -DSYNTHESIS -I"sources/sfifo/rtl" "sources/sfifo/rtl/sfifo.v"
+chparam -set BW 32 -set LGFLEN 4 -set OPT_ASYNC_READ 0 sfifo
+hierarchy -check -top sfifo
+rename -top sfifo
+synth -top sfifo -flatten -noabc
+# Remove hierarchy metadata, retaining all circuit cells and net names.
+delete t:$scopeinfo
+dffunmap
+clean
+check -assert
+write_rtlil build/sfifo16/common.il
+write_json build/sfifo16/common.json

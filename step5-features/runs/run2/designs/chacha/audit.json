@@ -1,0 +1,37 @@
+{
+  "bog_feature_rows_before_label_join": 1100,
+  "bog_path_kinds": {
+    "input_to_reg": 377,
+    "reg_to_reg": 723
+  },
+  "common_registers": 1100,
+  "coverage_all_common": 1.0,
+  "coverage_public_rtl": 1.0,
+  "dataset_rows": 1100,
+  "design": "chacha",
+  "elapsed_seconds": 26.97,
+  "excluded_control_pins": {
+    "bog": 0,
+    "mapped": 0
+  },
+  "excluded_registers": 0,
+  "exclusion_reasons": {},
+  "family": "secworks_chacha",
+  "mapped_path_kinds": {
+    "input_to_reg": 155,
+    "reg_to_reg": 945
+  },
+  "matched_public_rtl_bits": 1100,
+  "one_polarity_mapped_rows": 0,
+  "period_invariance_polarities_checked": 2200,
+  "split": "validation",
+  "status": "PASS",
+  "timing_query_status": {
+    "bog": {
+      "ok": 2200
+    },
+    "mapped": {
+      "ok": 2200
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "fingerprint": "a9d3a154cda1b94c751fb655f1fdc365327d59477645d9f39070915057e92163",
+  "outputs_sha256": {
+    "booster_config.json": "fb90cd56838d7c341bd823135900ca47aa4196771a3038402bfc21b82e4ab657",
+    "design_weights.csv": "29b7500c408b2f507b8f3df8b0926f9bce6cf2348a47b380eb03ca0aeecae958",
+    "import_record.json": "562379fdd6233b687efc54220cb4bda258475dd54ce73e767e412245dcc84e5a",
+    "model.ubj": "9ecd7698e2fd8b94f3323de9b55a72faef44cd47d84c369c8790adbe74506eae",
+    "result.json": "6697d4cf87c4714b313fe6a3785cb8927b657df68ee959642d1dd07ad4578a69",
+    "source_complete.json": "7882eec130a4021ca34f4175a875e343df093a9b188cfa04602c594f34bdb50d",
+    "train_predictions.csv": "c840086e5cd7074706e179138d14aa2fe95689c446ea305f0d13ed4ef2c46998",
+    "validation_predictions.csv": "2fbf6769463a98dee5609b7db86e03c0dabae1b01f3f9ad84922df11bcbb6c4a"
+  }
+}

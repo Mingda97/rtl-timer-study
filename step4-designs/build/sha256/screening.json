@@ -1,0 +1,15 @@
+{
+  "bog_cells": 10444,
+  "bog_register_bits": 1034,
+  "clock_check": "one declared rising-edge clock",
+  "design_id": "sha256",
+  "family": "secworks_sha2",
+  "generic_cells": 9711,
+  "generic_register_bits": 1034,
+  "label_status": "not_generated",
+  "mapped_cells": 7846,
+  "mapped_register_bits": 1034,
+  "seconds": 4.66,
+  "split": "train",
+  "status": "PASS"
+}

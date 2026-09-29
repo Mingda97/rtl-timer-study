@@ -1,0 +1,15 @@
+{
+  "bog_cells": 1446,
+  "bog_register_bits": 142,
+  "clock_check": "one declared rising-edge clock",
+  "design_id": "divider32",
+  "family": "zipcpu_divider",
+  "generic_cells": 1315,
+  "generic_register_bits": 142,
+  "label_status": "not_generated",
+  "mapped_cells": 961,
+  "mapped_register_bits": 142,
+  "seconds": 1.13,
+  "split": "validation",
+  "status": "PASS"
+}

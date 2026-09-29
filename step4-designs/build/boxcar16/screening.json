@@ -1,0 +1,15 @@
+{
+  "bog_cells": 1694,
+  "bog_register_bits": 354,
+  "clock_check": "one declared rising-edge clock",
+  "design_id": "boxcar16",
+  "family": "zipcpu_filters",
+  "generic_cells": 1358,
+  "generic_register_bits": 354,
+  "label_status": "not_generated",
+  "mapped_cells": 1281,
+  "mapped_register_bits": 354,
+  "seconds": 1.04,
+  "split": "train",
+  "status": "PASS"
+}

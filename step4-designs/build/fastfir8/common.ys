@@ -1,0 +1,12 @@
+read_verilog -sv -DSYNTHESIS -I"sources/dspfilters/rtl" "sources/dspfilters/rtl/fastfir.v" "sources/dspfilters/rtl/firtap.v"
+chparam -set NTAPS 8 -set IW 12 -set TW 12 -set OW 28 -set FIXED_TAPS 0 fastfir
+hierarchy -check -top fastfir
+rename -top fastfir
+synth -top fastfir -flatten -noabc
+# Remove hierarchy metadata, retaining all circuit cells and net names.
+delete t:$scopeinfo
+dffunmap
+clean
+check -assert
+write_rtlil build/fastfir8/common.il
+write_json build/fastfir8/common.json

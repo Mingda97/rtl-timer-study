@@ -1,0 +1,460 @@
+[
+  {
+    "aliases": [
+      "s_axis_tready",
+      "s_axis_tready_reg"
+    ],
+    "bog_d_pin": "_679_/D",
+    "bog_ff": "_679_",
+    "common_ff": "$auto$ff.cc:337:slice$359",
+    "design": "uart_tx",
+    "mapped_d_pin": "_513_/D",
+    "mapped_ff": "_513_",
+    "rtl_bit": "s_axis_tready",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "bit_cnt[0]"
+    ],
+    "bog_d_pin": "_683_/D",
+    "bog_ff": "_683_",
+    "common_ff": "$auto$ff.cc:337:slice$362",
+    "design": "uart_tx",
+    "mapped_d_pin": "_517_/D",
+    "mapped_ff": "_517_",
+    "rtl_bit": "bit_cnt[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "bit_cnt[1]"
+    ],
+    "bog_d_pin": "_687_/D",
+    "bog_ff": "_687_",
+    "common_ff": "$auto$ff.cc:337:slice$363",
+    "design": "uart_tx",
+    "mapped_d_pin": "_521_/D",
+    "mapped_ff": "_521_",
+    "rtl_bit": "bit_cnt[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "bit_cnt[2]"
+    ],
+    "bog_d_pin": "_691_/D",
+    "bog_ff": "_691_",
+    "common_ff": "$auto$ff.cc:337:slice$364",
+    "design": "uart_tx",
+    "mapped_d_pin": "_525_/D",
+    "mapped_ff": "_525_",
+    "rtl_bit": "bit_cnt[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "bit_cnt[3]"
+    ],
+    "bog_d_pin": "_701_/D",
+    "bog_ff": "_701_",
+    "common_ff": "$auto$ff.cc:337:slice$365",
+    "design": "uart_tx",
+    "mapped_d_pin": "_535_/D",
+    "mapped_ff": "_535_",
+    "rtl_bit": "bit_cnt[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prescale_reg[0]"
+    ],
+    "bog_d_pin": "_695_/D",
+    "bog_ff": "_695_",
+    "common_ff": "$auto$ff.cc:337:slice$383",
+    "design": "uart_tx",
+    "mapped_d_pin": "_529_/D",
+    "mapped_ff": "_529_",
+    "rtl_bit": "prescale_reg[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prescale_reg[1]"
+    ],
+    "bog_d_pin": "_699_/D",
+    "bog_ff": "_699_",
+    "common_ff": "$auto$ff.cc:337:slice$384",
+    "design": "uart_tx",
+    "mapped_d_pin": "_533_/D",
+    "mapped_ff": "_533_",
+    "rtl_bit": "prescale_reg[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prescale_reg[2]"
+    ],
+    "bog_d_pin": "_703_/D",
+    "bog_ff": "_703_",
+    "common_ff": "$auto$ff.cc:337:slice$385",
+    "design": "uart_tx",
+    "mapped_d_pin": "_537_/D",
+    "mapped_ff": "_537_",
+    "rtl_bit": "prescale_reg[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prescale_reg[3]"
+    ],
+    "bog_d_pin": "_678_/D",
+    "bog_ff": "_678_",
+    "common_ff": "$auto$ff.cc:337:slice$386",
+    "design": "uart_tx",
+    "mapped_d_pin": "_512_/D",
+    "mapped_ff": "_512_",
+    "rtl_bit": "prescale_reg[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prescale_reg[4]"
+    ],
+    "bog_d_pin": "_680_/D",
+    "bog_ff": "_680_",
+    "common_ff": "$auto$ff.cc:337:slice$387",
+    "design": "uart_tx",
+    "mapped_d_pin": "_514_/D",
+    "mapped_ff": "_514_",
+    "rtl_bit": "prescale_reg[4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prescale_reg[5]"
+    ],
+    "bog_d_pin": "_682_/D",
+    "bog_ff": "_682_",
+    "common_ff": "$auto$ff.cc:337:slice$388",
+    "design": "uart_tx",
+    "mapped_d_pin": "_516_/D",
+    "mapped_ff": "_516_",
+    "rtl_bit": "prescale_reg[5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prescale_reg[6]"
+    ],
+    "bog_d_pin": "_684_/D",
+    "bog_ff": "_684_",
+    "common_ff": "$auto$ff.cc:337:slice$389",
+    "design": "uart_tx",
+    "mapped_d_pin": "_518_/D",
+    "mapped_ff": "_518_",
+    "rtl_bit": "prescale_reg[6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prescale_reg[7]"
+    ],
+    "bog_d_pin": "_686_/D",
+    "bog_ff": "_686_",
+    "common_ff": "$auto$ff.cc:337:slice$390",
+    "design": "uart_tx",
+    "mapped_d_pin": "_520_/D",
+    "mapped_ff": "_520_",
+    "rtl_bit": "prescale_reg[7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prescale_reg[8]"
+    ],
+    "bog_d_pin": "_688_/D",
+    "bog_ff": "_688_",
+    "common_ff": "$auto$ff.cc:337:slice$391",
+    "design": "uart_tx",
+    "mapped_d_pin": "_522_/D",
+    "mapped_ff": "_522_",
+    "rtl_bit": "prescale_reg[8]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prescale_reg[9]"
+    ],
+    "bog_d_pin": "_690_/D",
+    "bog_ff": "_690_",
+    "common_ff": "$auto$ff.cc:337:slice$392",
+    "design": "uart_tx",
+    "mapped_d_pin": "_524_/D",
+    "mapped_ff": "_524_",
+    "rtl_bit": "prescale_reg[9]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prescale_reg[10]"
+    ],
+    "bog_d_pin": "_692_/D",
+    "bog_ff": "_692_",
+    "common_ff": "$auto$ff.cc:337:slice$393",
+    "design": "uart_tx",
+    "mapped_d_pin": "_526_/D",
+    "mapped_ff": "_526_",
+    "rtl_bit": "prescale_reg[10]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prescale_reg[11]"
+    ],
+    "bog_d_pin": "_694_/D",
+    "bog_ff": "_694_",
+    "common_ff": "$auto$ff.cc:337:slice$394",
+    "design": "uart_tx",
+    "mapped_d_pin": "_528_/D",
+    "mapped_ff": "_528_",
+    "rtl_bit": "prescale_reg[11]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prescale_reg[12]"
+    ],
+    "bog_d_pin": "_696_/D",
+    "bog_ff": "_696_",
+    "common_ff": "$auto$ff.cc:337:slice$395",
+    "design": "uart_tx",
+    "mapped_d_pin": "_530_/D",
+    "mapped_ff": "_530_",
+    "rtl_bit": "prescale_reg[12]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prescale_reg[13]"
+    ],
+    "bog_d_pin": "_698_/D",
+    "bog_ff": "_698_",
+    "common_ff": "$auto$ff.cc:337:slice$396",
+    "design": "uart_tx",
+    "mapped_d_pin": "_532_/D",
+    "mapped_ff": "_532_",
+    "rtl_bit": "prescale_reg[13]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prescale_reg[14]"
+    ],
+    "bog_d_pin": "_700_/D",
+    "bog_ff": "_700_",
+    "common_ff": "$auto$ff.cc:337:slice$397",
+    "design": "uart_tx",
+    "mapped_d_pin": "_534_/D",
+    "mapped_ff": "_534_",
+    "rtl_bit": "prescale_reg[14]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prescale_reg[15]"
+    ],
+    "bog_d_pin": "_702_/D",
+    "bog_ff": "_702_",
+    "common_ff": "$auto$ff.cc:337:slice$398",
+    "design": "uart_tx",
+    "mapped_d_pin": "_536_/D",
+    "mapped_ff": "_536_",
+    "rtl_bit": "prescale_reg[15]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prescale_reg[16]"
+    ],
+    "bog_d_pin": "_704_/D",
+    "bog_ff": "_704_",
+    "common_ff": "$auto$ff.cc:337:slice$399",
+    "design": "uart_tx",
+    "mapped_d_pin": "_538_/D",
+    "mapped_ff": "_538_",
+    "rtl_bit": "prescale_reg[16]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prescale_reg[17]"
+    ],
+    "bog_d_pin": "_705_/D",
+    "bog_ff": "_705_",
+    "common_ff": "$auto$ff.cc:337:slice$400",
+    "design": "uart_tx",
+    "mapped_d_pin": "_539_/D",
+    "mapped_ff": "_539_",
+    "rtl_bit": "prescale_reg[17]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "prescale_reg[18]"
+    ],
+    "bog_d_pin": "_693_/D",
+    "bog_ff": "_693_",
+    "common_ff": "$auto$ff.cc:337:slice$401",
+    "design": "uart_tx",
+    "mapped_d_pin": "_527_/D",
+    "mapped_ff": "_527_",
+    "rtl_bit": "prescale_reg[18]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "busy",
+      "busy_reg"
+    ],
+    "bog_d_pin": "_685_/D",
+    "bog_ff": "_685_",
+    "common_ff": "$auto$ff.cc:337:slice$426",
+    "design": "uart_tx",
+    "mapped_d_pin": "_519_/D",
+    "mapped_ff": "_519_",
+    "rtl_bit": "busy",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "txd",
+      "txd_reg"
+    ],
+    "bog_d_pin": "_677_/D",
+    "bog_ff": "_677_",
+    "common_ff": "$auto$ff.cc:337:slice$463",
+    "design": "uart_tx",
+    "mapped_d_pin": "_511_/D",
+    "mapped_ff": "_511_",
+    "rtl_bit": "txd",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "data_reg[0]"
+    ],
+    "bog_d_pin": "_706_/D",
+    "bog_ff": "_706_",
+    "common_ff": "$auto$ff.cc:337:slice$493",
+    "design": "uart_tx",
+    "mapped_d_pin": "_540_/D",
+    "mapped_ff": "_540_",
+    "rtl_bit": "data_reg[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "data_reg[1]"
+    ],
+    "bog_d_pin": "_707_/D",
+    "bog_ff": "_707_",
+    "common_ff": "$auto$ff.cc:337:slice$494",
+    "design": "uart_tx",
+    "mapped_d_pin": "_541_/D",
+    "mapped_ff": "_541_",
+    "rtl_bit": "data_reg[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "data_reg[2]"
+    ],
+    "bog_d_pin": "_708_/D",
+    "bog_ff": "_708_",
+    "common_ff": "$auto$ff.cc:337:slice$495",
+    "design": "uart_tx",
+    "mapped_d_pin": "_542_/D",
+    "mapped_ff": "_542_",
+    "rtl_bit": "data_reg[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "data_reg[3]"
+    ],
+    "bog_d_pin": "_674_/D",
+    "bog_ff": "_674_",
+    "common_ff": "$auto$ff.cc:337:slice$496",
+    "design": "uart_tx",
+    "mapped_d_pin": "_508_/D",
+    "mapped_ff": "_508_",
+    "rtl_bit": "data_reg[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "data_reg[4]"
+    ],
+    "bog_d_pin": "_675_/D",
+    "bog_ff": "_675_",
+    "common_ff": "$auto$ff.cc:337:slice$497",
+    "design": "uart_tx",
+    "mapped_d_pin": "_509_/D",
+    "mapped_ff": "_509_",
+    "rtl_bit": "data_reg[4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "data_reg[5]"
+    ],
+    "bog_d_pin": "_676_/D",
+    "bog_ff": "_676_",
+    "common_ff": "$auto$ff.cc:337:slice$498",
+    "design": "uart_tx",
+    "mapped_d_pin": "_510_/D",
+    "mapped_ff": "_510_",
+    "rtl_bit": "data_reg[5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "data_reg[6]"
+    ],
+    "bog_d_pin": "_681_/D",
+    "bog_ff": "_681_",
+    "common_ff": "$auto$ff.cc:337:slice$499",
+    "design": "uart_tx",
+    "mapped_d_pin": "_515_/D",
+    "mapped_ff": "_515_",
+    "rtl_bit": "data_reg[6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "data_reg[7]"
+    ],
+    "bog_d_pin": "_697_/D",
+    "bog_ff": "_697_",
+    "common_ff": "$auto$ff.cc:337:slice$500",
+    "design": "uart_tx",
+    "mapped_d_pin": "_531_/D",
+    "mapped_ff": "_531_",
+    "rtl_bit": "data_reg[7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "data_reg[8]"
+    ],
+    "bog_d_pin": "_689_/D",
+    "bog_ff": "_689_",
+    "common_ff": "$auto$ff.cc:337:slice$501",
+    "design": "uart_tx",
+    "mapped_d_pin": "_523_/D",
+    "mapped_ff": "_523_",
+    "rtl_bit": "data_reg[8]",
+    "status": "unique_public_q_alias"
+  }
+]

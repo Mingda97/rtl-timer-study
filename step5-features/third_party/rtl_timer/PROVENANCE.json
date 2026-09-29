@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/hkust-zhiyao/RTL-Timer",
+  "commit": "206ff4078368c251d2fafaffcc648282c68316f1",
+  "upstream_path": "report_example/timing_path.py",
+  "sha256": {
+    "LICENSE": "aaa7c2a4c7e08e768fac196db9d0b89323be80bcc55605d1dac2d3fde20bbd63",
+    "timing_path.py": "77d8949cf86e3673984a7e50904292e472d7172b8105f1532ebf167062f220e9"
+  }
+}

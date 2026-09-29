@@ -1,0 +1,15 @@
+{
+  "bog_cells": 11206,
+  "bog_register_bits": 505,
+  "clock_check": "one declared rising-edge clock",
+  "design_id": "fastfir8",
+  "family": "zipcpu_filters",
+  "generic_cells": 11076,
+  "generic_register_bits": 505,
+  "label_status": "not_generated",
+  "mapped_cells": 10097,
+  "mapped_register_bits": 505,
+  "seconds": 4.96,
+  "split": "train",
+  "status": "PASS"
+}

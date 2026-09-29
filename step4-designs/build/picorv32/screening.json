@@ -1,0 +1,15 @@
+{
+  "bog_cells": 10870,
+  "bog_register_bits": 1466,
+  "clock_check": "one declared rising-edge clock",
+  "design_id": "picorv32",
+  "family": "pico_femto",
+  "generic_cells": 8832,
+  "generic_register_bits": 1466,
+  "label_status": "not_generated",
+  "mapped_cells": 8528,
+  "mapped_register_bits": 1466,
+  "seconds": 6.12,
+  "split": "train",
+  "status": "PASS"
+}

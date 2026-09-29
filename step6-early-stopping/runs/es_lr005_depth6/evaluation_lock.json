@@ -1,0 +1,10 @@
+{
+  "fingerprint": "a9d3a154cda1b94c751fb655f1fdc365327d59477645d9f39070915057e92163",
+  "metric": "validation macro MAE (ns)",
+  "model_sha256": {
+    "baseline": "a54f7fad76a255f7addbef5fe954325bdb13f5be303c130cf49f2718c15a9397",
+    "weighted": "9ecd7698e2fd8b94f3323de9b55a72faef44cd47d84c369c8790adbe74506eae",
+    "weighted_es": "0e2026ab223af2dffbdf3d98d9de0b1e397459ae06c0147c23ebe61a92c38234"
+  },
+  "selected_model": "weighted_es"
+}

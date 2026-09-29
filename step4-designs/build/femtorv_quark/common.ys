@@ -1,0 +1,12 @@
+read_verilog -sv -DSYNTHESIS -I"sources/femtorv/FemtoRV/RTL/PROCESSOR" "sources/femtorv/FemtoRV/RTL/PROCESSOR/femtorv32_quark.v"
+chparam -set ADDR_WIDTH 24 FemtoRV32
+hierarchy -check -top FemtoRV32
+rename -top FemtoRV32
+synth -top FemtoRV32 -flatten -noabc
+# Remove hierarchy metadata, retaining all circuit cells and net names.
+delete t:$scopeinfo
+dffunmap
+clean
+check -assert
+write_rtlil build/femtorv_quark/common.il
+write_json build/femtorv_quark/common.json

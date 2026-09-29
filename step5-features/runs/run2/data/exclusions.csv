@@ -1,0 +1,11 @@
+design,common_ff,rtl_bit,reason,details
+picorv32,$auto$ff.cc:337:slice$14174,,no_public_rtl_q_alias,Synthesis-generated register; do not invent an RTL name
+picorv32,$auto$ff.cc:337:slice$14175,,no_public_rtl_q_alias,Synthesis-generated register; do not invent an RTL name
+picorv32,$auto$ff.cc:337:slice$14176,,no_public_rtl_q_alias,Synthesis-generated register; do not invent an RTL name
+picorv32,$auto$ff.cc:337:slice$14177,,no_public_rtl_q_alias,Synthesis-generated register; do not invent an RTL name
+picorv32,$auto$ff.cc:337:slice$14178,,no_public_rtl_q_alias,Synthesis-generated register; do not invent an RTL name
+picorv32,$auto$ff.cc:337:slice$9077,,no_public_rtl_q_alias,Synthesis-generated register; do not invent an RTL name
+picorv32,$auto$ff.cc:337:slice$9078,,no_public_rtl_q_alias,Synthesis-generated register; do not invent an RTL name
+picorv32,$auto$ff.cc:337:slice$9079,,no_public_rtl_q_alias,Synthesis-generated register; do not invent an RTL name
+picorv32,$auto$ff.cc:337:slice$9080,,no_public_rtl_q_alias,Synthesis-generated register; do not invent an RTL name
+picorv32,$auto$ff.cc:337:slice$9081,,no_public_rtl_q_alias,Synthesis-generated register; do not invent an RTL name

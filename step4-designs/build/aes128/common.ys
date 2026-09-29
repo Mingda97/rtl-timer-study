@@ -1,0 +1,11 @@
+read_verilog -sv -DSYNTHESIS -I"sources/orfs/flow/designs/src/aes" "sources/orfs/flow/designs/src/aes/aes_cipher_top.v" "sources/orfs/flow/designs/src/aes/aes_key_expand_128.v" "sources/orfs/flow/designs/src/aes/aes_sbox.v" "sources/orfs/flow/designs/src/aes/aes_rcon.v"
+hierarchy -check -top aes_cipher_top
+rename -top aes_cipher_top
+synth -top aes_cipher_top -flatten -noabc
+# Remove hierarchy metadata, retaining all circuit cells and net names.
+delete t:$scopeinfo
+dffunmap
+clean
+check -assert
+write_rtlil build/aes128/common.il
+write_json build/aes128/common.json

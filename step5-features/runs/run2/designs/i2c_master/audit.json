@@ -1,0 +1,37 @@
+{
+  "bog_feature_rows_before_label_join": 72,
+  "bog_path_kinds": {
+    "input_to_reg": 54,
+    "reg_to_reg": 18
+  },
+  "common_registers": 72,
+  "coverage_all_common": 1.0,
+  "coverage_public_rtl": 1.0,
+  "dataset_rows": 72,
+  "design": "i2c_master",
+  "elapsed_seconds": 1.43,
+  "excluded_control_pins": {
+    "bog": 0,
+    "mapped": 0
+  },
+  "excluded_registers": 0,
+  "exclusion_reasons": {},
+  "family": "forencich_i2c",
+  "mapped_path_kinds": {
+    "input_to_reg": 54,
+    "reg_to_reg": 18
+  },
+  "matched_public_rtl_bits": 72,
+  "one_polarity_mapped_rows": 0,
+  "period_invariance_polarities_checked": 144,
+  "split": "validation",
+  "status": "PASS",
+  "timing_query_status": {
+    "bog": {
+      "ok": 144
+    },
+    "mapped": {
+      "ok": 144
+    }
+  }
+}

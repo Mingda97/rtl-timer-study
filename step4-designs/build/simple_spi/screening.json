@@ -1,0 +1,15 @@
+{
+  "bog_cells": 687,
+  "bog_register_bits": 132,
+  "clock_check": "one declared rising-edge clock",
+  "design_id": "simple_spi",
+  "family": "herveille_spi",
+  "generic_cells": 685,
+  "generic_register_bits": 132,
+  "label_status": "not_generated",
+  "mapped_cells": 588,
+  "mapped_register_bits": 132,
+  "seconds": 0.81,
+  "split": "train",
+  "status": "PASS"
+}

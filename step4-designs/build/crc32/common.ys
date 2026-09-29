@@ -1,0 +1,12 @@
+read_verilog -sv -DSYNTHESIS -I"sources/lfsr/rtl" "sources/lfsr/rtl/lfsr_crc.v" "sources/lfsr/rtl/lfsr.v"
+chparam -set LFSR_WIDTH 32 -set DATA_WIDTH 8 lfsr_crc
+hierarchy -check -top lfsr_crc
+rename -top lfsr_crc
+synth -top lfsr_crc -flatten -noabc
+# Remove hierarchy metadata, retaining all circuit cells and net names.
+delete t:$scopeinfo
+dffunmap
+clean
+check -assert
+write_rtlil build/crc32/common.il
+write_json build/crc32/common.json

@@ -1,0 +1,12 @@
+read_verilog -sv -DSYNTHESIS -I"sources/axis/rtl" "sources/axis/rtl/axis_fifo.v"
+chparam -set DEPTH 16 -set DATA_WIDTH 32 -set KEEP_ENABLE 0 -set LAST_ENABLE 0 -set USER_ENABLE 0 -set FRAME_FIFO 0 axis_fifo
+hierarchy -check -top axis_fifo
+rename -top axis_fifo
+synth -top axis_fifo -flatten -noabc
+# Remove hierarchy metadata, retaining all circuit cells and net names.
+delete t:$scopeinfo
+dffunmap
+clean
+check -assert
+write_rtlil build/axis_fifo16/common.il
+write_json build/axis_fifo16/common.json

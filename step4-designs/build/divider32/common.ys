@@ -1,0 +1,12 @@
+read_verilog -sv -DSYNTHESIS -I"sources/zipcpu/rtl/core" "sources/zipcpu/rtl/core/div.v"
+chparam -set BW 32 -set LGBW 5 div
+hierarchy -check -top div
+rename -top div
+synth -top div -flatten -noabc
+# Remove hierarchy metadata, retaining all circuit cells and net names.
+delete t:$scopeinfo
+dffunmap
+clean
+check -assert
+write_rtlil build/divider32/common.il
+write_json build/divider32/common.json

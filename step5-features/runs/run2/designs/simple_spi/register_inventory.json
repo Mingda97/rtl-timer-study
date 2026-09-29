@@ -1,0 +1,1746 @@
+[
+  {
+    "aliases": [
+      "inta_o"
+    ],
+    "bog_d_pin": "_1272_/D",
+    "bog_ff": "_1272_",
+    "common_ff": "$auto$ff.cc:337:slice$1384",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1074_/D",
+    "mapped_ff": "_1074_",
+    "rtl_bit": "inta_o",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "clkcnt[0]"
+    ],
+    "bog_d_pin": "_1287_/D",
+    "bog_ff": "_1287_",
+    "common_ff": "$auto$ff.cc:337:slice$1385",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1089_/D",
+    "mapped_ff": "_1089_",
+    "rtl_bit": "clkcnt[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "clkcnt[1]"
+    ],
+    "bog_d_pin": "_1257_/D",
+    "bog_ff": "_1257_",
+    "common_ff": "$auto$ff.cc:337:slice$1386",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1059_/D",
+    "mapped_ff": "_1059_",
+    "rtl_bit": "clkcnt[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "clkcnt[2]"
+    ],
+    "bog_d_pin": "_1246_/D",
+    "bog_ff": "_1246_",
+    "common_ff": "$auto$ff.cc:337:slice$1387",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1048_/D",
+    "mapped_ff": "_1048_",
+    "rtl_bit": "clkcnt[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "clkcnt[3]"
+    ],
+    "bog_d_pin": "_1240_/D",
+    "bog_ff": "_1240_",
+    "common_ff": "$auto$ff.cc:337:slice$1388",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1042_/D",
+    "mapped_ff": "_1042_",
+    "rtl_bit": "clkcnt[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "clkcnt[4]"
+    ],
+    "bog_d_pin": "_1230_/D",
+    "bog_ff": "_1230_",
+    "common_ff": "$auto$ff.cc:337:slice$1389",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1032_/D",
+    "mapped_ff": "_1032_",
+    "rtl_bit": "clkcnt[4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "clkcnt[5]"
+    ],
+    "bog_d_pin": "_1220_/D",
+    "bog_ff": "_1220_",
+    "common_ff": "$auto$ff.cc:337:slice$1390",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1022_/D",
+    "mapped_ff": "_1022_",
+    "rtl_bit": "clkcnt[5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "clkcnt[6]"
+    ],
+    "bog_d_pin": "_1342_/D",
+    "bog_ff": "_1342_",
+    "common_ff": "$auto$ff.cc:337:slice$1391",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1144_/D",
+    "mapped_ff": "_1144_",
+    "rtl_bit": "clkcnt[6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "clkcnt[7]"
+    ],
+    "bog_d_pin": "_1332_/D",
+    "bog_ff": "_1332_",
+    "common_ff": "$auto$ff.cc:337:slice$1392",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1134_/D",
+    "mapped_ff": "_1134_",
+    "rtl_bit": "clkcnt[7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "clkcnt[8]"
+    ],
+    "bog_d_pin": "_1290_/D",
+    "bog_ff": "_1290_",
+    "common_ff": "$auto$ff.cc:337:slice$1393",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1092_/D",
+    "mapped_ff": "_1092_",
+    "rtl_bit": "clkcnt[8]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "clkcnt[9]"
+    ],
+    "bog_d_pin": "_1295_/D",
+    "bog_ff": "_1295_",
+    "common_ff": "$auto$ff.cc:337:slice$1394",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1097_/D",
+    "mapped_ff": "_1097_",
+    "rtl_bit": "clkcnt[9]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "clkcnt[10]"
+    ],
+    "bog_d_pin": "_1299_/D",
+    "bog_ff": "_1299_",
+    "common_ff": "$auto$ff.cc:337:slice$1395",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1101_/D",
+    "mapped_ff": "_1101_",
+    "rtl_bit": "clkcnt[10]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "clkcnt[11]"
+    ],
+    "bog_d_pin": "_1322_/D",
+    "bog_ff": "_1322_",
+    "common_ff": "$auto$ff.cc:337:slice$1396",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1124_/D",
+    "mapped_ff": "_1124_",
+    "rtl_bit": "clkcnt[11]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "dat_o[7]"
+    ],
+    "bog_d_pin": "_1268_/D",
+    "bog_ff": "_1268_",
+    "common_ff": "$auto$ff.cc:337:slice$1931",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1070_/D",
+    "mapped_ff": "_1070_",
+    "rtl_bit": "dat_o[7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "dat_o[0]"
+    ],
+    "bog_d_pin": "_1312_/D",
+    "bog_ff": "_1312_",
+    "common_ff": "$auto$ff.cc:337:slice$1932",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1114_/D",
+    "mapped_ff": "_1114_",
+    "rtl_bit": "dat_o[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "dat_o[1]"
+    ],
+    "bog_d_pin": "_1313_/D",
+    "bog_ff": "_1313_",
+    "common_ff": "$auto$ff.cc:337:slice$1933",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1115_/D",
+    "mapped_ff": "_1115_",
+    "rtl_bit": "dat_o[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "dat_o[2]"
+    ],
+    "bog_d_pin": "_1314_/D",
+    "bog_ff": "_1314_",
+    "common_ff": "$auto$ff.cc:337:slice$1934",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1116_/D",
+    "mapped_ff": "_1116_",
+    "rtl_bit": "dat_o[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "dat_o[3]"
+    ],
+    "bog_d_pin": "_1315_/D",
+    "bog_ff": "_1315_",
+    "common_ff": "$auto$ff.cc:337:slice$1935",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1117_/D",
+    "mapped_ff": "_1117_",
+    "rtl_bit": "dat_o[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "dat_o[4]"
+    ],
+    "bog_d_pin": "_1311_/D",
+    "bog_ff": "_1311_",
+    "common_ff": "$auto$ff.cc:337:slice$1936",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1113_/D",
+    "mapped_ff": "_1113_",
+    "rtl_bit": "dat_o[4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "dat_o[5]"
+    ],
+    "bog_d_pin": "_1321_/D",
+    "bog_ff": "_1321_",
+    "common_ff": "$auto$ff.cc:337:slice$1937",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1123_/D",
+    "mapped_ff": "_1123_",
+    "rtl_bit": "dat_o[5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "dat_o[6]"
+    ],
+    "bog_d_pin": "_1306_/D",
+    "bog_ff": "_1306_",
+    "common_ff": "$auto$ff.cc:337:slice$1938",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1108_/D",
+    "mapped_ff": "_1108_",
+    "rtl_bit": "dat_o[6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[3][0]"
+    ],
+    "bog_d_pin": "_1326_/D",
+    "bog_ff": "_1326_",
+    "common_ff": "$auto$ff.cc:337:slice$725",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1128_/D",
+    "mapped_ff": "_1128_",
+    "rtl_bit": "wfifo.mem[3][0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[3][1]"
+    ],
+    "bog_d_pin": "_1327_/D",
+    "bog_ff": "_1327_",
+    "common_ff": "$auto$ff.cc:337:slice$726",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1129_/D",
+    "mapped_ff": "_1129_",
+    "rtl_bit": "wfifo.mem[3][1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[3][2]"
+    ],
+    "bog_d_pin": "_1328_/D",
+    "bog_ff": "_1328_",
+    "common_ff": "$auto$ff.cc:337:slice$727",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1130_/D",
+    "mapped_ff": "_1130_",
+    "rtl_bit": "wfifo.mem[3][2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[3][3]"
+    ],
+    "bog_d_pin": "_1329_/D",
+    "bog_ff": "_1329_",
+    "common_ff": "$auto$ff.cc:337:slice$728",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1131_/D",
+    "mapped_ff": "_1131_",
+    "rtl_bit": "wfifo.mem[3][3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[3][4]"
+    ],
+    "bog_d_pin": "_1330_/D",
+    "bog_ff": "_1330_",
+    "common_ff": "$auto$ff.cc:337:slice$729",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1132_/D",
+    "mapped_ff": "_1132_",
+    "rtl_bit": "wfifo.mem[3][4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[3][5]"
+    ],
+    "bog_d_pin": "_1331_/D",
+    "bog_ff": "_1331_",
+    "common_ff": "$auto$ff.cc:337:slice$730",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1133_/D",
+    "mapped_ff": "_1133_",
+    "rtl_bit": "wfifo.mem[3][5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[3][6]"
+    ],
+    "bog_d_pin": "_1333_/D",
+    "bog_ff": "_1333_",
+    "common_ff": "$auto$ff.cc:337:slice$731",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1135_/D",
+    "mapped_ff": "_1135_",
+    "rtl_bit": "wfifo.mem[3][6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[3][7]"
+    ],
+    "bog_d_pin": "_1324_/D",
+    "bog_ff": "_1324_",
+    "common_ff": "$auto$ff.cc:337:slice$732",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1126_/D",
+    "mapped_ff": "_1126_",
+    "rtl_bit": "wfifo.mem[3][7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[2][0]"
+    ],
+    "bog_d_pin": "_1334_/D",
+    "bog_ff": "_1334_",
+    "common_ff": "$auto$ff.cc:337:slice$733",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1136_/D",
+    "mapped_ff": "_1136_",
+    "rtl_bit": "wfifo.mem[2][0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[2][1]"
+    ],
+    "bog_d_pin": "_1335_/D",
+    "bog_ff": "_1335_",
+    "common_ff": "$auto$ff.cc:337:slice$734",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1137_/D",
+    "mapped_ff": "_1137_",
+    "rtl_bit": "wfifo.mem[2][1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[2][2]"
+    ],
+    "bog_d_pin": "_1336_/D",
+    "bog_ff": "_1336_",
+    "common_ff": "$auto$ff.cc:337:slice$735",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1138_/D",
+    "mapped_ff": "_1138_",
+    "rtl_bit": "wfifo.mem[2][2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[2][3]"
+    ],
+    "bog_d_pin": "_1337_/D",
+    "bog_ff": "_1337_",
+    "common_ff": "$auto$ff.cc:337:slice$736",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1139_/D",
+    "mapped_ff": "_1139_",
+    "rtl_bit": "wfifo.mem[2][3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[2][4]"
+    ],
+    "bog_d_pin": "_1338_/D",
+    "bog_ff": "_1338_",
+    "common_ff": "$auto$ff.cc:337:slice$737",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1140_/D",
+    "mapped_ff": "_1140_",
+    "rtl_bit": "wfifo.mem[2][4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[2][5]"
+    ],
+    "bog_d_pin": "_1339_/D",
+    "bog_ff": "_1339_",
+    "common_ff": "$auto$ff.cc:337:slice$738",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1141_/D",
+    "mapped_ff": "_1141_",
+    "rtl_bit": "wfifo.mem[2][5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[2][6]"
+    ],
+    "bog_d_pin": "_1340_/D",
+    "bog_ff": "_1340_",
+    "common_ff": "$auto$ff.cc:337:slice$739",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1142_/D",
+    "mapped_ff": "_1142_",
+    "rtl_bit": "wfifo.mem[2][6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[2][7]"
+    ],
+    "bog_d_pin": "_1323_/D",
+    "bog_ff": "_1323_",
+    "common_ff": "$auto$ff.cc:337:slice$740",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1125_/D",
+    "mapped_ff": "_1125_",
+    "rtl_bit": "wfifo.mem[2][7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[1][0]"
+    ],
+    "bog_d_pin": "_1341_/D",
+    "bog_ff": "_1341_",
+    "common_ff": "$auto$ff.cc:337:slice$741",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1143_/D",
+    "mapped_ff": "_1143_",
+    "rtl_bit": "wfifo.mem[1][0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[1][1]"
+    ],
+    "bog_d_pin": "_1343_/D",
+    "bog_ff": "_1343_",
+    "common_ff": "$auto$ff.cc:337:slice$742",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1145_/D",
+    "mapped_ff": "_1145_",
+    "rtl_bit": "wfifo.mem[1][1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[1][2]"
+    ],
+    "bog_d_pin": "_1344_/D",
+    "bog_ff": "_1344_",
+    "common_ff": "$auto$ff.cc:337:slice$743",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1146_/D",
+    "mapped_ff": "_1146_",
+    "rtl_bit": "wfifo.mem[1][2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[1][3]"
+    ],
+    "bog_d_pin": "_1345_/D",
+    "bog_ff": "_1345_",
+    "common_ff": "$auto$ff.cc:337:slice$744",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1147_/D",
+    "mapped_ff": "_1147_",
+    "rtl_bit": "wfifo.mem[1][3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[1][4]"
+    ],
+    "bog_d_pin": "_1346_/D",
+    "bog_ff": "_1346_",
+    "common_ff": "$auto$ff.cc:337:slice$745",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1148_/D",
+    "mapped_ff": "_1148_",
+    "rtl_bit": "wfifo.mem[1][4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[1][5]"
+    ],
+    "bog_d_pin": "_1215_/D",
+    "bog_ff": "_1215_",
+    "common_ff": "$auto$ff.cc:337:slice$746",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1017_/D",
+    "mapped_ff": "_1017_",
+    "rtl_bit": "wfifo.mem[1][5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[1][6]"
+    ],
+    "bog_d_pin": "_1216_/D",
+    "bog_ff": "_1216_",
+    "common_ff": "$auto$ff.cc:337:slice$747",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1018_/D",
+    "mapped_ff": "_1018_",
+    "rtl_bit": "wfifo.mem[1][6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[1][7]"
+    ],
+    "bog_d_pin": "_1320_/D",
+    "bog_ff": "_1320_",
+    "common_ff": "$auto$ff.cc:337:slice$748",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1122_/D",
+    "mapped_ff": "_1122_",
+    "rtl_bit": "wfifo.mem[1][7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[0][0]"
+    ],
+    "bog_d_pin": "_1217_/D",
+    "bog_ff": "_1217_",
+    "common_ff": "$auto$ff.cc:337:slice$749",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1019_/D",
+    "mapped_ff": "_1019_",
+    "rtl_bit": "wfifo.mem[0][0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[0][1]"
+    ],
+    "bog_d_pin": "_1218_/D",
+    "bog_ff": "_1218_",
+    "common_ff": "$auto$ff.cc:337:slice$750",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1020_/D",
+    "mapped_ff": "_1020_",
+    "rtl_bit": "wfifo.mem[0][1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[0][2]"
+    ],
+    "bog_d_pin": "_1219_/D",
+    "bog_ff": "_1219_",
+    "common_ff": "$auto$ff.cc:337:slice$751",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1021_/D",
+    "mapped_ff": "_1021_",
+    "rtl_bit": "wfifo.mem[0][2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[0][3]"
+    ],
+    "bog_d_pin": "_1221_/D",
+    "bog_ff": "_1221_",
+    "common_ff": "$auto$ff.cc:337:slice$752",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1023_/D",
+    "mapped_ff": "_1023_",
+    "rtl_bit": "wfifo.mem[0][3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[0][4]"
+    ],
+    "bog_d_pin": "_1222_/D",
+    "bog_ff": "_1222_",
+    "common_ff": "$auto$ff.cc:337:slice$753",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1024_/D",
+    "mapped_ff": "_1024_",
+    "rtl_bit": "wfifo.mem[0][4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[0][5]"
+    ],
+    "bog_d_pin": "_1223_/D",
+    "bog_ff": "_1223_",
+    "common_ff": "$auto$ff.cc:337:slice$754",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1025_/D",
+    "mapped_ff": "_1025_",
+    "rtl_bit": "wfifo.mem[0][5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[0][6]"
+    ],
+    "bog_d_pin": "_1224_/D",
+    "bog_ff": "_1224_",
+    "common_ff": "$auto$ff.cc:337:slice$755",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1026_/D",
+    "mapped_ff": "_1026_",
+    "rtl_bit": "wfifo.mem[0][6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.mem[0][7]"
+    ],
+    "bog_d_pin": "_1325_/D",
+    "bog_ff": "_1325_",
+    "common_ff": "$auto$ff.cc:337:slice$756",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1127_/D",
+    "mapped_ff": "_1127_",
+    "rtl_bit": "wfifo.mem[0][7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[3][0]"
+    ],
+    "bog_d_pin": "_1225_/D",
+    "bog_ff": "_1225_",
+    "common_ff": "$auto$ff.cc:337:slice$757",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1027_/D",
+    "mapped_ff": "_1027_",
+    "rtl_bit": "rfifo.mem[3][0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[3][1]"
+    ],
+    "bog_d_pin": "_1226_/D",
+    "bog_ff": "_1226_",
+    "common_ff": "$auto$ff.cc:337:slice$758",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1028_/D",
+    "mapped_ff": "_1028_",
+    "rtl_bit": "rfifo.mem[3][1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[3][2]"
+    ],
+    "bog_d_pin": "_1227_/D",
+    "bog_ff": "_1227_",
+    "common_ff": "$auto$ff.cc:337:slice$759",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1029_/D",
+    "mapped_ff": "_1029_",
+    "rtl_bit": "rfifo.mem[3][2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[3][3]"
+    ],
+    "bog_d_pin": "_1228_/D",
+    "bog_ff": "_1228_",
+    "common_ff": "$auto$ff.cc:337:slice$760",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1030_/D",
+    "mapped_ff": "_1030_",
+    "rtl_bit": "rfifo.mem[3][3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[3][4]"
+    ],
+    "bog_d_pin": "_1229_/D",
+    "bog_ff": "_1229_",
+    "common_ff": "$auto$ff.cc:337:slice$761",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1031_/D",
+    "mapped_ff": "_1031_",
+    "rtl_bit": "rfifo.mem[3][4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[3][5]"
+    ],
+    "bog_d_pin": "_1231_/D",
+    "bog_ff": "_1231_",
+    "common_ff": "$auto$ff.cc:337:slice$762",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1033_/D",
+    "mapped_ff": "_1033_",
+    "rtl_bit": "rfifo.mem[3][5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[3][6]"
+    ],
+    "bog_d_pin": "_1232_/D",
+    "bog_ff": "_1232_",
+    "common_ff": "$auto$ff.cc:337:slice$763",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1034_/D",
+    "mapped_ff": "_1034_",
+    "rtl_bit": "rfifo.mem[3][6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[3][7]"
+    ],
+    "bog_d_pin": "_1319_/D",
+    "bog_ff": "_1319_",
+    "common_ff": "$auto$ff.cc:337:slice$764",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1121_/D",
+    "mapped_ff": "_1121_",
+    "rtl_bit": "rfifo.mem[3][7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[2][0]"
+    ],
+    "bog_d_pin": "_1233_/D",
+    "bog_ff": "_1233_",
+    "common_ff": "$auto$ff.cc:337:slice$765",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1035_/D",
+    "mapped_ff": "_1035_",
+    "rtl_bit": "rfifo.mem[2][0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[2][1]"
+    ],
+    "bog_d_pin": "_1234_/D",
+    "bog_ff": "_1234_",
+    "common_ff": "$auto$ff.cc:337:slice$766",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1036_/D",
+    "mapped_ff": "_1036_",
+    "rtl_bit": "rfifo.mem[2][1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[2][2]"
+    ],
+    "bog_d_pin": "_1235_/D",
+    "bog_ff": "_1235_",
+    "common_ff": "$auto$ff.cc:337:slice$767",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1037_/D",
+    "mapped_ff": "_1037_",
+    "rtl_bit": "rfifo.mem[2][2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[2][3]"
+    ],
+    "bog_d_pin": "_1236_/D",
+    "bog_ff": "_1236_",
+    "common_ff": "$auto$ff.cc:337:slice$768",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1038_/D",
+    "mapped_ff": "_1038_",
+    "rtl_bit": "rfifo.mem[2][3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[2][4]"
+    ],
+    "bog_d_pin": "_1237_/D",
+    "bog_ff": "_1237_",
+    "common_ff": "$auto$ff.cc:337:slice$769",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1039_/D",
+    "mapped_ff": "_1039_",
+    "rtl_bit": "rfifo.mem[2][4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[2][5]"
+    ],
+    "bog_d_pin": "_1238_/D",
+    "bog_ff": "_1238_",
+    "common_ff": "$auto$ff.cc:337:slice$770",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1040_/D",
+    "mapped_ff": "_1040_",
+    "rtl_bit": "rfifo.mem[2][5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[2][6]"
+    ],
+    "bog_d_pin": "_1239_/D",
+    "bog_ff": "_1239_",
+    "common_ff": "$auto$ff.cc:337:slice$771",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1041_/D",
+    "mapped_ff": "_1041_",
+    "rtl_bit": "rfifo.mem[2][6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[2][7]"
+    ],
+    "bog_d_pin": "_1318_/D",
+    "bog_ff": "_1318_",
+    "common_ff": "$auto$ff.cc:337:slice$772",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1120_/D",
+    "mapped_ff": "_1120_",
+    "rtl_bit": "rfifo.mem[2][7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[1][0]"
+    ],
+    "bog_d_pin": "_1241_/D",
+    "bog_ff": "_1241_",
+    "common_ff": "$auto$ff.cc:337:slice$773",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1043_/D",
+    "mapped_ff": "_1043_",
+    "rtl_bit": "rfifo.mem[1][0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[1][1]"
+    ],
+    "bog_d_pin": "_1242_/D",
+    "bog_ff": "_1242_",
+    "common_ff": "$auto$ff.cc:337:slice$774",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1044_/D",
+    "mapped_ff": "_1044_",
+    "rtl_bit": "rfifo.mem[1][1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[1][2]"
+    ],
+    "bog_d_pin": "_1243_/D",
+    "bog_ff": "_1243_",
+    "common_ff": "$auto$ff.cc:337:slice$775",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1045_/D",
+    "mapped_ff": "_1045_",
+    "rtl_bit": "rfifo.mem[1][2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[1][3]"
+    ],
+    "bog_d_pin": "_1244_/D",
+    "bog_ff": "_1244_",
+    "common_ff": "$auto$ff.cc:337:slice$776",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1046_/D",
+    "mapped_ff": "_1046_",
+    "rtl_bit": "rfifo.mem[1][3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[1][4]"
+    ],
+    "bog_d_pin": "_1245_/D",
+    "bog_ff": "_1245_",
+    "common_ff": "$auto$ff.cc:337:slice$777",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1047_/D",
+    "mapped_ff": "_1047_",
+    "rtl_bit": "rfifo.mem[1][4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[1][5]"
+    ],
+    "bog_d_pin": "_1247_/D",
+    "bog_ff": "_1247_",
+    "common_ff": "$auto$ff.cc:337:slice$778",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1049_/D",
+    "mapped_ff": "_1049_",
+    "rtl_bit": "rfifo.mem[1][5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[1][6]"
+    ],
+    "bog_d_pin": "_1248_/D",
+    "bog_ff": "_1248_",
+    "common_ff": "$auto$ff.cc:337:slice$779",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1050_/D",
+    "mapped_ff": "_1050_",
+    "rtl_bit": "rfifo.mem[1][6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[1][7]"
+    ],
+    "bog_d_pin": "_1317_/D",
+    "bog_ff": "_1317_",
+    "common_ff": "$auto$ff.cc:337:slice$780",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1119_/D",
+    "mapped_ff": "_1119_",
+    "rtl_bit": "rfifo.mem[1][7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[0][0]"
+    ],
+    "bog_d_pin": "_1249_/D",
+    "bog_ff": "_1249_",
+    "common_ff": "$auto$ff.cc:337:slice$781",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1051_/D",
+    "mapped_ff": "_1051_",
+    "rtl_bit": "rfifo.mem[0][0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[0][1]"
+    ],
+    "bog_d_pin": "_1250_/D",
+    "bog_ff": "_1250_",
+    "common_ff": "$auto$ff.cc:337:slice$782",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1052_/D",
+    "mapped_ff": "_1052_",
+    "rtl_bit": "rfifo.mem[0][1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[0][2]"
+    ],
+    "bog_d_pin": "_1251_/D",
+    "bog_ff": "_1251_",
+    "common_ff": "$auto$ff.cc:337:slice$783",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1053_/D",
+    "mapped_ff": "_1053_",
+    "rtl_bit": "rfifo.mem[0][2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[0][3]"
+    ],
+    "bog_d_pin": "_1252_/D",
+    "bog_ff": "_1252_",
+    "common_ff": "$auto$ff.cc:337:slice$784",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1054_/D",
+    "mapped_ff": "_1054_",
+    "rtl_bit": "rfifo.mem[0][3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[0][4]"
+    ],
+    "bog_d_pin": "_1253_/D",
+    "bog_ff": "_1253_",
+    "common_ff": "$auto$ff.cc:337:slice$785",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1055_/D",
+    "mapped_ff": "_1055_",
+    "rtl_bit": "rfifo.mem[0][4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[0][5]"
+    ],
+    "bog_d_pin": "_1254_/D",
+    "bog_ff": "_1254_",
+    "common_ff": "$auto$ff.cc:337:slice$786",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1056_/D",
+    "mapped_ff": "_1056_",
+    "rtl_bit": "rfifo.mem[0][5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[0][6]"
+    ],
+    "bog_d_pin": "_1256_/D",
+    "bog_ff": "_1256_",
+    "common_ff": "$auto$ff.cc:337:slice$787",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1058_/D",
+    "mapped_ff": "_1058_",
+    "rtl_bit": "rfifo.mem[0][6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.mem[0][7]"
+    ],
+    "bog_d_pin": "_1316_/D",
+    "bog_ff": "_1316_",
+    "common_ff": "$auto$ff.cc:337:slice$788",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1118_/D",
+    "mapped_ff": "_1118_",
+    "rtl_bit": "rfifo.mem[0][7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "espr[0]",
+      "spcr[0]",
+      "spr[0]"
+    ],
+    "bog_d_pin": "_1259_/D",
+    "bog_ff": "_1259_",
+    "common_ff": "$auto$ff.cc:337:slice$813",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1061_/D",
+    "mapped_ff": "_1061_",
+    "rtl_bit": "spr[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "espr[1]",
+      "spcr[1]",
+      "spr[1]"
+    ],
+    "bog_d_pin": "_1261_/D",
+    "bog_ff": "_1261_",
+    "common_ff": "$auto$ff.cc:337:slice$814",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1063_/D",
+    "mapped_ff": "_1063_",
+    "rtl_bit": "spr[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "cpha",
+      "spcr[2]"
+    ],
+    "bog_d_pin": "_1263_/D",
+    "bog_ff": "_1263_",
+    "common_ff": "$auto$ff.cc:337:slice$815",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1065_/D",
+    "mapped_ff": "_1065_",
+    "rtl_bit": "cpha",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "cpol",
+      "spcr[3]"
+    ],
+    "bog_d_pin": "_1265_/D",
+    "bog_ff": "_1265_",
+    "common_ff": "$auto$ff.cc:337:slice$816",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1067_/D",
+    "mapped_ff": "_1067_",
+    "rtl_bit": "cpol",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "dwom",
+      "spcr[5]"
+    ],
+    "bog_d_pin": "_1269_/D",
+    "bog_ff": "_1269_",
+    "common_ff": "$auto$ff.cc:337:slice$817",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1071_/D",
+    "mapped_ff": "_1071_",
+    "rtl_bit": "dwom",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "spcr[6]",
+      "spe"
+    ],
+    "bog_d_pin": "_1277_/D",
+    "bog_ff": "_1277_",
+    "common_ff": "$auto$ff.cc:337:slice$818",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1079_/D",
+    "mapped_ff": "_1079_",
+    "rtl_bit": "spe",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "spcr[7]",
+      "spie"
+    ],
+    "bog_d_pin": "_1275_/D",
+    "bog_ff": "_1275_",
+    "common_ff": "$auto$ff.cc:337:slice$819",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1077_/D",
+    "mapped_ff": "_1077_",
+    "rtl_bit": "spcr[7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.gb"
+    ],
+    "bog_d_pin": "_1297_/D",
+    "bog_ff": "_1297_",
+    "common_ff": "$auto$ff.cc:337:slice$822",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1099_/D",
+    "mapped_ff": "_1099_",
+    "rtl_bit": "wfifo.gb",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.wp[0]"
+    ],
+    "bog_d_pin": "_1270_/D",
+    "bog_ff": "_1270_",
+    "common_ff": "$auto$ff.cc:337:slice$832",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1072_/D",
+    "mapped_ff": "_1072_",
+    "rtl_bit": "wfifo.wp[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.wp[1]"
+    ],
+    "bog_d_pin": "_1281_/D",
+    "bog_ff": "_1281_",
+    "common_ff": "$auto$ff.cc:337:slice$833",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1083_/D",
+    "mapped_ff": "_1083_",
+    "rtl_bit": "wfifo.wp[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.rp[0]"
+    ],
+    "bog_d_pin": "_1271_/D",
+    "bog_ff": "_1271_",
+    "common_ff": "$auto$ff.cc:337:slice$841",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1073_/D",
+    "mapped_ff": "_1073_",
+    "rtl_bit": "wfifo.rp[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.rp[1]"
+    ],
+    "bog_d_pin": "_1303_/D",
+    "bog_ff": "_1303_",
+    "common_ff": "$auto$ff.cc:337:slice$842",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1105_/D",
+    "mapped_ff": "_1105_",
+    "rtl_bit": "wfifo.rp[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "bcnt[0]"
+    ],
+    "bog_d_pin": "_1274_/D",
+    "bog_ff": "_1274_",
+    "common_ff": "$auto$ff.cc:337:slice$843",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1076_/D",
+    "mapped_ff": "_1076_",
+    "rtl_bit": "bcnt[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "bcnt[1]"
+    ],
+    "bog_d_pin": "_1276_/D",
+    "bog_ff": "_1276_",
+    "common_ff": "$auto$ff.cc:337:slice$844",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1078_/D",
+    "mapped_ff": "_1078_",
+    "rtl_bit": "bcnt[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "bcnt[2]"
+    ],
+    "bog_d_pin": "_1285_/D",
+    "bog_ff": "_1285_",
+    "common_ff": "$auto$ff.cc:337:slice$845",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1087_/D",
+    "mapped_ff": "_1087_",
+    "rtl_bit": "bcnt[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "state[0]"
+    ],
+    "bog_d_pin": "_1278_/D",
+    "bog_ff": "_1278_",
+    "common_ff": "$auto$ff.cc:337:slice$870",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1080_/D",
+    "mapped_ff": "_1080_",
+    "rtl_bit": "state[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "state[1]"
+    ],
+    "bog_d_pin": "_1266_/D",
+    "bog_ff": "_1266_",
+    "common_ff": "$auto$ff.cc:337:slice$871",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1068_/D",
+    "mapped_ff": "_1068_",
+    "rtl_bit": "state[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.we",
+      "rfwe"
+    ],
+    "bog_d_pin": "_1279_/D",
+    "bog_ff": "_1279_",
+    "common_ff": "$auto$ff.cc:337:slice$890",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1081_/D",
+    "mapped_ff": "_1081_",
+    "rtl_bit": "rfwe",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "wfifo.re",
+      "wfre"
+    ],
+    "bog_d_pin": "_1267_/D",
+    "bog_ff": "_1267_",
+    "common_ff": "$auto$ff.cc:337:slice$894",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1069_/D",
+    "mapped_ff": "_1069_",
+    "rtl_bit": "wfre",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.din[1]",
+      "treg[0]"
+    ],
+    "bog_d_pin": "_1280_/D",
+    "bog_ff": "_1280_",
+    "common_ff": "$auto$ff.cc:337:slice$906",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1082_/D",
+    "mapped_ff": "_1082_",
+    "rtl_bit": "treg[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.din[2]",
+      "treg[1]"
+    ],
+    "bog_d_pin": "_1282_/D",
+    "bog_ff": "_1282_",
+    "common_ff": "$auto$ff.cc:337:slice$907",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1084_/D",
+    "mapped_ff": "_1084_",
+    "rtl_bit": "treg[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.din[3]",
+      "treg[2]"
+    ],
+    "bog_d_pin": "_1284_/D",
+    "bog_ff": "_1284_",
+    "common_ff": "$auto$ff.cc:337:slice$908",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1086_/D",
+    "mapped_ff": "_1086_",
+    "rtl_bit": "treg[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.din[4]",
+      "treg[3]"
+    ],
+    "bog_d_pin": "_1286_/D",
+    "bog_ff": "_1286_",
+    "common_ff": "$auto$ff.cc:337:slice$909",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1088_/D",
+    "mapped_ff": "_1088_",
+    "rtl_bit": "treg[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.din[5]",
+      "treg[4]"
+    ],
+    "bog_d_pin": "_1289_/D",
+    "bog_ff": "_1289_",
+    "common_ff": "$auto$ff.cc:337:slice$910",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1091_/D",
+    "mapped_ff": "_1091_",
+    "rtl_bit": "treg[4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.din[6]",
+      "treg[5]"
+    ],
+    "bog_d_pin": "_1292_/D",
+    "bog_ff": "_1292_",
+    "common_ff": "$auto$ff.cc:337:slice$911",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1094_/D",
+    "mapped_ff": "_1094_",
+    "rtl_bit": "treg[5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.din[7]",
+      "treg[6]"
+    ],
+    "bog_d_pin": "_1294_/D",
+    "bog_ff": "_1294_",
+    "common_ff": "$auto$ff.cc:337:slice$912",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1096_/D",
+    "mapped_ff": "_1096_",
+    "rtl_bit": "treg[6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "mosi_o",
+      "rfifo.din[8]",
+      "treg[7]"
+    ],
+    "bog_d_pin": "_1305_/D",
+    "bog_ff": "_1305_",
+    "common_ff": "$auto$ff.cc:337:slice$913",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1107_/D",
+    "mapped_ff": "_1107_",
+    "rtl_bit": "treg[7]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "sck_o"
+    ],
+    "bog_d_pin": "_1283_/D",
+    "bog_ff": "_1283_",
+    "common_ff": "$auto$ff.cc:337:slice$922",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1085_/D",
+    "mapped_ff": "_1085_",
+    "rtl_bit": "sck_o",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "spsr[6]",
+      "wcol"
+    ],
+    "bog_d_pin": "_1288_/D",
+    "bog_ff": "_1288_",
+    "common_ff": "$auto$ff.cc:337:slice$923",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1090_/D",
+    "mapped_ff": "_1090_",
+    "rtl_bit": "spsr[6]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "spif",
+      "spsr[7]"
+    ],
+    "bog_d_pin": "_1301_/D",
+    "bog_ff": "_1301_",
+    "common_ff": "$auto$ff.cc:337:slice$924",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1103_/D",
+    "mapped_ff": "_1103_",
+    "rtl_bit": "spif",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ack_o"
+    ],
+    "bog_d_pin": "_1264_/D",
+    "bog_ff": "_1264_",
+    "common_ff": "$auto$ff.cc:337:slice$925",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1066_/D",
+    "mapped_ff": "_1066_",
+    "rtl_bit": "ack_o",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "ss_r"
+    ],
+    "bog_d_pin": "_1258_/D",
+    "bog_ff": "_1258_",
+    "common_ff": "$auto$ff.cc:337:slice$928",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1060_/D",
+    "mapped_ff": "_1060_",
+    "rtl_bit": "ss_r",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "espr[2]",
+      "sper[0]",
+      "spre[0]"
+    ],
+    "bog_d_pin": "_1296_/D",
+    "bog_ff": "_1296_",
+    "common_ff": "$auto$ff.cc:337:slice$931",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1098_/D",
+    "mapped_ff": "_1098_",
+    "rtl_bit": "espr[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "espr[3]",
+      "sper[1]",
+      "spre[1]"
+    ],
+    "bog_d_pin": "_1298_/D",
+    "bog_ff": "_1298_",
+    "common_ff": "$auto$ff.cc:337:slice$932",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1100_/D",
+    "mapped_ff": "_1100_",
+    "rtl_bit": "espr[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "sper[2]"
+    ],
+    "bog_d_pin": "_1300_/D",
+    "bog_ff": "_1300_",
+    "common_ff": "$auto$ff.cc:337:slice$933",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1102_/D",
+    "mapped_ff": "_1102_",
+    "rtl_bit": "sper[2]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "sper[3]"
+    ],
+    "bog_d_pin": "_1302_/D",
+    "bog_ff": "_1302_",
+    "common_ff": "$auto$ff.cc:337:slice$934",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1104_/D",
+    "mapped_ff": "_1104_",
+    "rtl_bit": "sper[3]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "sper[4]"
+    ],
+    "bog_d_pin": "_1304_/D",
+    "bog_ff": "_1304_",
+    "common_ff": "$auto$ff.cc:337:slice$935",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1106_/D",
+    "mapped_ff": "_1106_",
+    "rtl_bit": "sper[4]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "sper[5]"
+    ],
+    "bog_d_pin": "_1308_/D",
+    "bog_ff": "_1308_",
+    "common_ff": "$auto$ff.cc:337:slice$936",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1110_/D",
+    "mapped_ff": "_1110_",
+    "rtl_bit": "sper[5]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "icnt[0]",
+      "sper[6]"
+    ],
+    "bog_d_pin": "_1262_/D",
+    "bog_ff": "_1262_",
+    "common_ff": "$auto$ff.cc:337:slice$937",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1064_/D",
+    "mapped_ff": "_1064_",
+    "rtl_bit": "icnt[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "icnt[1]",
+      "sper[7]"
+    ],
+    "bog_d_pin": "_1307_/D",
+    "bog_ff": "_1307_",
+    "common_ff": "$auto$ff.cc:337:slice$938",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1109_/D",
+    "mapped_ff": "_1109_",
+    "rtl_bit": "icnt[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.wp[0]"
+    ],
+    "bog_d_pin": "_1255_/D",
+    "bog_ff": "_1255_",
+    "common_ff": "$auto$ff.cc:337:slice$948",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1057_/D",
+    "mapped_ff": "_1057_",
+    "rtl_bit": "rfifo.wp[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.wp[1]"
+    ],
+    "bog_d_pin": "_1293_/D",
+    "bog_ff": "_1293_",
+    "common_ff": "$auto$ff.cc:337:slice$949",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1095_/D",
+    "mapped_ff": "_1095_",
+    "rtl_bit": "rfifo.wp[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.rp[0]"
+    ],
+    "bog_d_pin": "_1309_/D",
+    "bog_ff": "_1309_",
+    "common_ff": "$auto$ff.cc:337:slice$957",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1111_/D",
+    "mapped_ff": "_1111_",
+    "rtl_bit": "rfifo.rp[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.rp[1]"
+    ],
+    "bog_d_pin": "_1291_/D",
+    "bog_ff": "_1291_",
+    "common_ff": "$auto$ff.cc:337:slice$958",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1093_/D",
+    "mapped_ff": "_1093_",
+    "rtl_bit": "rfifo.rp[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "tcnt[0]"
+    ],
+    "bog_d_pin": "_1310_/D",
+    "bog_ff": "_1310_",
+    "common_ff": "$auto$ff.cc:337:slice$959",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1112_/D",
+    "mapped_ff": "_1112_",
+    "rtl_bit": "tcnt[0]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "tcnt[1]"
+    ],
+    "bog_d_pin": "_1273_/D",
+    "bog_ff": "_1273_",
+    "common_ff": "$auto$ff.cc:337:slice$960",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1075_/D",
+    "mapped_ff": "_1075_",
+    "rtl_bit": "tcnt[1]",
+    "status": "unique_public_q_alias"
+  },
+  {
+    "aliases": [
+      "rfifo.gb"
+    ],
+    "bog_d_pin": "_1260_/D",
+    "bog_ff": "_1260_",
+    "common_ff": "$auto$ff.cc:337:slice$963",
+    "design": "simple_spi",
+    "mapped_d_pin": "_1062_/D",
+    "mapped_ff": "_1062_",
+    "rtl_bit": "rfifo.gb",
+    "status": "unique_public_q_alias"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "designs": {
+    "test": [
+      "serv",
+      "seqcordic",
+      "crc32",
+      "sfifo16"
+    ],
+    "train": [
+      "picorv32",
+      "femtorv_quark",
+      "fastfir8",
+      "boxcar16",
+      "aes128",
+      "sha256",
+      "uart_tx",
+      "uart_rx",
+      "simple_spi",
+      "axis_fifo16",
+      "axis_arb_mux4",
+      "axis_skid32"
+    ],
+    "validation": [
+      "osu_riscv32i",
+      "divider32",
+      "chacha",
+      "i2c_master"
+    ]
+  },
+  "fingerprint": "f4d0eaa63f81cbad8c9f0929e28a7ed11e40c1a428a1ea319d0578935e00a32c",
+  "rows": {
+    "test": 1997,
+    "train": 6207,
+    "validation": 2370
+  },
+  "split_unit": "design family"
+}
